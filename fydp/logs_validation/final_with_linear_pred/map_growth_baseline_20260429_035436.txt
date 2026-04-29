@@ -1,0 +1,1912 @@
+Frame    1 | matches= 57 inliers= 56 | src=orb | lk=0.0ms orb=145.7ms match=1.8ms pnp=0.6ms total=233.1ms | map=105
+  >> KF 0 INIT | 105 seed points (57 matched)
+Frame    2 | matches= 56 inliers= 55 | src=orb | lk=0.0ms orb=23.9ms match=0.9ms pnp=1.2ms total=29.9ms | map=105
+Skipping loop closure for KF 1 due to weak mapping quality.
+Frame    3 | matches= 54 inliers= 38 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=2.8ms total=6.3ms | map=105
+  >> KF 1 | added=0 | mapping=queued | map=105 | dt=0.186m dR=5.4deg
+  >> MAP async | KF 1 | quality=weak[new_pts=0<3] | pruned=0 (skipped: weak submission (new_pts=0<3)) | map=105 | BA skipped (new_pts=0<3)
+Frame    4 | matches= 63 inliers= 61 | src=orb | lk=0.0ms orb=14.4ms match=0.7ms pnp=1.1ms total=19.0ms | map=105
+Frame    5 | matches= 61 inliers= 61 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.4ms | map=105
+Frame    6 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.7ms | map=105
+Frame    7 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=105
+Frame    8 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.2ms | map=105
+Frame    9 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=105
+Frame   10 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.7ms | map=105
+Frame   11 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.1ms | map=105
+Frame   12 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.3ms | map=105
+Frame   13 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.1ms | map=105
+Frame   14 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=105
+Frame   15 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.1ms | map=105
+Frame   16 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.8ms | map=105
+Frame   17 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=105
+Frame   18 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=105
+Frame   19 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=105
+Frame   20 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=105
+Frame   21 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.4ms | map=105
+Frame   22 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.2ms | map=105
+Frame   23 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=105
+Frame   24 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=105
+Frame   25 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.7ms | map=105
+Frame   26 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.0ms | map=105
+Frame   27 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=105
+Frame   28 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=105
+Frame   29 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.5ms | map=105
+Frame   30 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.1ms | map=105
+Frame   31 | matches= 61 inliers= 61 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.4ms total=8.5ms | map=105
+Frame   32 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=105
+Frame   33 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=105
+Frame   34 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.8ms | map=105
+Frame   35 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=105
+Frame   36 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.8ms | map=105
+Frame   37 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.9ms | map=105
+Frame   38 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.0ms | map=105
+Frame   39 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=105
+Frame   40 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=105
+Frame   41 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.5ms | map=105
+Frame   42 | matches= 61 inliers= 61 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.3ms total=8.5ms | map=105
+Frame   43 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.8ms | map=105
+Frame   44 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=105
+Frame   45 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=105
+Frame   46 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.6ms | map=105
+Frame   47 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.1ms | map=105
+Frame   48 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.2ms | map=105
+Frame   49 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.8ms | map=105
+Frame   50 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.6ms | map=105
+Frame   51 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.1ms | map=105
+Frame   52 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.3ms | map=105
+Frame   53 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.4ms | map=105
+Frame   54 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=105
+Frame   55 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.3ms | map=105
+Frame   56 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.1ms | map=105
+Frame   57 | matches= 61 inliers= 61 | src=lk  | lk=3.0ms orb=0.0ms match=0.0ms pnp=1.7ms total=9.6ms | map=105
+Frame   58 | matches= 61 inliers= 61 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.3ms total=6.0ms | map=105
+Frame   59 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=105
+Frame   60 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.9ms | map=105
+Frame   61 | matches= 61 inliers= 61 | src=lk  | lk=2.8ms orb=0.0ms match=0.0ms pnp=2.6ms total=10.7ms | map=105
+Frame   62 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.2ms | map=105
+Frame   63 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.1ms | map=105
+Frame   64 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.6ms | map=105
+Frame   65 | matches= 61 inliers= 61 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=105
+Frame   66 | matches= 61 inliers= 61 | src=lk  | lk=3.2ms orb=0.0ms match=0.0ms pnp=3.4ms total=13.1ms | map=105
+Frame   67 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.0ms | map=105
+Frame   68 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=105
+Frame   69 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=1.0ms total=3.6ms | map=105
+Frame   70 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.0ms | map=105
+Frame   71 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.4ms | map=105
+Frame   72 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.5ms | map=105
+Frame   73 | matches= 61 inliers= 61 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=2.6ms total=9.5ms | map=105
+Frame   74 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.0ms | map=105
+Frame   75 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.9ms | map=105
+Frame   76 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.4ms total=4.4ms | map=105
+Frame   77 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.4ms total=4.9ms | map=105
+Frame   78 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.1ms | map=105
+Frame   79 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.2ms | map=105
+Frame   80 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=105
+Frame   81 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=105
+Frame   82 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.2ms | map=105
+Frame   83 | matches= 61 inliers= 61 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.2ms | map=105
+Frame   84 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.6ms | map=105
+Frame   85 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.0ms | map=105
+Frame   86 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=105
+Frame   87 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.2ms | map=105
+Frame   88 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.1ms | map=105
+Frame   89 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.3ms | map=105
+Frame   90 | matches= 61 inliers= 61 | src=lk  | lk=2.6ms orb=0.0ms match=0.0ms pnp=2.7ms total=11.2ms | map=105
+Frame   91 | matches= 61 inliers= 61 | src=lk  | lk=2.7ms orb=0.0ms match=0.0ms pnp=2.5ms total=11.0ms | map=105
+Frame   92 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.0ms | map=105
+Frame   93 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=105
+Frame   94 | matches= 61 inliers= 61 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=2.8ms total=11.3ms | map=105
+Frame   95 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.3ms | map=105
+Frame   96 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.9ms | map=105
+Frame   97 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.3ms | map=105
+Frame   98 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.2ms | map=105
+Frame   99 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=105
+Frame  100 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.9ms | map=105
+Frame  101 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.4ms | map=105
+Frame  102 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.9ms | map=105
+Frame  103 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.9ms | map=105
+Frame  104 | matches= 61 inliers= 61 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=2.0ms total=12.4ms | map=105
+Frame  105 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.8ms | map=105
+Frame  106 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.9ms | map=105
+Frame  107 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=105
+Frame  108 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=105
+Frame  109 | matches= 61 inliers= 61 | src=lk  | lk=3.3ms orb=0.0ms match=0.0ms pnp=3.1ms total=11.5ms | map=105
+Frame  110 | matches= 61 inliers= 61 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=2.1ms total=11.0ms | map=105
+Frame  111 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.9ms | map=105
+Frame  112 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.9ms | map=105
+Frame  113 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=105
+Frame  114 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.1ms | map=105
+Frame  115 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=105
+Frame  116 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.1ms | map=105
+Frame  117 | matches= 61 inliers= 61 | src=lk  | lk=3.0ms orb=0.0ms match=0.0ms pnp=1.3ms total=9.3ms | map=105
+Frame  118 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.7ms | map=105
+Frame  119 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.9ms | map=105
+Frame  120 | matches= 61 inliers= 61 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.8ms total=7.7ms | map=105
+Frame  121 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=1.4ms total=5.1ms | map=105
+Frame  122 | matches= 61 inliers= 61 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.9ms | map=105
+Frame  123 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.2ms | map=105
+Frame  124 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.0ms | map=105
+Frame  125 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.4ms | map=105
+Frame  126 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.1ms | map=105
+Frame  127 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.0ms | map=105
+Frame  128 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.4ms | map=105
+Frame  129 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=105
+Frame  130 | matches= 61 inliers= 61 | src=lk  | lk=2.3ms orb=0.0ms match=0.0ms pnp=3.2ms total=10.5ms | map=105
+Frame  131 | matches= 61 inliers= 61 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=6.3ms total=20.3ms | map=105
+Frame  132 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.8ms | map=105
+Frame  133 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.1ms | map=105
+Frame  134 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=1.3ms total=4.1ms | map=105
+Frame  135 | matches= 61 inliers= 61 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.7ms total=9.1ms | map=105
+Frame  136 | matches= 61 inliers= 61 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.0ms | map=105
+Frame  137 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=105
+Frame  138 | matches= 61 inliers= 61 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.4ms total=8.3ms | map=105
+Frame  139 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.8ms | map=105
+Frame  140 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=105
+Frame  141 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=105
+Frame  142 | matches= 61 inliers= 61 | src=lk  | lk=6.5ms orb=0.0ms match=0.0ms pnp=1.9ms total=13.4ms | map=105
+Frame  143 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.7ms | map=105
+Frame  144 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.3ms total=4.9ms | map=105
+Frame  145 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.2ms | map=105
+Frame  146 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.3ms | map=105
+Frame  147 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.5ms | map=105
+Frame  148 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.1ms | map=105
+Frame  149 | matches= 61 inliers= 61 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.9ms | map=105
+Frame  150 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.4ms | map=105
+Frame  151 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=105
+Frame  152 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.4ms | map=105
+Frame  153 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.2ms | map=105
+Frame  154 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.9ms | map=105
+Frame  155 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.5ms | map=105
+Frame  156 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=105
+Frame  157 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.2ms | map=105
+Frame  158 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.3ms | map=105
+Frame  159 | matches= 61 inliers= 61 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.2ms | map=105
+Frame  160 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.6ms | map=105
+Frame  161 | matches= 61 inliers= 61 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.3ms total=6.4ms | map=105
+Frame  162 | matches= 61 inliers= 61 | src=lk  | lk=2.5ms orb=0.0ms match=0.0ms pnp=2.2ms total=12.3ms | map=105
+Frame  163 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.5ms | map=105
+Frame  164 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.4ms | map=105
+Frame  165 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.7ms | map=105
+Frame  166 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=105
+Frame  167 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=105
+Frame  168 | matches= 61 inliers= 61 | src=lk  | lk=3.3ms orb=0.0ms match=0.0ms pnp=2.5ms total=12.4ms | map=105
+Frame  169 | matches= 61 inliers= 61 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.8ms | map=105
+Frame  170 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=105
+Frame  171 | matches= 61 inliers= 61 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.2ms total=6.2ms | map=105
+Frame  172 | matches= 61 inliers= 61 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.8ms | map=105
+Frame  173 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.4ms total=5.6ms | map=105
+Frame  174 | matches= 61 inliers= 61 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.5ms | map=105
+Frame  175 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.4ms total=4.9ms | map=105
+Frame  176 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.8ms | map=105
+Frame  177 | matches= 61 inliers= 61 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.3ms total=5.7ms | map=105
+Frame  178 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.1ms | map=105
+Frame  179 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.8ms | map=105
+Frame  180 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.0ms | map=105
+Frame  181 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.6ms | map=105
+Frame  182 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.0ms | map=105
+Frame  183 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.0ms | map=105
+Frame  184 | matches= 61 inliers= 61 | src=lk  | lk=3.0ms orb=0.0ms match=0.0ms pnp=3.2ms total=12.2ms | map=105
+Frame  185 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.1ms | map=105
+Frame  186 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.8ms | map=105
+Frame  187 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.5ms | map=105
+Frame  188 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=105
+Frame  189 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.6ms | map=105
+Frame  190 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.8ms | map=105
+Frame  191 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.9ms | map=105
+Frame  192 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=105
+Frame  193 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=105
+Frame  194 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.8ms | map=105
+Frame  195 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.9ms | map=105
+Frame  196 | matches= 61 inliers= 61 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.2ms total=6.1ms | map=105
+Frame  197 | matches= 61 inliers= 61 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.7ms | map=105
+Frame  198 | matches= 61 inliers= 61 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.6ms | map=105
+Frame  199 | matches= 61 inliers= 61 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.6ms total=6.6ms | map=105
+Frame  200 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.7ms | map=105
+Frame  201 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.6ms | map=105
+Frame  202 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.2ms | map=105
+Frame  203 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.5ms | map=105
+Frame  204 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.7ms | map=105
+Frame  205 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.4ms total=4.8ms | map=105
+Frame  206 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=105
+Frame  207 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=105
+Frame  208 | matches= 61 inliers= 61 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.2ms total=7.4ms | map=105
+Frame  209 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.7ms | map=105
+Frame  210 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.6ms | map=105
+Frame  211 | matches= 61 inliers= 61 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.2ms total=7.0ms | map=105
+Frame  212 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.3ms | map=105
+Frame  213 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.8ms | map=105
+Frame  214 | matches= 61 inliers= 61 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.8ms | map=105
+Frame  215 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=105
+Frame  216 | matches= 61 inliers= 61 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.4ms | map=105
+Frame  217 | matches= 61 inliers= 61 | src=lk  | lk=3.4ms orb=0.0ms match=0.0ms pnp=1.4ms total=7.9ms | map=105
+Frame  218 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.0ms | map=105
+Frame  219 | matches= 61 inliers= 61 | src=lk  | lk=2.5ms orb=0.0ms match=0.0ms pnp=1.4ms total=10.4ms | map=105
+Frame  220 | matches= 61 inliers= 61 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=2.8ms total=7.2ms | map=105
+Frame  221 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=105
+Frame  222 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.3ms | map=105
+Frame  223 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=105
+Frame  224 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=105
+Frame  225 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.6ms | map=105
+Frame  226 | matches= 61 inliers= 61 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=2.3ms total=13.9ms | map=105
+Frame  227 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.5ms | map=105
+Frame  228 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.9ms | map=105
+Frame  229 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.7ms | map=105
+Frame  230 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.3ms | map=105
+Frame  231 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=105
+Frame  232 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=105
+Frame  233 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.5ms | map=105
+Frame  234 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.3ms | map=105
+Frame  235 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.7ms | map=105
+Frame  236 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=105
+Frame  237 | matches= 61 inliers= 61 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.8ms | map=105
+Frame  238 | matches= 61 inliers= 61 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.1ms | map=105
+Frame  239 | matches= 61 inliers= 61 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.0ms | map=105
+Frame  240 | matches= 61 inliers= 61 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.8ms | map=105
+Frame  241 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.5ms | map=105
+Frame  242 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=2.9ms | map=105
+Frame  243 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=105
+Frame  244 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=105
+Frame  245 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.2ms | map=105
+Frame  246 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.3ms | map=105
+Frame  247 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.3ms | map=105
+Frame  248 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.0ms | map=105
+Frame  249 | matches= 61 inliers= 61 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.5ms total=8.6ms | map=105
+Frame  250 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.2ms | map=105
+Frame  251 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=105
+Frame  252 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.6ms | map=105
+Frame  253 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.6ms | map=105
+Frame  254 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.7ms | map=105
+Frame  255 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.7ms | map=105
+Frame  256 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=105
+Frame  257 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.7ms | map=105
+Frame  258 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=105
+Frame  259 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.5ms | map=105
+Frame  260 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=105
+Frame  261 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=105
+Frame  262 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=105
+Frame  263 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.6ms | map=105
+Frame  264 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.5ms | map=105
+Frame  265 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.7ms | map=105
+Frame  266 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.2ms | map=105
+Frame  267 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.0ms | map=105
+Frame  268 | matches= 61 inliers= 61 | src=lk  | lk=0.5ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.7ms | map=105
+Frame  269 | matches= 61 inliers= 61 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.3ms total=7.2ms | map=105
+Frame  270 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=3.6ms | map=105
+Frame  271 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.6ms | map=105
+Frame  272 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.2ms | map=105
+Frame  273 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.6ms | map=105
+Frame  274 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.4ms | map=105
+Frame  275 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.3ms total=4.6ms | map=105
+Frame  276 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.9ms | map=105
+Frame  277 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.2ms | map=105
+Frame  278 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=1.1ms total=3.4ms | map=105
+Frame  279 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.9ms | map=105
+Frame  280 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=105
+Frame  281 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.1ms | map=105
+Frame  282 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=105
+Frame  283 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.5ms | map=105
+Frame  284 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=105
+Frame  285 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=1.0ms total=3.8ms | map=105
+Frame  286 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=105
+Frame  287 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.4ms | map=105
+Frame  288 | matches= 61 inliers= 61 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=1.7ms total=10.5ms | map=105
+Frame  289 | matches= 61 inliers= 61 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=105
+Frame  290 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.3ms | map=105
+Frame  291 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.3ms | map=105
+Frame  292 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.1ms total=3.9ms | map=105
+Frame  293 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=105
+Frame  294 | matches= 61 inliers= 61 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.0ms | map=105
+Frame  295 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.6ms | map=105
+Frame  296 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.8ms | map=105
+Frame  297 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.9ms | map=105
+Frame  298 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=105
+Frame  299 | matches= 61 inliers= 61 | src=lk  | lk=3.3ms orb=0.0ms match=0.0ms pnp=3.3ms total=13.8ms | map=105
+Frame  300 | matches= 61 inliers= 61 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=105
+Frame  301 | matches= 61 inliers= 61 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.1ms total=3.9ms | map=105
+Frame  302 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=105
+Frame  303 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=105
+Frame  304 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=105
+Frame  305 | matches= 61 inliers= 61 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.6ms | map=105
+Frame  306 | matches= 61 inliers= 61 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.0ms | map=105
+Frame  307 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=1.0ms total=3.7ms | map=105
+Frame  308 | matches= 61 inliers= 61 | src=lk  | lk=3.4ms orb=0.0ms match=0.0ms pnp=2.4ms total=12.2ms | map=105
+[NAV] State:DRIVE         | D:0.42m | Pos:(-0.02,0.30) | Cmd: V=3,W=-1
+Frame  309 | matches= 61 inliers= 61 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.4ms | map=105
+[NAV] State:DRIVE         | D:0.38m | Pos:(-0.02,0.33) | Cmd: V=1,W=-1
+Frame  310 | matches= 61 inliers= 61 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=105
+[NAV] State:DRIVE         | D:0.37m | Pos:(-0.02,0.35) | Cmd: V=1,W=-1
+Frame  311 | matches= 61 inliers= 61 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=105
+[NAV] State:DRIVE         | D:0.35m | Pos:(-0.02,0.37) | Cmd: V=1,W=-1
+Frame  312 | matches= 61 inliers= 61 | src=lk  | lk=3.2ms orb=0.0ms match=0.0ms pnp=1.8ms total=10.4ms | map=105
+[NAV] State:DRIVE         | D:0.34m | Pos:(-0.02,0.38) | Cmd: V=1,W=-1
+Frame  313 | matches= 61 inliers= 61 | src=lk  | lk=2.9ms orb=0.0ms match=0.0ms pnp=1.9ms total=13.4ms | map=105
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.02,0.40) | Cmd: V=1,W=-1
+Frame  314 | matches= 61 inliers= 61 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.6ms | map=105
+  >> KF 2 | added=248 | mapping=queued | map=353 | dt=0.107m dR=2.7deg
+  >> PRUNE conservative mode | KF 2 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.31m | Pos:(-0.02,0.41) | Cmd: V=1,W=-1
+Frame  315 | matches=239 inliers=232 | src=orb | lk=0.0ms orb=12.7ms match=3.0ms pnp=0.8ms total=47.2ms | map=353
+  >> MAP async | KF 2 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=353 | BA 83.7ms RMSE 0.63->0.63 applied=False
+[NAV] State:DRIVE         | D:0.30m | Pos:(-0.02,0.42) | Cmd: V=1,W=0
+Frame  316 | matches=220 inliers=207 | src=orb | lk=0.0ms orb=17.0ms match=1.5ms pnp=1.0ms total=24.1ms | map=353
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.02,0.43) | Cmd: V=1,W=0
+Frame  317 | matches=207 inliers=206 | src=lk  | lk=2.6ms orb=0.0ms match=0.0ms pnp=1.3ms total=8.3ms | map=353
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.02,0.44) | Cmd: V=1,W=0
+Frame  318 | matches=206 inliers=200 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=353
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.02,0.45) | Cmd: V=1,W=0
+Frame  319 | matches=200 inliers=193 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=353
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.02,0.46) | Cmd: V=1,W=0
+Frame  320 | matches=193 inliers=193 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.4ms | map=353
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.02,0.47) | Cmd: V=1,W=0
+Frame  321 | matches=193 inliers=193 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.8ms | map=353
+[NAV] State:DRIVE         | D:0.24m | Pos:(-0.02,0.48) | Cmd: V=1,W=0
+Frame  322 | matches=193 inliers=193 | src=lk  | lk=3.2ms orb=0.0ms match=0.0ms pnp=1.8ms total=13.8ms | map=353
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.02,0.49) | Cmd: V=1,W=0
+Frame  323 | matches=193 inliers=193 | src=lk  | lk=6.9ms orb=0.0ms match=0.0ms pnp=2.1ms total=17.1ms | map=353
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.02,0.51) | Cmd: V=1,W=0
+Frame  324 | matches=193 inliers=193 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=353
+  >> KF 3 | added=260 | mapping=queued | map=613 | dt=0.112m dR=1.1deg
+  >> PRUNE conservative mode | KF 3 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.02,0.52) | Cmd: V=1,W=0
+Frame  325 | matches=354 inliers=326 | src=orb | lk=0.0ms orb=12.6ms match=3.0ms pnp=1.0ms total=18.6ms | map=613
+  >> MAP async | KF 3 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=613 | BA 80.2ms RMSE 0.68->0.67 applied=False
+[NAV] State:DRIVE         | D:0.20m | Pos:(-0.02,0.52) | Cmd: V=1,W=0
+Frame  326 | matches=333 inliers=313 | src=orb | lk=0.0ms orb=12.0ms match=2.4ms pnp=0.9ms total=18.1ms | map=613
+[NAV] State:DRIVE         | D:0.19m | Pos:(-0.02,0.53) | Cmd: V=1,W=0
+Frame  327 | matches=313 inliers=306 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.5ms | map=613
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.03,0.55) | Cmd: V=1,W=0
+Frame  328 | matches=306 inliers=299 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.9ms | map=613
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.03,0.56) | Cmd: V=1,W=0
+Frame  329 | matches=299 inliers=296 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.1ms | map=613
+[NAV] State:DRIVE         | D:0.16m | Pos:(-0.02,0.57) | Cmd: V=1,W=0
+Frame  330 | matches=296 inliers=271 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.8ms | map=613
+[NAV] State:DRIVE         | D:0.16m | Pos:(-0.02,0.58) | Cmd: V=1,W=0
+Frame  331 | matches=271 inliers=262 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.4ms | map=613
+[NAV] DONE | D:0.14m | Pos:(-0.02,0.59)
+Frame  332 | matches=262 inliers=249 | src=lk  | lk=3.7ms orb=0.0ms match=0.0ms pnp=1.9ms total=12.3ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  333 | matches=249 inliers=247 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.5ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  334 | matches=247 inliers=245 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=2.1ms total=7.6ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  335 | matches=245 inliers=243 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.7ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  336 | matches=243 inliers=243 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.0ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  337 | matches=243 inliers=243 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.8ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  338 | matches=243 inliers=243 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  339 | matches=243 inliers=243 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.2ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  340 | matches=243 inliers=243 | src=lk  | lk=4.5ms orb=0.0ms match=0.0ms pnp=2.6ms total=16.8ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  341 | matches=243 inliers=243 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.2ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  342 | matches=243 inliers=243 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.3ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  343 | matches=243 inliers=243 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=1.3ms total=7.5ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  344 | matches=243 inliers=243 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.8ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  345 | matches=243 inliers=243 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.5ms total=6.7ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  346 | matches=243 inliers=243 | src=lk  | lk=3.3ms orb=0.0ms match=0.0ms pnp=1.8ms total=13.8ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  347 | matches=243 inliers=243 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.4ms total=6.6ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  348 | matches=243 inliers=243 | src=lk  | lk=5.3ms orb=0.0ms match=0.0ms pnp=2.5ms total=17.0ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.02,0.60)
+Frame  349 | matches=243 inliers=243 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.9ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  350 | matches=243 inliers=235 | src=lk  | lk=3.6ms orb=0.0ms match=0.0ms pnp=1.4ms total=12.8ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  351 | matches=235 inliers=232 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.0ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  352 | matches=232 inliers=232 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.0ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  353 | matches=232 inliers=232 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.5ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  354 | matches=232 inliers=232 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.7ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  355 | matches=232 inliers=232 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.3ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  356 | matches=232 inliers=232 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.7ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  357 | matches=232 inliers=232 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.7ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  358 | matches=232 inliers=232 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.4ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  359 | matches=232 inliers=232 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.3ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  360 | matches=232 inliers=232 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.4ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  361 | matches=232 inliers=232 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.7ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  362 | matches=232 inliers=232 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.1ms total=11.9ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  363 | matches=232 inliers=232 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.1ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  364 | matches=232 inliers=232 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  365 | matches=232 inliers=232 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.4ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  366 | matches=232 inliers=232 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.6ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  367 | matches=232 inliers=232 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.9ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  368 | matches=232 inliers=232 | src=lk  | lk=2.1ms orb=0.0ms match=0.0ms pnp=1.4ms total=10.9ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  369 | matches=232 inliers=232 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.3ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  370 | matches=232 inliers=232 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.6ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  371 | matches=232 inliers=232 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.0ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  372 | matches=232 inliers=232 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.9ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  373 | matches=232 inliers=232 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.2ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  374 | matches=232 inliers=232 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=613
+[NAV] DONE | D:0.00m | Pos:(-0.03,0.60)
+Frame  375 | matches=232 inliers=232 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.0ms | map=613
+[NAV] State:TURN_TO_FACE  | D:0.41m | Pos:(-0.03,0.60) | Cmd: V=0,W=-3
+Frame  376 | matches=232 inliers=232 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.8ms | map=613
+[NAV] State:TURN_TO_FACE  | D:0.41m | Pos:(-0.02,0.60) | Cmd: V=0,W=-3
+Frame  377 | matches=232 inliers=230 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.1ms | map=613
+[NAV] State:DRIVE         | D:0.41m | Pos:(-0.02,0.60) | Cmd: V=3,W=-1
+Frame  378 | matches=230 inliers=230 | src=lk  | lk=2.3ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.1ms | map=613
+[NAV] State:DRIVE         | D:0.38m | Pos:(-0.03,0.62) | Cmd: V=1,W=-1
+Frame  379 | matches=230 inliers=223 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.4ms | map=613
+  >> KF 4 | added=185 | mapping=queued | map=798 | dt=0.115m dR=2.1deg
+  >> PRUNE conservative mode | KF 4 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.37m | Pos:(-0.02,0.63) | Cmd: V=1,W=-1
+Frame  380 | matches=325 inliers=264 | src=orb | lk=0.0ms orb=15.4ms match=3.8ms pnp=1.7ms total=33.7ms | map=798
+  >> MAP async | KF 4 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=798 | BA 98.3ms RMSE 2.16->2.17 applied=False
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.02,0.64) | Cmd: V=1,W=-1
+Frame  381 | matches=329 inliers=263 | src=orb | lk=0.0ms orb=11.1ms match=3.3ms pnp=1.5ms total=18.2ms | map=798
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.03,0.65) | Cmd: V=1,W=-1
+Frame  382 | matches=263 inliers=251 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.4ms | map=798
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.03,0.65) | Cmd: V=1,W=-2
+Frame  383 | matches=251 inliers=241 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.6ms | map=798
+[NAV] State:DRIVE         | D:0.35m | Pos:(-0.03,0.66) | Cmd: V=1,W=-2
+Frame  384 | matches=241 inliers=232 | src=lk  | lk=5.8ms orb=0.0ms match=0.0ms pnp=3.4ms total=17.2ms | map=798
+[NAV] State:DRIVE         | D:0.34m | Pos:(-0.03,0.67) | Cmd: V=1,W=-2
+Frame  385 | matches=232 inliers=223 | src=lk  | lk=2.1ms orb=0.0ms match=0.0ms pnp=1.3ms total=6.7ms | map=798
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.03,0.68) | Cmd: V=1,W=-2
+Frame  386 | matches=223 inliers=220 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.1ms | map=798
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.03,0.69) | Cmd: V=1,W=-2
+Frame  387 | matches=220 inliers=213 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.1ms | map=798
+[NAV] State:DRIVE         | D:0.31m | Pos:(-0.03,0.70) | Cmd: V=1,W=-2
+Frame  388 | matches=213 inliers=205 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.9ms | map=798
+[NAV] State:DRIVE         | D:0.31m | Pos:(-0.03,0.71) | Cmd: V=1,W=-2
+Frame  389 | matches=205 inliers=198 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.3ms total=6.3ms | map=798
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.03,0.72) | Cmd: V=1,W=-2
+Frame  390 | matches=198 inliers=188 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.3ms total=6.5ms | map=798
+  >> KF 5 | added=168 | mapping=queued | map=966 | dt=0.105m dR=4.5deg
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.03,0.72) | Cmd: V=1,W=-2
+Frame  391 | matches=346 inliers=270 | src=orb | lk=0.0ms orb=17.8ms match=4.2ms pnp=6.9ms total=60.8ms | map=966
+[NAV] State:DRIVE         | D:0.28m | Pos:(-0.03,0.73) | Cmd: V=1,W=-2
+Frame  392 | matches=270 inliers=249 | src=lk  | lk=4.4ms orb=0.0ms match=0.0ms pnp=6.7ms total=56.6ms | map=966
+  >> MAP async | KF 5 | quality=good[ok] | pruned=141 | map=825 | BA 316.8ms RMSE 10.44->10.29 applied=True
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.03,0.74) | Cmd: V=1,W=-2
+Frame  393 | matches=305 inliers=248 | src=orb | lk=0.0ms orb=10.2ms match=3.1ms pnp=1.4ms total=17.2ms | map=825
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.03,0.75) | Cmd: V=1,W=-2
+Frame  394 | matches=248 inliers=229 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.2ms | map=825
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.03,0.76) | Cmd: V=1,W=-2
+Frame  395 | matches=229 inliers=206 | src=lk  | lk=4.5ms orb=0.0ms match=0.0ms pnp=1.0ms total=9.9ms | map=825
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.03,0.77) | Cmd: V=1,W=-2
+Frame  396 | matches=206 inliers=202 | src=lk  | lk=2.3ms orb=0.0ms match=0.0ms pnp=1.3ms total=7.8ms | map=825
+[NAV] State:DRIVE         | D:0.24m | Pos:(-0.03,0.78) | Cmd: V=1,W=-2
+Frame  397 | matches=202 inliers=189 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.1ms | map=825
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.03,0.79) | Cmd: V=1,W=-2
+Frame  398 | matches=189 inliers=185 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=3.3ms total=7.2ms | map=825
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.02,0.79) | Cmd: V=1,W=-2
+Frame  399 | matches=185 inliers=178 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.0ms | map=825
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.02,0.80) | Cmd: V=1,W=-2
+Frame  400 | matches=178 inliers=178 | src=lk  | lk=4.4ms orb=0.0ms match=0.0ms pnp=2.0ms total=13.1ms | map=825
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.02,0.81) | Cmd: V=1,W=-2
+Frame  401 | matches=178 inliers=177 | src=lk  | lk=8.4ms orb=0.0ms match=0.0ms pnp=1.0ms total=13.6ms | map=825
+  >> KF 6 | added=95 | mapping=queued | map=920 | dt=0.103m dR=6.3deg
+[NAV] State:DRIVE         | D:0.19m | Pos:(-0.01,0.82) | Cmd: V=1,W=-2
+Frame  402 | matches=252 inliers=165 | src=orb | lk=0.0ms orb=12.2ms match=3.6ms pnp=9.5ms total=68.6ms | map=920
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.01,0.84) | Cmd: V=1,W=-2
+Frame  403 | matches=165 inliers=140 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.7ms | map=920
+  >> MAP async | KF 6 | quality=good[ok] | pruned=151 | map=769 | BA 248.9ms RMSE 10.48->10.37 applied=True
+[NAV] State:DRIVE         | D:0.19m | Pos:(-0.03,0.84) | Cmd: V=1,W=-3
+Frame  404 | matches=213 inliers=129 | src=orb | lk=0.0ms orb=14.5ms match=4.7ms pnp=5.4ms total=28.3ms | map=769
+[NAV] State:TURN_TO_FACE  | D:0.18m | Pos:(-0.03,0.86) | Cmd: V=0,W=0
+Frame  405 | matches=129 inliers=115 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.2ms | map=769
+[NAV] State:TURN_TO_FACE  | D:0.17m | Pos:(-0.02,0.86) | Cmd: V=0,W=-11
+Frame  406 | matches=115 inliers=110 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=769
+[NAV] State:TURN_TO_FACE  | D:0.16m | Pos:(-0.01,0.87) | Cmd: V=0,W=-8
+Frame  407 | matches=105 inliers= 83 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.3ms total=8.9ms | map=769
+[NAV] State:TURN_TO_FACE  | D:0.15m | Pos:(-0.01,0.88) | Cmd: V=0,W=-8
+Frame  408 | matches= 73 inliers= 65 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.7ms | map=769
+[NAV] DONE | D:0.14m | Pos:(-0.00,0.88)
+Frame  409 | matches= 65 inliers= 60 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.88)
+Frame  410 | matches= 60 inliers= 60 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.5ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.88)
+Frame  411 | matches= 60 inliers= 60 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.0ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.88)
+Frame  412 | matches= 60 inliers= 60 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.2ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.88)
+Frame  413 | matches= 60 inliers= 60 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.0ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  414 | matches= 60 inliers= 60 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.2ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.88)
+Frame  415 | matches= 60 inliers= 60 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.8ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  416 | matches= 60 inliers= 60 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.8ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  417 | matches= 60 inliers= 60 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.1ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  418 | matches= 60 inliers= 60 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  419 | matches= 60 inliers= 60 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.1ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  420 | matches= 60 inliers= 60 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  421 | matches= 60 inliers= 60 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.6ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  422 | matches= 60 inliers= 60 | src=lk  | lk=3.0ms orb=0.0ms match=0.0ms pnp=12.2ms total=21.2ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  423 | matches= 60 inliers= 60 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.8ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  424 | matches= 60 inliers= 60 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  425 | matches= 60 inliers= 60 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.0ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  426 | matches= 60 inliers= 60 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.9ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  427 | matches= 60 inliers= 60 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  428 | matches= 60 inliers= 60 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.3ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  429 | matches= 60 inliers= 60 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=1.4ms total=10.2ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  430 | matches= 60 inliers= 60 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.5ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  431 | matches= 60 inliers= 60 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.5ms total=4.6ms | map=769
+[NAV] DONE | D:0.00m | Pos:(-0.00,0.89)
+Frame  432 | matches= 60 inliers= 60 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=769
+[NAV] State:TURN_TO_FACE  | D:0.21m | Pos:(-0.00,0.89) | Cmd: V=0,W=11
+Frame  433 | matches= 60 inliers= 60 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=769
+[NAV] State:TURN_TO_FACE  | D:0.22m | Pos:(-0.00,0.88) | Cmd: V=0,W=11
+Frame  434 | matches= 59 inliers= 57 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=769
+[NAV] State:TURN_TO_FACE  | D:0.22m | Pos:(-0.00,0.88) | Cmd: V=0,W=11
+Frame  435 | matches= 57 inliers= 57 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=769
+[NAV] State:TURN_TO_FACE  | D:0.22m | Pos:(-0.00,0.87) | Cmd: V=0,W=10
+Frame  436 | matches= 57 inliers= 57 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.1ms | map=769
+[NAV] State:TURN_TO_FACE  | D:0.23m | Pos:(-0.00,0.86) | Cmd: V=0,W=10
+Frame  437 | matches= 57 inliers= 57 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.1ms | map=769
+Tracking state: TrackingGood -> TrackingWeak @ frame 438 (low-pnp-inliers)
+[NAV] State:TURN_TO_FACE  | D:0.24m | Pos:(-0.03,0.84) | Cmd: V=0,W=10
+Frame  439 | matches=271 inliers=191 | src=orb | lk=0.0ms orb=12.2ms match=3.7ms pnp=4.3ms total=23.1ms | map=769
+[NAV] State:TURN_TO_FACE  | D:0.22m | Pos:(-0.03,0.86) | Cmd: V=0,W=11
+Frame  440 | matches=299 inliers=203 | src=orb | lk=0.0ms orb=9.1ms match=3.1ms pnp=2.8ms total=16.7ms | map=769
+Tracking state: TrackingWeak -> TrackingGood @ frame 441 (success inliers=201)
+[NAV] State:TURN_TO_FACE  | D:0.20m | Pos:(-0.03,0.88) | Cmd: V=0,W=11
+Frame  441 | matches=281 inliers=201 | src=orb | lk=0.0ms orb=10.6ms match=3.7ms pnp=2.7ms total=19.2ms | map=769
+  >> KF 7 | added=184 | mapping=queued | map=953 | dt=0.069m dR=14.9deg
+[NAV] State:TURN_TO_FACE  | D:0.22m | Pos:(-0.03,0.87) | Cmd: V=0,W=11
+Frame  442 | matches=402 inliers=314 | src=orb | lk=0.0ms orb=19.3ms match=8.0ms pnp=9.8ms total=64.0ms | map=953
+[NAV] State:TURN_TO_FACE  | D:0.22m | Pos:(-0.03,0.86) | Cmd: V=0,W=10
+Frame  443 | matches=314 inliers=296 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=2.9ms total=45.8ms | map=953
+  >> PRUNE conservative mode | KF 7 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:TURN_TO_FACE  | D:0.23m | Pos:(-0.03,0.85) | Cmd: V=0,W=9
+  >> MAP async | KF 7 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=953 | BA 386.5ms RMSE 23.91->20.45 applied=False
+Frame  444 | matches=296 inliers=295 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.2ms total=9.2ms | map=953
+[NAV] State:TURN_TO_FACE  | D:0.23m | Pos:(-0.03,0.85) | Cmd: V=0,W=7
+Frame  445 | matches=334 inliers=260 | src=orb | lk=0.0ms orb=10.6ms match=4.1ms pnp=1.9ms total=19.8ms | map=953
+  >> KF 8 | added=119 | mapping=queued | map=1072 | dt=0.033m dR=12.3deg
+[NAV] State:TURN_TO_FACE  | D:0.23m | Pos:(-0.03,0.85) | Cmd: V=0,W=7
+Frame  446 | matches=416 inliers=349 | src=orb | lk=0.0ms orb=17.3ms match=7.3ms pnp=3.2ms total=88.2ms | map=1072
+[NAV] State:TURN_TO_FACE  | D:0.23m | Pos:(-0.03,0.85) | Cmd: V=0,W=7
+Frame  447 | matches=349 inliers=318 | src=lk  | lk=3.7ms orb=0.0ms match=0.0ms pnp=1.5ms total=60.8ms | map=1072
+[NAV] State:TURN_TO_FACE  | D:0.22m | Pos:(-0.03,0.86) | Cmd: V=0,W=7
+Frame  448 | matches=318 inliers=303 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=1072
+  >> MAP async | KF 8 | quality=good[ok] | pruned=315 | map=757 | BA 343.4ms RMSE 11.42->11.14 applied=True
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.03,0.85) | Cmd: V=1,W=0
+Frame  449 | matches=272 inliers=228 | src=orb | lk=0.0ms orb=9.6ms match=3.4ms pnp=1.4ms total=18.6ms | map=757
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.04,0.86) | Cmd: V=1,W=0
+Frame  450 | matches=228 inliers=221 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.5ms | map=757
+[NAV] State:DRIVE         | D:0.20m | Pos:(-0.04,0.88) | Cmd: V=1,W=0
+Frame  451 | matches=221 inliers=208 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=757
+[NAV] State:DRIVE         | D:0.19m | Pos:(-0.04,0.89) | Cmd: V=1,W=0
+Frame  452 | matches=208 inliers=192 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.7ms | map=757
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.04,0.90) | Cmd: V=1,W=0
+Frame  453 | matches=192 inliers=188 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.1ms | map=757
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.03,0.90) | Cmd: V=1,W=0
+Frame  454 | matches=188 inliers=172 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.7ms | map=757
+[NAV] State:DRIVE         | D:0.17m | Pos:(-0.03,0.91) | Cmd: V=1,W=0
+Frame  455 | matches=172 inliers=170 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.8ms | map=757
+[NAV] State:DRIVE         | D:0.17m | Pos:(-0.04,0.92) | Cmd: V=1,W=0
+Frame  456 | matches=170 inliers=169 | src=lk  | lk=2.8ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.2ms | map=757
+[NAV] State:DRIVE         | D:0.16m | Pos:(-0.04,0.93) | Cmd: V=1,W=0
+Frame  457 | matches=169 inliers=166 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=757
+[NAV] DONE | D:0.14m | Pos:(-0.04,0.95)
+Frame  458 | matches=166 inliers=160 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=757
+  >> KF 9 | added=71 | mapping=queued | map=828 | dt=0.105m dR=7.3deg
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  459 | matches=238 inliers=185 | src=orb | lk=0.0ms orb=16.1ms match=7.1ms pnp=2.3ms total=50.7ms | map=828
+  >> MAP async | KF 9 | quality=good[ok] | pruned=96 | map=732 | BA 199.5ms RMSE 1.92->1.79 applied=True
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  460 | matches=228 inliers=184 | src=orb | lk=0.0ms orb=12.2ms match=3.2ms pnp=1.4ms total=19.3ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.95)
+Frame  461 | matches=184 inliers=167 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.3ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  462 | matches=167 inliers=162 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.6ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  463 | matches=162 inliers=161 | src=lk  | lk=3.1ms orb=0.0ms match=0.0ms pnp=2.4ms total=14.0ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  464 | matches=161 inliers=159 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  465 | matches=159 inliers=158 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.6ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  466 | matches=158 inliers=153 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.7ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  467 | matches=153 inliers=153 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  468 | matches=153 inliers=153 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.3ms total=4.7ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  469 | matches=153 inliers=153 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.5ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  470 | matches=153 inliers=153 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.2ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  471 | matches=153 inliers=153 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=1.5ms total=7.7ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  472 | matches=153 inliers=153 | src=lk  | lk=3.4ms orb=0.0ms match=0.0ms pnp=2.9ms total=13.4ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  473 | matches=153 inliers=153 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  474 | matches=153 inliers=153 | src=lk  | lk=3.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=8.1ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  475 | matches=153 inliers=153 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.8ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  476 | matches=153 inliers=153 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.2ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  477 | matches=153 inliers=153 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.6ms total=7.0ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  478 | matches=153 inliers=153 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  479 | matches=153 inliers=153 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.6ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  480 | matches=153 inliers=153 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.7ms total=8.0ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  481 | matches=153 inliers=153 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.7ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  482 | matches=153 inliers=153 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  483 | matches=153 inliers=153 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.9ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  484 | matches=153 inliers=153 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.4ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  485 | matches=153 inliers=153 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.0ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  486 | matches=153 inliers=153 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.2ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  487 | matches=153 inliers=153 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.2ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  488 | matches=153 inliers=153 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.8ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  489 | matches=153 inliers=153 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.2ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  490 | matches=153 inliers=153 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.8ms total=8.5ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  491 | matches=153 inliers=153 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.5ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  492 | matches=153 inliers=153 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.3ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  493 | matches=153 inliers=153 | src=lk  | lk=3.4ms orb=0.0ms match=0.0ms pnp=2.9ms total=14.5ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  494 | matches=153 inliers=153 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  495 | matches=153 inliers=153 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.7ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  496 | matches=153 inliers=153 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.0ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  497 | matches=153 inliers=153 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  498 | matches=153 inliers=153 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.4ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  499 | matches=153 inliers=153 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  500 | matches=153 inliers=153 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.2ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  501 | matches=153 inliers=153 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.7ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  502 | matches=153 inliers=153 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  503 | matches=153 inliers=153 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  504 | matches=153 inliers=153 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.7ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  505 | matches=153 inliers=153 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.8ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  506 | matches=153 inliers=153 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.6ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  507 | matches=153 inliers=153 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.3ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  508 | matches=153 inliers=153 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  509 | matches=153 inliers=153 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  510 | matches=153 inliers=153 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.6ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  511 | matches=153 inliers=153 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=732
+[NAV] DONE | D:0.00m | Pos:(-0.04,0.94)
+Frame  512 | matches=153 inliers=153 | src=lk  | lk=2.5ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.3ms | map=732
+[NAV] State:DRIVE         | D:0.41m | Pos:(-0.04,0.94) | Cmd: V=3,W=-0
+Frame  513 | matches=153 inliers=153 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.4ms | map=732
+[NAV] State:DRIVE         | D:0.40m | Pos:(-0.04,0.96) | Cmd: V=1,W=-0
+Frame  514 | matches=153 inliers=152 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.1ms | map=732
+[NAV] State:DRIVE         | D:0.38m | Pos:(-0.04,0.98) | Cmd: V=1,W=-0
+Frame  515 | matches=152 inliers=150 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=732
+[NAV] State:DRIVE         | D:0.37m | Pos:(-0.04,0.99) | Cmd: V=1,W=-0
+Frame  516 | matches=150 inliers=134 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.3ms total=6.0ms | map=732
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.04,1.00) | Cmd: V=1,W=-0
+Frame  517 | matches=134 inliers=134 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=732
+[NAV] State:DRIVE         | D:0.35m | Pos:(-0.04,1.01) | Cmd: V=1,W=-0
+Frame  518 | matches=134 inliers=132 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=732
+[NAV] State:DRIVE         | D:0.34m | Pos:(-0.04,1.02) | Cmd: V=1,W=-0
+Frame  519 | matches=132 inliers=132 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.3ms | map=732
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.04,1.03) | Cmd: V=1,W=-0
+Frame  520 | matches=132 inliers=131 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.9ms | map=732
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.04,1.04) | Cmd: V=1,W=-0
+Frame  521 | matches=131 inliers=126 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.3ms total=4.7ms | map=732
+[NAV] State:DRIVE         | D:0.31m | Pos:(-0.04,1.05) | Cmd: V=1,W=0
+Frame  522 | matches=126 inliers=126 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.9ms | map=732
+  >> KF 10 | added=96 | mapping=queued | map=828 | dt=0.101m dR=1.6deg
+[NAV] State:DRIVE         | D:0.30m | Pos:(-0.04,1.05) | Cmd: V=1,W=0
+Frame  523 | matches=179 inliers=131 | src=orb | lk=0.0ms orb=12.6ms match=4.1ms pnp=10.1ms total=65.1ms | map=828
+  >> MAP async | KF 10 | quality=good[ok] | pruned=366 | map=462 | BA 171.7ms RMSE 2.34->1.94 applied=True
+[NAV] State:DRIVE         | D:0.30m | Pos:(-0.04,1.06) | Cmd: V=1,W=0
+Frame  524 | matches=145 inliers=112 | src=orb | lk=0.0ms orb=18.4ms match=1.9ms pnp=1.6ms total=27.4ms | map=462
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.04,1.07) | Cmd: V=1,W=0
+Frame  525 | matches=112 inliers=111 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.5ms | map=462
+[NAV] State:DRIVE         | D:0.28m | Pos:(-0.04,1.08) | Cmd: V=1,W=0
+Frame  526 | matches=111 inliers=109 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.5ms total=5.8ms | map=462
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.04,1.09) | Cmd: V=1,W=0
+Frame  527 | matches=109 inliers=102 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.1ms | map=462
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.05,1.09) | Cmd: V=1,W=0
+Frame  528 | matches=102 inliers= 97 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.5ms | map=462
+[NAV] State:DRIVE         | D:0.24m | Pos:(-0.05,1.12) | Cmd: V=1,W=0
+Frame  529 | matches= 97 inliers= 87 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.7ms | map=462
+[NAV] State:DRIVE         | D:0.24m | Pos:(-0.05,1.12) | Cmd: V=1,W=0
+Frame  530 | matches= 87 inliers= 87 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.0ms | map=462
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.05,1.13) | Cmd: V=1,W=0
+Frame  531 | matches= 87 inliers= 86 | src=lk  | lk=2.5ms orb=0.0ms match=0.0ms pnp=0.8ms total=9.4ms | map=462
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.05,1.14) | Cmd: V=1,W=0
+Frame  532 | matches= 86 inliers= 85 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.7ms total=7.2ms | map=462
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.05,1.14) | Cmd: V=1,W=0
+Frame  533 | matches= 85 inliers= 76 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.4ms total=5.4ms | map=462
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.05,1.15) | Cmd: V=1,W=0
+Frame  534 | matches= 76 inliers= 76 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.6ms | map=462
+  >> KF 11 | added=107 | mapping=queued | map=569 | dt=0.103m dR=0.6deg
+Tracking state: TrackingGood -> TrackingWeak @ frame 535 (pose-jump (jump=4.4m > max=1.0m))
+  >> MAP async | KF 11 | quality=good[ok] | pruned=117 | map=452 | BA 210.8ms RMSE 7.75->6.02 applied=True
+[NAV] State:DRIVE         | D:0.20m | Pos:(-0.05,1.16) | Cmd: V=1,W=0
+Frame  536 | matches=146 inliers=123 | src=orb | lk=0.0ms orb=10.7ms match=1.5ms pnp=1.1ms total=15.9ms | map=452
+[NAV] State:DRIVE         | D:0.20m | Pos:(-0.05,1.16) | Cmd: V=1,W=0
+Frame  537 | matches=137 inliers=116 | src=orb | lk=0.0ms orb=10.3ms match=1.7ms pnp=1.2ms total=15.1ms | map=452
+Tracking state: TrackingWeak -> TrackingGood @ frame 538 (success inliers=102)
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.05,1.19) | Cmd: V=1,W=0
+Frame  538 | matches=131 inliers=102 | src=orb | lk=0.0ms orb=27.7ms match=2.6ms pnp=2.2ms total=38.8ms | map=452
+[NAV] State:DRIVE         | D:0.17m | Pos:(-0.05,1.19) | Cmd: V=1,W=0
+Frame  539 | matches=102 inliers= 97 | src=lk  | lk=2.5ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.2ms | map=452
+[NAV] State:DRIVE         | D:0.17m | Pos:(-0.05,1.20) | Cmd: V=1,W=0
+Frame  540 | matches= 97 inliers= 92 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.3ms | map=452
+[NAV] State:DRIVE         | D:0.16m | Pos:(-0.05,1.20) | Cmd: V=1,W=0
+Frame  541 | matches= 92 inliers= 89 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.7ms | map=452
+[NAV] State:DRIVE         | D:0.15m | Pos:(-0.05,1.21) | Cmd: V=1,W=0
+Frame  542 | matches= 89 inliers= 86 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.8ms total=8.4ms | map=452
+[NAV] DONE | D:0.15m | Pos:(-0.05,1.22)
+Frame  543 | matches= 86 inliers= 86 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.1ms total=3.8ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  544 | matches= 86 inliers= 85 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.8ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  545 | matches= 85 inliers= 85 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.3ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  546 | matches= 85 inliers= 85 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.5ms total=5.1ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  547 | matches= 85 inliers= 85 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.3ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  548 | matches= 85 inliers= 85 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.1ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  549 | matches= 85 inliers= 85 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.0ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  550 | matches= 85 inliers= 85 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.9ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  551 | matches= 85 inliers= 85 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.3ms total=4.7ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  552 | matches= 85 inliers= 83 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.9ms total=6.2ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  553 | matches= 83 inliers= 79 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  554 | matches= 79 inliers= 71 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.5ms total=7.3ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  555 | matches= 71 inliers= 69 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=1.4ms total=4.2ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  556 | matches= 69 inliers= 68 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.1ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.05,1.22)
+Frame  557 | matches= 68 inliers= 62 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.7ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  558 | matches= 62 inliers= 60 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  559 | matches= 60 inliers= 57 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  560 | matches= 57 inliers= 57 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  561 | matches= 57 inliers= 57 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=2.5ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  562 | matches= 57 inliers= 57 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  563 | matches= 57 inliers= 57 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  564 | matches= 57 inliers= 57 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.3ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  565 | matches= 57 inliers= 57 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.4ms total=2.7ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  566 | matches= 57 inliers= 57 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.2ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  567 | matches= 57 inliers= 57 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  568 | matches= 57 inliers= 57 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.2ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  569 | matches= 57 inliers= 57 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  570 | matches= 57 inliers= 57 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  571 | matches= 57 inliers= 57 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.8ms | map=452
+[NAV] DONE | D:0.00m | Pos:(-0.06,1.22)
+Frame  572 | matches= 57 inliers= 57 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=452
+[NAV] State:TURN_TO_FACE  | D:0.45m | Pos:(-0.06,1.22) | Cmd: V=0,W=-3
+Frame  573 | matches= 57 inliers= 57 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.2ms | map=452
+[NAV] State:TURN_TO_FACE  | D:0.45m | Pos:(-0.06,1.22) | Cmd: V=0,W=-3
+Frame  574 | matches= 57 inliers= 57 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.9ms | map=452
+[NAV] State:TURN_TO_FACE  | D:0.45m | Pos:(-0.06,1.22) | Cmd: V=0,W=-3
+Frame  575 | matches= 57 inliers= 56 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.0ms | map=452
+[NAV] State:TURN_TO_FACE  | D:0.45m | Pos:(-0.06,1.23) | Cmd: V=0,W=-3
+Frame  576 | matches= 56 inliers= 56 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.5ms total=4.9ms | map=452
+[NAV] State:TURN_TO_FACE  | D:0.44m | Pos:(-0.06,1.23) | Cmd: V=0,W=-3
+Frame  577 | matches= 56 inliers= 56 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.8ms | map=452
+[NAV] State:TURN_TO_FACE  | D:0.45m | Pos:(-0.06,1.23) | Cmd: V=0,W=-3
+Frame  578 | matches= 56 inliers= 56 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=452
+[NAV] State:DRIVE         | D:0.44m | Pos:(-0.06,1.23) | Cmd: V=3,W=-1
+Frame  579 | matches= 56 inliers= 56 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.2ms | map=452
+[NAV] State:DRIVE         | D:0.38m | Pos:(-0.07,1.29) | Cmd: V=1,W=-1
+Frame  580 | matches= 56 inliers= 51 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.5ms | map=452
+  >> KF 12 | added=96 | mapping=queued | map=548 | dt=0.139m dR=3.7deg
+  >> MAP async | KF 12 | quality=good[ok] | pruned=94 | map=454 | BA 72.7ms RMSE 1.89->1.75 applied=True
+[NAV] State:DRIVE         | D:0.37m | Pos:(-0.07,1.30) | Cmd: V=1,W=-1
+Frame  581 | matches=162 inliers=125 | src=orb | lk=0.0ms orb=10.3ms match=4.5ms pnp=1.7ms total=18.9ms | map=454
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.07,1.31) | Cmd: V=1,W=-1
+Frame  582 | matches=125 inliers=118 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.4ms | map=454
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.07,1.32) | Cmd: V=1,W=-1
+Frame  583 | matches=118 inliers=116 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.6ms | map=454
+[NAV] State:DRIVE         | D:0.35m | Pos:(-0.07,1.33) | Cmd: V=1,W=-1
+Frame  584 | matches=116 inliers=113 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.5ms | map=454
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.08,1.35) | Cmd: V=1,W=-1
+Frame  585 | matches=113 inliers=105 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.7ms | map=454
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.08,1.35) | Cmd: V=1,W=-1
+Frame  586 | matches=105 inliers= 97 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=454
+[NAV] State:DRIVE         | D:0.31m | Pos:(-0.08,1.36) | Cmd: V=1,W=-1
+Frame  587 | matches= 97 inliers= 95 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.0ms | map=454
+[NAV] State:DRIVE         | D:0.30m | Pos:(-0.08,1.37) | Cmd: V=1,W=0
+Frame  588 | matches= 95 inliers= 95 | src=lk  | lk=4.0ms orb=0.0ms match=0.0ms pnp=2.2ms total=12.6ms | map=454
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.08,1.38) | Cmd: V=1,W=0
+Frame  589 | matches= 95 inliers= 95 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.0ms | map=454
+[NAV] State:DRIVE         | D:0.28m | Pos:(-0.08,1.39) | Cmd: V=1,W=0
+Frame  590 | matches= 95 inliers= 95 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=454
+  >> KF 13 | added=142 | mapping=queued | map=596 | dt=0.107m dR=3.1deg
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.08,1.40) | Cmd: V=1,W=0
+Frame  591 | matches=225 inliers=181 | src=orb | lk=0.0ms orb=11.6ms match=2.2ms pnp=2.6ms total=39.0ms | map=596
+  >> MAP async | KF 13 | quality=good[ok] | pruned=75 | map=521 | BA 199.1ms RMSE 4.92->4.38 applied=True
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.08,1.41) | Cmd: V=1,W=0
+Frame  592 | matches=201 inliers=156 | src=orb | lk=0.0ms orb=11.3ms match=1.9ms pnp=1.5ms total=16.9ms | map=521
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.08,1.42) | Cmd: V=1,W=0
+Frame  593 | matches=156 inliers=144 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.1ms | map=521
+[NAV] State:DRIVE         | D:0.24m | Pos:(-0.09,1.43) | Cmd: V=1,W=0
+Frame  594 | matches=144 inliers=142 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.4ms | map=521
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.09,1.44) | Cmd: V=1,W=0
+Frame  595 | matches=142 inliers=142 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.0ms | map=521
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.09,1.45) | Cmd: V=1,W=0
+Frame  596 | matches=142 inliers=142 | src=lk  | lk=4.2ms orb=0.0ms match=0.0ms pnp=2.7ms total=14.0ms | map=521
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.09,1.46) | Cmd: V=1,W=0
+Frame  597 | matches=142 inliers=141 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=521
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.09,1.46) | Cmd: V=1,W=0
+Frame  598 | matches=141 inliers=131 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.2ms | map=521
+[NAV] State:DRIVE         | D:0.20m | Pos:(-0.09,1.47) | Cmd: V=1,W=0
+Frame  599 | matches=131 inliers=127 | src=lk  | lk=2.5ms orb=0.0ms match=0.0ms pnp=2.0ms total=9.7ms | map=521
+[NAV] State:DRIVE         | D:0.19m | Pos:(-0.09,1.48) | Cmd: V=1,W=0
+Frame  600 | matches=127 inliers=124 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.0ms | map=521
+[NAV] State:DRIVE         | D:0.17m | Pos:(-0.09,1.50) | Cmd: V=1,W=0
+Frame  601 | matches=124 inliers=119 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.7ms | map=521
+  >> KF 14 | added=126 | mapping=queued | map=647 | dt=0.111m dR=0.4deg
+[NAV] DONE | D:0.15m | Pos:(-0.09,1.52)
+Frame  602 | matches=231 inliers=174 | src=orb | lk=0.0ms orb=16.3ms match=6.7ms pnp=3.8ms total=56.5ms | map=647
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  603 | matches=174 inliers=172 | src=lk  | lk=3.3ms orb=0.0ms match=0.0ms pnp=4.0ms total=39.2ms | map=647
+  >> MAP async | KF 14 | quality=good[ok] | pruned=107 | map=540 | BA 371.9ms RMSE 5.06->4.13 applied=True
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.52)
+Frame  604 | matches=202 inliers=165 | src=orb | lk=0.0ms orb=12.0ms match=1.8ms pnp=1.4ms total=17.7ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  605 | matches=165 inliers=150 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.9ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  606 | matches=150 inliers=144 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  607 | matches=144 inliers=143 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  608 | matches=143 inliers=135 | src=lk  | lk=2.5ms orb=0.0ms match=0.0ms pnp=2.7ms total=11.8ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  609 | matches=135 inliers=134 | src=lk  | lk=4.5ms orb=0.0ms match=0.0ms pnp=1.1ms total=10.4ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  610 | matches=134 inliers=134 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.4ms total=5.4ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  611 | matches=134 inliers=134 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  612 | matches=134 inliers=134 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  613 | matches=134 inliers=134 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.5ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  614 | matches=134 inliers=134 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.4ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  615 | matches=134 inliers=134 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.1ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  616 | matches=134 inliers=134 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  617 | matches=134 inliers=134 | src=lk  | lk=3.4ms orb=0.0ms match=0.0ms pnp=2.9ms total=13.6ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  618 | matches=134 inliers=134 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  619 | matches=134 inliers=134 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=6.3ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  620 | matches=134 inliers=134 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  621 | matches=134 inliers=134 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  622 | matches=134 inliers=134 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.3ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  623 | matches=134 inliers=134 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.3ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  624 | matches=134 inliers=134 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.7ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  625 | matches=134 inliers=134 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.9ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  626 | matches=134 inliers=134 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.2ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  627 | matches=134 inliers=134 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.8ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  628 | matches=134 inliers=134 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.8ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  629 | matches=134 inliers=134 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.7ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  630 | matches=134 inliers=134 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.9ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  631 | matches=134 inliers=134 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  632 | matches=134 inliers=134 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.1ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  633 | matches=134 inliers=134 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=540
+[NAV] DONE | D:0.00m | Pos:(-0.09,1.53)
+Frame  634 | matches=134 inliers=134 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.7ms | map=540
+[NAV] State:TURN_TO_FACE  | D:0.42m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3
+Frame  635 | matches=134 inliers=134 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.5ms | map=540
+[NAV] State:TURN_TO_FACE  | D:0.42m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3
+Frame  636 | matches=134 inliers=133 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.4ms | map=540
+[NAV] State:TURN_TO_FACE  | D:0.42m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3
+Frame  637 | matches=133 inliers=130 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.6ms | map=540
+[NAV] State:TURN_TO_FACE  | D:0.42m | Pos:(-0.09,1.54) | Cmd: V=0,W=-3
+Frame  638 | matches=130 inliers=129 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.6ms | map=540
+[NAV] State:TURN_TO_FACE  | D:0.42m | Pos:(-0.09,1.54) | Cmd: V=0,W=-3
+Frame  639 | matches=129 inliers=129 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.9ms | map=540
+[NAV] State:TURN_TO_FACE  | D:0.41m | Pos:(-0.09,1.54) | Cmd: V=0,W=-3
+Frame  640 | matches=129 inliers=129 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.3ms | map=540
+[NAV] State:TURN_TO_FACE  | D:0.41m | Pos:(-0.09,1.55) | Cmd: V=0,W=-3
+Frame  641 | matches=129 inliers=129 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=540
+[NAV] State:TURN_TO_FACE  | D:0.40m | Pos:(-0.09,1.55) | Cmd: V=0,W=-3
+Frame  642 | matches=129 inliers=129 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.7ms | map=540
+[NAV] State:TURN_TO_FACE  | D:0.40m | Pos:(-0.09,1.55) | Cmd: V=0,W=-3
+Frame  643 | matches=129 inliers=129 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.8ms total=7.7ms | map=540
+[NAV] State:TURN_TO_FACE  | D:0.40m | Pos:(-0.09,1.55) | Cmd: V=0,W=-3
+Frame  644 | matches=129 inliers=129 | src=lk  | lk=2.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=8.8ms | map=540
+  >> KF 15 | added=208 | mapping=queued | map=748 | dt=0.054m dR=12.1deg
+[NAV] State:TURN_TO_FACE  | D:0.41m | Pos:(-0.09,1.55) | Cmd: V=0,W=-3
+Frame  645 | matches=337 inliers=294 | src=orb | lk=0.0ms orb=11.6ms match=3.1ms pnp=6.5ms total=53.7ms | map=748
+  >> MAP async | KF 15 | quality=good[ok] | pruned=120 | map=628 | BA 174.4ms RMSE 16.37->5.03 applied=True
+[NAV] State:TURN_TO_FACE  | D:0.42m | Pos:(-0.09,1.54) | Cmd: V=0,W=-3
+Frame  646 | matches=308 inliers=280 | src=orb | lk=0.0ms orb=12.2ms match=2.9ms pnp=1.6ms total=19.8ms | map=628
+[NAV] State:DRIVE         | D:0.41m | Pos:(-0.09,1.54) | Cmd: V=3,W=-1
+Frame  647 | matches=280 inliers=267 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.2ms | map=628
+[NAV] State:DRIVE         | D:0.39m | Pos:(-0.09,1.57) | Cmd: V=1,W=-1
+Frame  648 | matches=267 inliers=254 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.6ms | map=628
+[NAV] State:DRIVE         | D:0.37m | Pos:(-0.09,1.59) | Cmd: V=1,W=-1
+Frame  649 | matches=254 inliers=249 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.0ms | map=628
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.10,1.60) | Cmd: V=1,W=-1
+Frame  650 | matches=249 inliers=248 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=628
+[NAV] State:DRIVE         | D:0.35m | Pos:(-0.10,1.61) | Cmd: V=1,W=-1
+Frame  651 | matches=248 inliers=248 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.5ms | map=628
+[NAV] State:DRIVE         | D:0.34m | Pos:(-0.10,1.62) | Cmd: V=1,W=-2
+Frame  652 | matches=248 inliers=235 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.2ms | map=628
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.09,1.63) | Cmd: V=1,W=-2
+Frame  653 | matches=235 inliers=227 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=628
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.09,1.64) | Cmd: V=1,W=-2
+Frame  654 | matches=227 inliers=227 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.6ms | map=628
+[NAV] State:DRIVE         | D:0.31m | Pos:(-0.09,1.65) | Cmd: V=1,W=-2
+Frame  655 | matches=227 inliers=225 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.2ms total=9.4ms | map=628
+  >> KF 16 | added=95 | mapping=queued | map=723 | dt=0.101m dR=9.6deg
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.09,1.64) | Cmd: V=1,W=-1
+Frame  656 | matches=294 inliers=231 | src=orb | lk=0.0ms orb=15.0ms match=3.0ms pnp=5.0ms total=29.7ms | map=723
+  >> MAP async | KF 16 | quality=good[ok] | pruned=98 | map=625 | BA 117.3ms RMSE 14.17->13.75 applied=True
+[NAV] State:DRIVE         | D:0.30m | Pos:(-0.10,1.67) | Cmd: V=1,W=-2
+Frame  657 | matches=289 inliers=240 | src=orb | lk=0.0ms orb=12.4ms match=2.8ms pnp=1.3ms total=19.1ms | map=625
+[NAV] State:DRIVE         | D:0.28m | Pos:(-0.09,1.69) | Cmd: V=1,W=-2
+Frame  658 | matches=240 inliers=222 | src=lk  | lk=2.7ms orb=0.0ms match=0.0ms pnp=1.0ms total=10.1ms | map=625
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.09,1.70) | Cmd: V=1,W=-2
+Frame  659 | matches=222 inliers=212 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.3ms | map=625
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.09,1.72) | Cmd: V=1,W=-2
+Frame  660 | matches=212 inliers=203 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.0ms | map=625
+[NAV] State:DRIVE         | D:0.24m | Pos:(-0.09,1.73) | Cmd: V=1,W=-2
+Frame  661 | matches=203 inliers=193 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.7ms | map=625
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.09,1.74) | Cmd: V=1,W=-2
+Frame  662 | matches=193 inliers=188 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.0ms | map=625
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.09,1.76) | Cmd: V=1,W=-2
+Frame  663 | matches=188 inliers=168 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.0ms | map=625
+  >> KF 17 | added=123 | mapping=queued | map=748 | dt=0.106m dR=3.4deg
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.10,1.75) | Cmd: V=1,W=-3
+Frame  664 | matches=317 inliers=256 | src=orb | lk=0.0ms orb=15.4ms match=4.6ms pnp=4.5ms total=59.5ms | map=748
+  >> MAP async | KF 17 | quality=good[ok] | pruned=78 | map=670 | BA 208.5ms RMSE 3.07->2.48 applied=True
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.09,1.76) | Cmd: V=1,W=-2
+Frame  665 | matches=266 inliers=221 | src=orb | lk=0.0ms orb=17.6ms match=2.8ms pnp=1.7ms total=25.7ms | map=670
+[NAV] State:TURN_TO_FACE  | D:0.21m | Pos:(-0.10,1.77) | Cmd: V=0,W=0
+Frame  666 | matches=221 inliers=210 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.2ms | map=670
+[NAV] State:TURN_TO_FACE  | D:0.20m | Pos:(-0.10,1.78) | Cmd: V=0,W=-11
+Frame  667 | matches=210 inliers=208 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.3ms | map=670
+[NAV] State:TURN_TO_FACE  | D:0.19m | Pos:(-0.08,1.79) | Cmd: V=0,W=-8
+Frame  668 | matches=124 inliers=116 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.7ms | map=670
+[NAV] State:TURN_TO_FACE  | D:0.17m | Pos:(-0.08,1.80) | Cmd: V=0,W=-6 OBS:64cm
+Frame  669 | matches=116 inliers= 91 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=2.1ms total=6.4ms | map=670
+  >> KF 18 | added=29 | mapping=queued | map=699 | dt=0.050m dR=13.8deg
+  >> PRUNE conservative mode | KF 18 | ratio-prune disabled (BA not applied); bad-point cleanup only
+  >> MAP async | KF 18 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=699 | BA 74.8ms RMSE 9.69->9.62 applied=False
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.08,1.79) | Cmd: V=1,W=-1 OBS:58cm
+Frame  670 | matches=109 inliers= 81 | src=orb | lk=0.0ms orb=10.1ms match=5.1ms pnp=2.7ms total=20.1ms | map=699
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.08,1.79) | Cmd: V=1,W=-1 OBS:60cm
+Frame  671 | matches= 81 inliers= 78 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=699
+[NAV] State:DRIVE         | D:0.16m | Pos:(-0.08,1.81) | Cmd: V=1,W=-2 OBS:63cm
+Frame  672 | matches= 78 inliers= 74 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=699
+[NAV] DONE | D:0.14m | Pos:(-0.08,1.84)
+Frame  673 | matches= 74 inliers= 69 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.7ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  674 | matches= 69 inliers= 69 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  675 | matches= 69 inliers= 69 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.2ms total=6.5ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  676 | matches= 69 inliers= 69 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.8ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  677 | matches= 69 inliers= 69 | src=lk  | lk=4.1ms orb=0.0ms match=0.0ms pnp=1.6ms total=11.9ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  678 | matches= 69 inliers= 69 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  679 | matches= 69 inliers= 69 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.7ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  680 | matches= 69 inliers= 69 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.0ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  681 | matches= 69 inliers= 69 | src=lk  | lk=2.9ms orb=0.0ms match=0.0ms pnp=1.2ms total=9.4ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  682 | matches= 69 inliers= 69 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.3ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  683 | matches= 69 inliers= 69 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.7ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  684 | matches= 69 inliers= 69 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  685 | matches= 69 inliers= 69 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.0ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  686 | matches= 69 inliers= 69 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  687 | matches= 69 inliers= 69 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  688 | matches= 69 inliers= 69 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.2ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  689 | matches= 69 inliers= 69 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.4ms total=2.6ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  690 | matches= 69 inliers= 69 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.4ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  691 | matches= 69 inliers= 69 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  692 | matches= 69 inliers= 69 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.6ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  693 | matches= 69 inliers= 69 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  694 | matches= 69 inliers= 69 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.8ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  695 | matches= 69 inliers= 69 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.5ms total=2.8ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  696 | matches= 69 inliers= 69 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  697 | matches= 69 inliers= 69 | src=lk  | lk=3.1ms orb=0.0ms match=0.0ms pnp=2.2ms total=12.1ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  698 | matches= 69 inliers= 69 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.9ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  699 | matches= 69 inliers= 69 | src=lk  | lk=2.8ms orb=0.0ms match=0.0ms pnp=1.3ms total=9.5ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  700 | matches= 69 inliers= 69 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.4ms total=2.4ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  701 | matches= 69 inliers= 69 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=699
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.84)
+Frame  702 | matches= 69 inliers= 69 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.5ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.89m | Pos:(-0.07,1.84) | Cmd: V=0,W=3 OBS:55cm
+Frame  703 | matches= 69 inliers= 69 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.2ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.89m | Pos:(-0.08,1.84) | Cmd: V=0,W=3 OBS:60cm
+Frame  704 | matches= 69 inliers= 69 | src=lk  | lk=2.1ms orb=0.0ms match=0.0ms pnp=1.5ms total=8.3ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.89m | Pos:(-0.08,1.84) | Cmd: V=0,W=3 OBS:59cm
+Frame  705 | matches= 69 inliers= 69 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.4ms total=8.0ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.89m | Pos:(-0.08,1.84) | Cmd: V=0,W=3 OBS:61cm
+Frame  706 | matches= 69 inliers= 69 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.4ms total=2.9ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.90m | Pos:(-0.08,1.83) | Cmd: V=0,W=3 OBS:64cm
+Frame  707 | matches= 69 inliers= 69 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.4ms total=3.0ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.90m | Pos:(-0.08,1.83) | Cmd: V=0,W=3 OBS:68cm
+Frame  708 | matches= 69 inliers= 69 | src=lk  | lk=3.6ms orb=0.0ms match=0.0ms pnp=2.0ms total=12.8ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.90m | Pos:(-0.08,1.83) | Cmd: V=0,W=3 OBS:67cm
+Frame  709 | matches= 69 inliers= 69 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.8ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.91m | Pos:(-0.08,1.82) | Cmd: V=0,W=3 OBS:70cm
+Frame  710 | matches= 69 inliers= 69 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.91m | Pos:(-0.08,1.82) | Cmd: V=0,W=3 OBS:71cm
+Frame  711 | matches= 69 inliers= 69 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.9ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.90m | Pos:(-0.08,1.83) | Cmd: V=0,W=3 OBS:77cm
+Frame  712 | matches= 69 inliers= 69 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.90m | Pos:(-0.08,1.83) | Cmd: V=0,W=3
+Frame  713 | matches= 69 inliers= 69 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.9ms | map=699
+[NAV] State:TURN_TO_FACE  | D:0.89m | Pos:(-0.08,1.84) | Cmd: V=0,W=3
+Frame  714 | matches= 69 inliers= 69 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.6ms | map=699
+  >> KF 19 | added=82 | mapping=queued | map=781 | dt=0.032m dR=10.7deg
+[NAV] State:TURN_TO_FACE  | D:0.93m | Pos:(-0.08,1.80) | Cmd: V=0,W=3
+Frame  715 | matches=327 inliers=237 | src=orb | lk=0.0ms orb=19.9ms match=5.4ms pnp=2.7ms total=34.5ms | map=781
+[NAV] State:TURN_TO_FACE  | D:0.93m | Pos:(-0.09,1.80) | Cmd: V=0,W=3
+Frame  716 | matches=237 inliers=217 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.3ms total=5.2ms | map=781
+  >> MAP async | KF 19 | quality=good[ok] | pruned=212 | map=569 | BA 264.9ms RMSE 8.20->6.90 applied=True
+[NAV] State:TURN_TO_FACE  | D:0.91m | Pos:(-0.08,1.82) | Cmd: V=0,W=3
+Frame  717 | matches=292 inliers=212 | src=orb | lk=0.0ms orb=11.2ms match=2.0ms pnp=2.7ms total=18.7ms | map=569
+[NAV] State:TURN_TO_FACE  | D:0.91m | Pos:(-0.08,1.82) | Cmd: V=0,W=3
+Frame  718 | matches=212 inliers=199 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.6ms | map=569
+[NAV] State:TURN_TO_FACE  | D:0.90m | Pos:(-0.08,1.83) | Cmd: V=0,W=3
+Frame  719 | matches=199 inliers=193 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.3ms | map=569
+[NAV] State:TURN_TO_FACE  | D:0.89m | Pos:(-0.08,1.84) | Cmd: V=0,W=3
+Frame  720 | matches=193 inliers=186 | src=lk  | lk=2.3ms orb=0.0ms match=0.0ms pnp=1.4ms total=7.0ms | map=569
+[NAV] State:TURN_TO_FACE  | D:0.89m | Pos:(-0.08,1.84) | Cmd: V=0,W=3
+Frame  721 | matches=186 inliers=185 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.8ms | map=569
+[NAV] State:TURN_TO_FACE  | D:0.88m | Pos:(-0.08,1.85) | Cmd: V=0,W=3
+Frame  722 | matches=185 inliers=179 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.0ms | map=569
+[NAV] State:DRIVE         | D:0.88m | Pos:(-0.08,1.85) | Cmd: V=3,W=1
+Frame  723 | matches=179 inliers=174 | src=lk  | lk=2.5ms orb=0.0ms match=0.0ms pnp=1.7ms total=8.3ms | map=569
+[NAV] State:DRIVE         | D:0.85m | Pos:(-0.08,1.88) | Cmd: V=3,W=1
+Frame  724 | matches=174 inliers=173 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=569
+[NAV] State:DRIVE         | D:0.81m | Pos:(-0.07,1.92) | Cmd: V=3,W=1
+Frame  725 | matches=173 inliers=159 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.7ms | map=569
+[NAV] State:DRIVE         | D:0.78m | Pos:(-0.07,1.95) | Cmd: V=3,W=1
+Frame  726 | matches=159 inliers=146 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.0ms | map=569
+  >> KF 20 | added=187 | mapping=queued | map=756 | dt=0.116m dR=4.8deg
+[NAV] State:DRIVE         | D:0.77m | Pos:(-0.08,1.96) | Cmd: V=3,W=1
+Frame  727 | matches=346 inliers=230 | src=orb | lk=0.0ms orb=18.1ms match=5.1ms pnp=3.6ms total=48.2ms | map=756
+[NAV] State:DRIVE         | D:0.73m | Pos:(-0.07,2.00) | Cmd: V=3,W=1
+Frame  728 | matches=230 inliers=207 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.8ms | map=756
+  >> MAP async | KF 20 | quality=good[ok] | pruned=103 | map=653 | BA 256.2ms RMSE 11.46->6.52 applied=True
+[NAV] State:DRIVE         | D:0.64m | Pos:(-0.06,2.09) | Cmd: V=3,W=1
+Frame  729 | matches=291 inliers=173 | src=orb | lk=0.0ms orb=14.4ms match=3.8ms pnp=4.4ms total=26.4ms | map=653
+  >> KF 21 | added=130 | mapping=queued | map=783 | dt=0.158m dR=1.0deg
+[NAV] State:DRIVE         | D:0.62m | Pos:(-0.06,2.11) | Cmd: V=3,W=1
+Frame  730 | matches=326 inliers=216 | src=orb | lk=0.0ms orb=12.5ms match=8.4ms pnp=6.3ms total=64.3ms | map=783
+[NAV] State:DRIVE         | D:0.57m | Pos:(-0.06,2.16) | Cmd: V=3,W=1
+  >> MAP async | KF 21 | quality=good[ok] | pruned=19 | map=764 | BA 263.3ms RMSE 8.92->3.25 applied=True
+Frame  731 | matches=216 inliers=182 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.1ms total=7.1ms | map=783
+  >> KF 22 | added=194 | mapping=queued | map=958 | dt=0.113m dR=0.4deg
+[NAV] State:DRIVE         | D:0.54m | Pos:(-0.06,2.18) | Cmd: V=3,W=1
+Frame  732 | matches=411 inliers=270 | src=orb | lk=0.0ms orb=14.4ms match=4.5ms pnp=9.3ms total=60.8ms | map=958
+[NAV] State:DRIVE         | D:0.47m | Pos:(-0.07,2.26) | Cmd: V=3,W=1
+  >> MAP async | KF 22 | quality=good[ok] | pruned=58 | map=900 | BA 272.2ms RMSE 9.86->6.99 applied=True
+Frame  733 | matches=270 inliers=218 | src=lk  | lk=5.8ms orb=0.0ms match=0.0ms pnp=1.8ms total=45.6ms | map=958
+  >> KF 23 | added=122 | mapping=queued | map=1022 | dt=0.115m dR=1.2deg
+[NAV] State:DRIVE         | D:0.45m | Pos:(-0.08,2.28) | Cmd: V=3,W=1
+Frame  734 | matches=398 inliers=241 | src=orb | lk=0.0ms orb=16.3ms match=9.6ms pnp=9.4ms total=58.7ms | map=1022
+[NAV] State:DRIVE         | D:0.39m | Pos:(-0.08,2.34) | Cmd: V=1,W=1
+Frame  735 | matches=241 inliers=200 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.3ms total=5.7ms | map=1022
+  >> LOOP CANDIDATE | KF 23 -> KF 2 (score: 0.444)
+  >> MAP async | KF 23 | quality=good[ok] | pruned=83 | map=939 | BA 161.6ms RMSE 6.06->5.73 applied=True
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.07,2.40) | Cmd: V=1,W=1
+Frame  736 | matches=344 inliers=175 | src=orb | lk=0.0ms orb=25.1ms match=6.3ms pnp=8.4ms total=44.4ms | map=939
+  >> KF 24 | added=128 | mapping=queued | map=1067 | dt=0.135m dR=1.5deg
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.07,2.37) | Cmd: V=1,W=1
+Frame  737 | matches=415 inliers=232 | src=orb | lk=0.0ms orb=16.1ms match=10.3ms pnp=15.1ms total=79.6ms | map=1067
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.07,2.41) | Cmd: V=1,W=1
+Frame  738 | matches=232 inliers=198 | src=lk  | lk=2.1ms orb=0.0ms match=0.0ms pnp=1.9ms total=9.2ms | map=1067
+  >> LOOP CANDIDATE | KF 24 -> KF 2 (score: 0.451)
+  >> MAP async | KF 24 | quality=good[ok] | pruned=90 | map=977 | BA 226.1ms RMSE 16.34->15.90 applied=True
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.08,2.41) | Cmd: V=1,W=1
+Frame  739 | matches=386 inliers=220 | src=orb | lk=0.0ms orb=20.2ms match=5.0ms pnp=7.4ms total=37.3ms | map=977
+[NAV] State:DRIVE         | D:0.28m | Pos:(-0.07,2.45) | Cmd: V=1,W=0
+Frame  740 | matches=220 inliers=187 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.2ms | map=977
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.07,2.47) | Cmd: V=1,W=0
+Frame  741 | matches=187 inliers=179 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.8ms | map=977
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.07,2.48) | Cmd: V=1,W=0
+Frame  742 | matches=179 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.6ms | map=977
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.08,2.50) | Cmd: V=1,W=0
+Frame  743 | matches=178 inliers=169 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=1.4ms total=6.3ms | map=977
+  >> KF 25 | added=213 | mapping=queued | map=1190 | dt=0.107m dR=0.6deg
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.08,2.51) | Cmd: V=1,W=0
+Frame  744 | matches=486 inliers=283 | src=orb | lk=0.0ms orb=19.1ms match=6.0ms pnp=12.2ms total=67.6ms | map=1190
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.08,2.52) | Cmd: V=1,W=0
+Frame  745 | matches=283 inliers=260 | src=lk  | lk=3.5ms orb=0.0ms match=0.0ms pnp=1.4ms total=51.5ms | map=1190
+  >> LOOP CANDIDATE | KF 25 -> KF 2 (score: 0.448)
+  >> MAP async | KF 25 | quality=good[ok] | pruned=133 | map=1057 | BA 286.5ms RMSE 16.37->13.48 applied=True
+[NAV] State:DRIVE         | D:0.19m | Pos:(-0.08,2.54) | Cmd: V=1,W=0
+Frame  746 | matches=456 inliers=261 | src=orb | lk=0.0ms orb=11.4ms match=25.3ms pnp=6.9ms total=48.4ms | map=1057
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.08,2.55) | Cmd: V=1,W=0
+Frame  747 | matches=261 inliers=252 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.5ms total=6.7ms | map=1057
+[NAV] State:DRIVE         | D:0.17m | Pos:(-0.08,2.57) | Cmd: V=1,W=0
+Frame  748 | matches=252 inliers=226 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.6ms | map=1057
+  >> KF 26 | added=143 | mapping=queued | map=1200 | dt=0.109m dR=1.7deg
+[NAV] State:DRIVE         | D:0.16m | Pos:(-0.08,2.58) | Cmd: V=1,W=0
+Frame  749 | matches=486 inliers=295 | src=orb | lk=0.0ms orb=16.6ms match=11.5ms pnp=8.6ms total=109.0ms | map=1200
+[NAV] State:DRIVE         | D:0.15m | Pos:(-0.09,2.59) | Cmd: V=1,W=0
+Frame  750 | matches=295 inliers=265 | src=lk  | lk=7.3ms orb=0.0ms match=0.0ms pnp=1.1ms total=61.5ms | map=1200
+  >> LOOP CANDIDATE | KF 26 -> KF 2 (score: 0.433)
+  >> MAP async | KF 26 | quality=good[ok] | pruned=145 | map=1055 | BA 313.7ms RMSE 17.79->17.43 applied=True
+[NAV] DONE | D:0.14m | Pos:(-0.08,2.59)
+Frame  751 | matches=418 inliers=256 | src=orb | lk=0.0ms orb=11.7ms match=7.2ms pnp=6.4ms total=29.0ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.09,2.60)
+Frame  752 | matches=256 inliers=218 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.5ms total=5.3ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.09,2.60)
+Frame  753 | matches=218 inliers=203 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.3ms total=5.0ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.09,2.60)
+Frame  754 | matches=203 inliers=189 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.0ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.09,2.60)
+Frame  755 | matches=189 inliers=178 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.4ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.60)
+Frame  756 | matches=178 inliers=176 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.7ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.09,2.60)
+Frame  757 | matches=176 inliers=173 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.3ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  758 | matches=173 inliers=165 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.2ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  759 | matches=165 inliers=161 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.4ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  760 | matches=161 inliers=160 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  761 | matches=160 inliers=160 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.3ms total=4.8ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  762 | matches=160 inliers=160 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.3ms total=5.1ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  763 | matches=160 inliers=160 | src=lk  | lk=2.5ms orb=0.0ms match=0.0ms pnp=2.9ms total=9.6ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  764 | matches=160 inliers=160 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.3ms total=5.5ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  765 | matches=160 inliers=160 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=9.6ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  766 | matches=160 inliers=160 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  767 | matches=160 inliers=160 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.7ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  768 | matches=160 inliers=160 | src=lk  | lk=3.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=21.5ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  769 | matches=160 inliers=160 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.8ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  770 | matches=160 inliers=160 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.0ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  771 | matches=160 inliers=160 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=4.9ms total=8.0ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  772 | matches=160 inliers=160 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  773 | matches=160 inliers=160 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.2ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  774 | matches=160 inliers=160 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  775 | matches=160 inliers=160 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  776 | matches=160 inliers=160 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  777 | matches=160 inliers=160 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.3ms total=8.9ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  778 | matches=160 inliers=160 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  779 | matches=160 inliers=160 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  780 | matches=160 inliers=160 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.6ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  781 | matches=160 inliers=160 | src=lk  | lk=3.2ms orb=0.0ms match=0.0ms pnp=3.6ms total=16.1ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  782 | matches=160 inliers=160 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  783 | matches=160 inliers=160 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.3ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  784 | matches=160 inliers=160 | src=lk  | lk=3.6ms orb=0.0ms match=0.0ms pnp=3.4ms total=14.1ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  785 | matches=160 inliers=160 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  786 | matches=160 inliers=160 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  787 | matches=160 inliers=160 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  788 | matches=160 inliers=160 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.7ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  789 | matches=160 inliers=160 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  790 | matches=160 inliers=160 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.6ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  791 | matches=160 inliers=160 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.0ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  792 | matches=160 inliers=160 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.8ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  793 | matches=160 inliers=160 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  794 | matches=160 inliers=160 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  795 | matches=160 inliers=160 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.8ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  796 | matches=160 inliers=160 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.0ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  797 | matches=160 inliers=160 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=7.3ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  798 | matches=160 inliers=160 | src=lk  | lk=4.1ms orb=0.0ms match=0.0ms pnp=3.1ms total=15.3ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  799 | matches=160 inliers=160 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  800 | matches=160 inliers=160 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.0ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  801 | matches=160 inliers=160 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.3ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  802 | matches=160 inliers=160 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  803 | matches=160 inliers=160 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  804 | matches=160 inliers=160 | src=lk  | lk=3.6ms orb=0.0ms match=0.0ms pnp=1.7ms total=12.8ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  805 | matches=160 inliers=160 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  806 | matches=160 inliers=160 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.3ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  807 | matches=160 inliers=160 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.0ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  808 | matches=160 inliers=160 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  809 | matches=160 inliers=160 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.6ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  810 | matches=160 inliers=160 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=1055
+[NAV] DONE | D:0.00m | Pos:(-0.08,2.61)
+Frame  811 | matches=160 inliers=160 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.8ms | map=1055
+[NAV] State:TURN_TO_FACE  | D:0.85m | Pos:(-0.08,2.61) | Cmd: V=0,W=3
+Frame  812 | matches=160 inliers=160 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.9ms | map=1055
+[NAV] State:TURN_TO_FACE  | D:0.85m | Pos:(-0.08,2.61) | Cmd: V=0,W=3
+Frame  813 | matches=160 inliers=160 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.7ms | map=1055
+[NAV] State:TURN_TO_FACE  | D:0.85m | Pos:(-0.08,2.61) | Cmd: V=0,W=3
+Frame  814 | matches=160 inliers=160 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=1055
+[NAV] State:TURN_TO_FACE  | D:0.85m | Pos:(-0.08,2.61) | Cmd: V=0,W=3
+Frame  815 | matches=160 inliers=159 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=1055
+[NAV] State:TURN_TO_FACE  | D:0.85m | Pos:(-0.08,2.61) | Cmd: V=0,W=3
+Frame  816 | matches=159 inliers=156 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.4ms | map=1055
+[NAV] State:TURN_TO_FACE  | D:0.85m | Pos:(-0.08,2.61) | Cmd: V=0,W=3
+Frame  817 | matches=156 inliers=156 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.3ms | map=1055
+[NAV] State:TURN_TO_FACE  | D:0.85m | Pos:(-0.09,2.61) | Cmd: V=0,W=3
+Frame  818 | matches=156 inliers=156 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=1055
+  >> KF 27 | added=187 | mapping=queued | map=1242 | dt=0.048m dR=10.6deg
+[NAV] State:TURN_TO_FACE  | D:0.85m | Pos:(-0.08,2.61) | Cmd: V=0,W=3
+Frame  819 | matches=603 inliers=394 | src=orb | lk=0.0ms orb=15.5ms match=5.5ms pnp=4.9ms total=73.1ms | map=1242
+  >> LOOP CANDIDATE | KF 27 -> KF 2 (score: 0.448)
+  >> MAP async | KF 27 | quality=good[ok] | pruned=494 | map=748 | BA 140.7ms RMSE 19.91->19.63 applied=True
+[NAV] State:TURN_TO_FACE  | D:0.85m | Pos:(-0.08,2.61) | Cmd: V=0,W=3
+Frame  820 | matches=383 inliers=310 | src=orb | lk=0.0ms orb=13.2ms match=3.6ms pnp=1.9ms total=21.8ms | map=748
+[NAV] State:TURN_TO_FACE  | D:0.85m | Pos:(-0.08,2.61) | Cmd: V=0,W=3
+Frame  821 | matches=310 inliers=292 | src=lk  | lk=16.0ms orb=0.0ms match=0.0ms pnp=4.2ms total=31.3ms | map=748
+[NAV] State:TURN_TO_FACE  | D:0.85m | Pos:(-0.08,2.60) | Cmd: V=0,W=3
+Frame  822 | matches=292 inliers=287 | src=lk  | lk=2.6ms orb=0.0ms match=0.0ms pnp=1.7ms total=8.6ms | map=748
+[NAV] State:TURN_TO_FACE  | D:0.86m | Pos:(-0.08,2.60) | Cmd: V=0,W=3
+Frame  823 | matches=287 inliers=279 | src=lk  | lk=2.3ms orb=0.0ms match=0.0ms pnp=1.7ms total=8.8ms | map=748
+[NAV] State:TURN_TO_FACE  | D:0.86m | Pos:(-0.08,2.60) | Cmd: V=0,W=3
+Frame  824 | matches=279 inliers=277 | src=lk  | lk=2.6ms orb=0.0ms match=0.0ms pnp=1.5ms total=7.2ms | map=748
+[NAV] State:DRIVE         | D:0.86m | Pos:(-0.08,2.60) | Cmd: V=3,W=1
+Frame  825 | matches=277 inliers=265 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.5ms | map=748
+  >> KF 28 | added=203 | mapping=queued | map=951 | dt=0.015m dR=11.5deg
+  >> PRUNE conservative mode | KF 28 | ratio-prune disabled (BA not applied); bad-point cleanup only
+Tracking state: TrackingGood -> TrackingWeak @ frame 826 (pose-jump (jump=1.7m > max=1.0m))
+  >> LOOP CANDIDATE | KF 28 -> KF 2 (score: 0.452)
+  >> MAP async | KF 28 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=951 | BA 97.5ms RMSE 11.08->11.02 applied=False
+[NAV] State:DRIVE         | D:0.82m | Pos:(-0.08,2.64) | Cmd: V=3,W=1
+Frame  827 | matches=399 inliers=243 | src=orb | lk=0.0ms orb=12.2ms match=4.8ms pnp=5.2ms total=24.8ms | map=951
+[NAV] State:DRIVE         | D:0.75m | Pos:(-0.08,2.71) | Cmd: V=3,W=1
+Frame  828 | matches=378 inliers=182 | src=orb | lk=0.0ms orb=16.1ms match=4.5ms pnp=7.8ms total=31.1ms | map=951
+  >> KF 29 | added=224 | mapping=queued | map=1175 | dt=0.115m dR=1.7deg
+Skipping loop closure for KF 29 due to weak mapping quality.
+  >> MAP async | KF 29 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=1175 | BA skipped (state=TrackingWeak)
+Tracking state: TrackingWeak -> TrackingGood @ frame 829 (success inliers=251)
+[NAV] State:DRIVE         | D:0.72m | Pos:(-0.08,2.75) | Cmd: V=3,W=1
+Frame  829 | matches=484 inliers=251 | src=orb | lk=0.0ms orb=14.3ms match=5.6ms pnp=10.2ms total=38.2ms | map=1175
+[NAV] State:DRIVE         | D:0.68m | Pos:(-0.07,2.79) | Cmd: V=3,W=1
+Frame  830 | matches=251 inliers=219 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.6ms total=6.4ms | map=1175
+[NAV] State:DRIVE         | D:0.64m | Pos:(-0.08,2.83) | Cmd: V=3,W=1
+Frame  831 | matches=219 inliers=181 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.7ms total=5.8ms | map=1175
+  >> KF 30 | added=184 | mapping=queued | map=1359 | dt=0.120m dR=0.6deg
+[NAV] State:DRIVE         | D:0.60m | Pos:(-0.09,2.87) | Cmd: V=3,W=1
+Frame  832 | matches=523 inliers=249 | src=orb | lk=0.0ms orb=14.2ms match=10.4ms pnp=13.2ms total=72.6ms | map=1359
+[NAV] State:DRIVE         | D:0.56m | Pos:(-0.10,2.91) | Cmd: V=3,W=1
+Frame  833 | matches=249 inliers=217 | src=lk  | lk=4.4ms orb=0.0ms match=0.0ms pnp=3.6ms total=36.9ms | map=1359
+  >> PRUNE conservative mode | KF 30 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.52m | Pos:(-0.11,2.95) | Cmd: V=3,W=1
+  >> LOOP CANDIDATE | KF 30 -> KF 2 (score: 0.443)
+  >> MAP async | KF 30 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=1359 | BA 367.4ms RMSE 536.00->42.14 applied=False
+Frame  834 | matches=208 inliers=170 | src=lk  | lk=3.2ms orb=0.0ms match=0.0ms pnp=2.0ms total=9.1ms | map=1359
+  >> KF 31 | added=172 | mapping=queued | map=1531 | dt=0.119m dR=0.6deg
+Tracking state: TrackingGood -> TrackingWeak @ frame 835 (pose-jump (jump=3.6m > max=1.0m))
+  >> PRUNE conservative mode | KF 31 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.43m | Pos:(-0.11,3.05) | Cmd: V=3,W=1
+  >> LOOP CANDIDATE | KF 31 -> KF 2 (score: 0.420)
+  >> MAP async | KF 31 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=1531 | BA 326.0ms RMSE 542.10->20.92 applied=False
+Frame  836 | matches=441 inliers=192 | src=orb | lk=0.0ms orb=14.9ms match=6.1ms pnp=11.4ms total=62.9ms | map=1531
+  >> KF 32 | added=170 | mapping=queued | map=1701 | dt=0.104m dR=0.7deg
+Skipping loop closure for KF 32 due to weak mapping quality.
+  >> MAP async | KF 32 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=1701 | BA skipped (state=TrackingWeak)
+[NAV] State:TURN_TO_FACE  | D:0.37m | Pos:(-0.12,3.11) | Cmd: V=0,W=0
+Frame  837 | matches=520 inliers=219 | src=orb | lk=0.0ms orb=12.7ms match=7.7ms pnp=11.5ms total=38.0ms | map=1701
+[NAV] State:TURN_TO_FACE  | D:0.35m | Pos:(-0.12,3.13) | Cmd: V=0,W=5
+Frame  839 | matches=486 inliers=235 | src=orb | lk=0.0ms orb=10.0ms match=6.2ms pnp=8.8ms total=27.1ms | map=1701
+[NAV] State:DRIVE         | D:0.34m | Pos:(-0.16,3.12) | Cmd: V=1,W=1
+Frame  841 | matches=386 inliers=150 | src=orb | lk=0.0ms orb=10.1ms match=5.5ms pnp=8.2ms total=26.8ms | map=1701
+[NAV] State:DRIVE         | D:0.35m | Pos:(-0.14,3.13) | Cmd: V=1,W=1
+Frame  842 | matches=356 inliers=149 | src=orb | lk=0.0ms orb=10.4ms match=8.2ms pnp=10.7ms total=32.7ms | map=1701
+  >> KF 33 | added=99 | mapping=queued | map=1800 | dt=0.083m dR=10.9deg
+Skipping loop closure for KF 33 due to weak mapping quality.
+  >> MAP async | KF 33 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=1800 | BA skipped (state=TrackingWeak)
+Tracking state: TrackingWeak -> TrackingGood @ frame 843 (success inliers=200)
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.14,3.14) | Cmd: V=1,W=1
+Frame  843 | matches=373 inliers=200 | src=orb | lk=0.0ms orb=11.0ms match=7.4ms pnp=8.1ms total=29.2ms | map=1800
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.14,3.16) | Cmd: V=1,W=1
+Frame  844 | matches=200 inliers=181 | src=lk  | lk=2.5ms orb=0.0ms match=0.0ms pnp=1.5ms total=7.4ms | map=1800
+[NAV] State:DRIVE         | D:0.31m | Pos:(-0.15,3.17) | Cmd: V=1,W=1
+Frame  845 | matches=181 inliers=168 | src=lk  | lk=2.3ms orb=0.0ms match=0.0ms pnp=2.6ms total=10.9ms | map=1800
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.15,3.18) | Cmd: V=1,W=1
+Frame  846 | matches=168 inliers=160 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.3ms | map=1800
+[NAV] State:DRIVE         | D:0.28m | Pos:(-0.15,3.20) | Cmd: V=1,W=1
+Frame  847 | matches=160 inliers=154 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.7ms | map=1800
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.15,3.21) | Cmd: V=1,W=2
+Frame  848 | matches=152 inliers=146 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.2ms | map=1800
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.15,3.22) | Cmd: V=1,W=2
+Frame  849 | matches=145 inliers=139 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.8ms | map=1800
+  >> KF 34 | added=106 | mapping=queued | map=1906 | dt=0.101m dR=3.8deg
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.16,3.23) | Cmd: V=1,W=2
+Frame  850 | matches=368 inliers=178 | src=orb | lk=0.0ms orb=13.2ms match=8.0ms pnp=12.2ms total=70.3ms | map=1906
+[NAV] State:DRIVE         | D:0.24m | Pos:(-0.16,3.25) | Cmd: V=1,W=2
+Frame  851 | matches=178 inliers=171 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.6ms | map=1906
+  >> LOOP CANDIDATE | KF 34 -> KF 13 (score: 0.406)
+  >> MAP async | KF 34 | quality=good[ok] | pruned=687 | map=1219 | BA 229.8ms RMSE 44.79->43.24 applied=True
+Tracking state: TrackingGood -> TrackingWeak @ frame 852 (pose-jump (jump=1.6m > max=1.0m))
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.17,3.27) | Cmd: V=1,W=2
+Frame  853 | matches=239 inliers=133 | src=orb | lk=0.0ms orb=9.7ms match=3.8ms pnp=6.1ms total=21.5ms | map=1219
+[NAV] State:DRIVE         | D:0.19m | Pos:(-0.19,3.29) | Cmd: V=1,W=2
+Frame  854 | matches=216 inliers=103 | src=orb | lk=0.0ms orb=12.9ms match=3.7ms pnp=7.7ms total=38.5ms | map=1219
+Tracking state: TrackingWeak -> Relocalizing @ frame 856 (pose-jump (jump=1.8m > max=1.0m))
+Tracking state: Relocalizing -> TrackingWeak @ frame 857 (success inliers=83)
+[NAV] State:TURN_TO_FACE  | D:0.16m | Pos:(-0.19,3.33) | Cmd: V=0,W=0
+Frame  857 | matches=173 inliers= 83 | src=orb | lk=0.0ms orb=11.0ms match=3.9ms pnp=8.3ms total=25.5ms | map=1219
+  >> KF 35 | added=103 | mapping=queued | map=1322 | dt=0.122m dR=6.1deg
+Skipping loop closure for KF 35 due to weak mapping quality.
+  >> MAP async | KF 35 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=1322 | BA skipped (state=TrackingWeak)
+[NAV] State:TURN_TO_FACE  | D:0.16m | Pos:(-0.19,3.33) | Cmd: V=0,W=11
+Frame  858 | matches=227 inliers=138 | src=orb | lk=0.0ms orb=8.1ms match=2.9ms pnp=3.7ms total=16.7ms | map=1322
+Tracking state: TrackingWeak -> Relocalizing @ frame 860 (pose-jump (jump=417.8m > max=1.0m))
+[BACKTRACK] Triggered after 30 consecutive RELOCALIZING frames. Returning to last known good odom position.
+Tracking state: Relocalizing -> TrackingWeak @ frame 1940 (success inliers=44)
+[NAV] State:DRIVE         | D:2.19m | Pos:(-0.61,5.49) | Cmd: V=3,W=0
+Frame 1940 | matches= 65 inliers= 44 | src=orb | lk=0.0ms orb=8.4ms match=1.2ms pnp=3.7ms total=15.5ms | map=1322
+  >> KF 36 | added=0 | mapping=queued | map=1322 | dt=2.199m dR=174.3deg
+Skipping loop closure for KF 36 due to weak mapping quality.
+  >> MAP async | KF 36 | quality=weak[new_pts=0<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (new_pts=0<3, state=TrackingWeak)) | map=1322 | BA skipped (new_pts=0<3, state=TrackingWeak)
+[BACKTRACK] Cancelled â€” tracking recovered (state=TrackingWeak)
+Tracking state: TrackingWeak -> Relocalizing @ frame 1942 (pose-jump (jump=695.7m > max=1.0m))
+[BACKTRACK] Triggered after 30 consecutive RELOCALIZING frames. Returning to last known good odom position.
+Tracking state: Relocalizing -> TrackingWeak @ frame 1983 (success inliers=132)
+[NAV] State:TURN_TO_FACE  | D:1.62m | Pos:(-0.31,4.98) | Cmd: V=0,W=0
+Frame 1983 | matches=172 inliers=132 | src=orb | lk=0.0ms orb=11.4ms match=1.9ms pnp=3.4ms total=30.7ms | map=1322
+  >> KF 37 | added=0 | mapping=queued | map=1322 | dt=0.595m dR=164.6deg
+Skipping loop closure for KF 37 due to weak mapping quality.
+  >> MAP async | KF 37 | quality=weak[new_pts=0<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (new_pts=0<3, state=TrackingWeak)) | map=1322 | BA skipped (new_pts=0<3, state=TrackingWeak)
+[BACKTRACK] Cancelled â€” tracking recovered (state=TrackingWeak)
+Tracking state: TrackingWeak -> Relocalizing @ frame 1985 (pose-jump (jump=12831649510950.9m > max=1.0m))
+[NAV] State:TURN_TO_FACE  | D:0.75m | Pos:(0.39,4.07) | Cmd: V=0,W=-3
+Frame 1991 | matches= 26 inliers= 17 | src=orb | lk=0.0ms orb=11.7ms match=1.5ms pnp=3.8ms total=19.7ms | map=1322
+[BACKTRACK] Triggered after 30 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[NAV] State:TURN_TO_FACE  | D:0.42m | Pos:(0.01,2.98) | Cmd: V=0,W=3
+Frame 2645 | matches= 71 inliers= 15 | src=orb | lk=0.0ms orb=7.9ms match=1.7ms pnp=6.5ms total=17.9ms | map=1322
+[NAV] State:TURN_TO_FACE  | D:0.82m | Pos:(0.72,2.92) | Cmd: V=0,W=3
+Frame 2646 | matches= 68 inliers= 15 | src=orb | lk=0.0ms orb=12.4ms match=2.6ms pnp=9.9ms total=27.7ms | map=1322
+[NAV] State:TURN_TO_FACE  | D:2.25m | Pos:(-0.47,1.21) | Cmd: V=0,W=3 OBS:75cm
+Frame 2660 | matches= 79 inliers= 18 | src=orb | lk=0.0ms orb=8.5ms match=1.9ms pnp=6.7ms total=19.2ms | map=1322
+[NAV] State:TURN_TO_FACE  | D:0.20m | Pos:(0.07,3.20) | Cmd: V=0,W=11 OBS:76cm
+Frame 2661 | matches= 83 inliers= 20 | src=orb | lk=0.0ms orb=15.2ms match=3.6ms pnp=7.8ms total=30.6ms | map=1322
+[NAV] State:TURN_TO_FACE  | D:0.20m | Pos:(0.03,3.20) | Cmd: V=0,W=11
+Frame 2662 | matches= 95 inliers= 24 | src=orb | lk=0.0ms orb=9.9ms match=3.1ms pnp=6.9ms total=21.8ms | map=1322
+Tracking state: Relocalizing -> TrackingWeak @ frame 2663 (success inliers=33)
+[NAV] State:TURN_TO_FACE  | D:1.49m | Pos:(1.31,4.21) | Cmd: V=0,W=3
+Frame 2663 | matches=120 inliers= 33 | src=orb | lk=0.0ms orb=10.3ms match=3.1ms pnp=7.3ms total=22.9ms | map=1322
+  >> KF 38 | added=0 | mapping=queued | map=1322 | dt=1.792m dR=130.2deg
+Skipping loop closure for KF 38 due to weak mapping quality.
+  >> MAP async | KF 38 | quality=weak[inliers=33<35, new_pts=0<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (inliers=33<35, new_pts=0<3, state=TrackingWeak)) | map=1322 | BA skipped (inliers=33<35, new_pts=0<3, state=TrackingWeak)
+[BACKTRACK] Cancelled â€” tracking recovered (state=TrackingWeak)
+Tracking state: TrackingWeak -> Relocalizing @ frame 2665 (pose-jump (jump=1.4m > max=1.0m))
+Tracking state: Relocalizing -> TrackingWeak @ frame 2666 (success inliers=36)
+[NAV] DONE | D:0.10m | Pos:(-0.05,3.42)
+Frame 2666 | matches=109 inliers= 36 | src=orb | lk=0.0ms orb=12.5ms match=3.9ms pnp=6.7ms total=25.5ms | map=1322
+  >> KF 39 | added=24 | mapping=queued | map=1346 | dt=1.573m dR=107.7deg
+Skipping loop closure for KF 39 due to weak mapping quality.
+  >> MAP async | KF 39 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=1346 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.02,3.38)
+Frame 2667 | matches=121 inliers= 28 | src=orb | lk=0.0ms orb=10.9ms match=4.2ms pnp=6.7ms total=23.8ms | map=1346
+[NAV] DONE | D:0.00m | Pos:(-0.03,3.46)
+Frame 2668 | matches=119 inliers= 42 | src=orb | lk=0.0ms orb=19.2ms match=7.0ms pnp=9.1ms total=44.7ms | map=1346
+  >> KF 40 | added=244 | mapping=queued | map=1590 | dt=0.209m dR=16.5deg
+Skipping loop closure for KF 40 due to weak mapping quality.
+  >> MAP async | KF 40 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=1590 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(-0.02,3.45)
+Frame 2669 | matches=276 inliers=181 | src=orb | lk=0.0ms orb=12.1ms match=7.7ms pnp=5.0ms total=35.7ms | map=1590
+[NAV] DONE | D:0.00m | Pos:(0.63,3.75)
+Frame 2670 | matches=253 inliers=155 | src=orb | lk=0.0ms orb=11.5ms match=5.4ms pnp=5.9ms total=26.2ms | map=1590
+  >> KF 41 | added=106 | mapping=queued | map=1696 | dt=0.778m dR=69.0deg
+Skipping loop closure for KF 41 due to weak mapping quality.
+  >> MAP async | KF 41 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=1696 | BA skipped (state=TrackingWeak)
+Tracking state: TrackingWeak -> TrackingGood @ frame 2671 (success inliers=214)
+[NAV] DONE | D:0.00m | Pos:(-0.02,3.47)
+Frame 2671 | matches=320 inliers=214 | src=orb | lk=0.0ms orb=12.1ms match=5.9ms pnp=3.7ms total=24.6ms | map=1696
+  >> KF 42 | added=88 | mapping=queued | map=1784 | dt=0.746m dR=67.7deg
+  >> PRUNE conservative mode | KF 42 | ratio-prune disabled (BA not applied); bad-point cleanup only
+Tracking state: TrackingGood -> TrackingWeak @ frame 2672 (odom-prior strikes=8/2 t_ratio=7.10 r_ratio=21.24)
+  >> LOOP CANDIDATE | KF 42 -> KF 21 (score: 0.458)
+  >> MAP async | KF 42 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=1784 | BA 123.4ms RMSE 27.69->27.68 applied=False
+[NAV] DONE | D:0.00m | Pos:(0.01,3.51)
+Frame 2673 | matches=353 inliers=263 | src=orb | lk=0.0ms orb=12.2ms match=5.9ms pnp=3.2ms total=24.3ms | map=1784
+[NAV] DONE | D:0.00m | Pos:(0.02,3.52)
+Frame 2674 | matches=355 inliers=244 | src=orb | lk=0.0ms orb=16.4ms match=6.9ms pnp=3.8ms total=30.2ms | map=1784
+Tracking state: TrackingWeak -> TrackingGood @ frame 2675 (success inliers=211)
+[NAV] DONE | D:0.00m | Pos:(0.10,3.51)
+Frame 2675 | matches=310 inliers=211 | src=orb | lk=0.0ms orb=11.3ms match=6.3ms pnp=4.9ms total=25.7ms | map=1784
+  >> KF 43 | added=100 | mapping=queued | map=1884 | dt=0.163m dR=11.4deg
+Tracking state: TrackingGood -> TrackingWeak @ frame 2676 (odom-prior strikes=12/2 t_ratio=3.91 r_ratio=18.35)
+  >> PRUNE conservative mode | KF 43 | ratio-prune disabled (BA not applied); bad-point cleanup only
+  >> LOOP CANDIDATE | KF 43 -> KF 19 (score: 0.427)
+  >> MAP async | KF 43 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=1884 | BA 127.5ms RMSE 5.69->5.69 applied=False
+[NAV] DONE | D:0.00m | Pos:(0.05,3.58)
+Frame 2677 | matches=278 inliers=185 | src=orb | lk=0.0ms orb=14.8ms match=6.7ms pnp=5.3ms total=29.2ms | map=1884
+  >> KF 44 | added=110 | mapping=queued | map=1994 | dt=0.138m dR=12.6deg
+Skipping loop closure for KF 44 due to weak mapping quality.
+  >> MAP async | KF 44 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=1994 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.09,3.60)
+Frame 2679 | matches=337 inliers=209 | src=orb | lk=0.0ms orb=19.5ms match=5.8ms pnp=5.2ms total=35.0ms | map=1994
+[NAV] DONE | D:0.00m | Pos:(0.10,3.62)
+Frame 2680 | matches=284 inliers=175 | src=orb | lk=0.0ms orb=11.4ms match=5.3ms pnp=7.6ms total=27.7ms | map=1994
+Tracking state: TrackingWeak -> TrackingGood @ frame 2681 (success inliers=173)
+[NAV] DONE | D:0.00m | Pos:(0.10,3.63)
+Frame 2681 | matches=273 inliers=173 | src=orb | lk=0.0ms orb=10.9ms match=5.3ms pnp=4.1ms total=22.9ms | map=1994
+Tracking state: TrackingGood -> TrackingWeak @ frame 2682 (odom-prior strikes=17/2 t_ratio=2.78 r_ratio=34.82)
+[NAV] DONE | D:0.00m | Pos:(0.13,3.66)
+Frame 2683 | matches=219 inliers=117 | src=orb | lk=0.0ms orb=19.6ms match=8.1ms pnp=12.0ms total=44.0ms | map=1994
+  >> KF 45 | added=88 | mapping=queued | map=2082 | dt=0.115m dR=0.8deg
+Skipping loop closure for KF 45 due to weak mapping quality.
+  >> MAP async | KF 45 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2082 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(-0.12,3.99)
+Frame 2684 | matches=282 inliers=151 | src=orb | lk=0.0ms orb=10.4ms match=5.3ms pnp=9.3ms total=27.4ms | map=2082
+  >> KF 46 | added=94 | mapping=queued | map=2176 | dt=0.420m dR=54.2deg
+Skipping loop closure for KF 46 due to weak mapping quality.
+  >> MAP async | KF 46 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2176 | BA skipped (state=TrackingWeak)
+Tracking state: TrackingWeak -> TrackingGood @ frame 2685 (success inliers=209)
+[NAV] DONE | D:0.00m | Pos:(-0.21,4.38)
+Frame 2685 | matches=331 inliers=209 | src=orb | lk=0.0ms orb=12.7ms match=6.5ms pnp=6.4ms total=29.5ms | map=2176
+  >> KF 47 | added=17 | mapping=queued | map=2193 | dt=0.443m dR=48.9deg
+Tracking state: TrackingGood -> TrackingWeak @ frame 2686 (pose-jump (jump=1.1m > max=1.0m))
+  >> PRUNE conservative mode | KF 47 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] DONE | D:0.00m | Pos:(0.47,3.70)
+  >> LOOP CANDIDATE | KF 47 -> KF 24 (score: 0.426)
+  >> MAP async | KF 47 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=2193 | BA 343.8ms RMSE 168.57->56.88 applied=False
+Frame 2687 | matches=270 inliers=133 | src=orb | lk=0.0ms orb=12.6ms match=7.0ms pnp=13.4ms total=68.1ms | map=2193
+  >> KF 48 | added=26 | mapping=queued | map=2219 | dt=0.980m dR=131.6deg
+Skipping loop closure for KF 48 due to weak mapping quality.
+  >> MAP async | KF 48 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2219 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.13,3.77)
+Frame 2688 | matches=235 inliers= 70 | src=orb | lk=0.0ms orb=12.4ms match=5.1ms pnp=10.2ms total=34.0ms | map=2219
+  >> KF 49 | added=75 | mapping=queued | map=2294 | dt=0.345m dR=51.2deg
+Skipping loop closure for KF 49 due to weak mapping quality.
+  >> MAP async | KF 49 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2294 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.04,3.91)
+Frame 2689 | matches=266 inliers= 99 | src=orb | lk=0.0ms orb=13.3ms match=5.3ms pnp=9.8ms total=31.8ms | map=2294
+  >> KF 50 | added=71 | mapping=queued | map=2365 | dt=0.171m dR=27.2deg
+Skipping loop closure for KF 50 due to weak mapping quality.
+  >> MAP async | KF 50 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2365 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.04,3.93)
+Frame 2690 | matches=316 inliers=157 | src=orb | lk=0.0ms orb=14.8ms match=6.2ms pnp=10.6ms total=35.1ms | map=2365
+[NAV] DONE | D:0.00m | Pos:(0.22,3.79)
+Frame 2692 | matches=189 inliers=104 | src=orb | lk=0.0ms orb=15.5ms match=4.9ms pnp=8.2ms total=31.8ms | map=2365
+  >> KF 51 | added=31 | mapping=queued | map=2396 | dt=0.220m dR=33.6deg
+Skipping loop closure for KF 51 due to weak mapping quality.
+  >> MAP async | KF 51 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2396 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.67,3.94)
+Frame 2693 | matches=207 inliers= 82 | src=orb | lk=0.0ms orb=9.0ms match=26.8ms pnp=9.1ms total=48.3ms | map=2396
+  >> KF 52 | added=37 | mapping=queued | map=2433 | dt=0.481m dR=88.4deg
+  >> MAP async | KF 52 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2433 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.51,3.86)
+Skipping loop closure for KF 53 due to weak mapping quality.
+Frame 2694 | matches=207 inliers= 77 | src=orb | lk=0.0ms orb=12.5ms match=4.9ms pnp=9.1ms total=30.3ms | map=2433
+  >> KF 53 | added=5 | mapping=queued | map=2438 | dt=0.180m dR=33.8deg
+  >> MAP async | KF 53 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2438 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.24,3.82)
+Frame 2695 | matches=194 inliers= 67 | src=orb | lk=0.0ms orb=9.6ms match=3.5ms pnp=8.8ms total=24.3ms | map=2438
+  >> KF 54 | added=26 | mapping=queued | map=2464 | dt=0.286m dR=58.6deg
+Skipping loop closure for KF 54 due to weak mapping quality.
+  >> MAP async | KF 54 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2464 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.24,3.83)
+Frame 2696 | matches=184 inliers= 84 | src=orb | lk=0.0ms orb=10.3ms match=4.0ms pnp=9.2ms total=26.2ms | map=2464
+[NAV] DONE | D:0.00m | Pos:(0.35,4.09)
+Skipping loop closure for KF 55 due to weak mapping quality.
+Frame 2697 | matches=177 inliers= 84 | src=orb | lk=0.0ms orb=12.3ms match=4.8ms pnp=8.5ms total=29.1ms | map=2464
+  >> KF 55 | added=0 | mapping=queued | map=2464 | dt=0.296m dR=115.1deg
+  >> MAP async | KF 55 | quality=weak[new_pts=0<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (new_pts=0<3, state=TrackingWeak)) | map=2464 | BA skipped (new_pts=0<3, state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.53,3.85)
+Frame 2698 | matches=165 inliers= 58 | src=orb | lk=0.0ms orb=8.9ms match=3.1ms pnp=8.7ms total=23.3ms | map=2464
+  >> KF 56 | added=0 | mapping=queued | map=2464 | dt=0.301m dR=59.2deg
+Skipping loop closure for KF 56 due to weak mapping quality.
+  >> MAP async | KF 56 | quality=weak[new_pts=0<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (new_pts=0<3, state=TrackingWeak)) | map=2464 | BA skipped (new_pts=0<3, state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.24,3.85)
+Skipping loop closure for KF 57 due to weak mapping quality.
+Frame 2699 | matches=130 inliers= 40 | src=orb | lk=0.0ms orb=10.4ms match=2.8ms pnp=9.2ms total=25.4ms | map=2464
+  >> KF 57 | added=17 | mapping=queued | map=2481 | dt=0.285m dR=60.7deg
+  >> MAP async | KF 57 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2481 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.25,3.86)
+Frame 2700 | matches=147 inliers= 49 | src=orb | lk=0.0ms orb=10.1ms match=2.8ms pnp=9.9ms total=25.3ms | map=2481
+[NAV] DONE | D:0.00m | Pos:(0.33,3.93)
+Frame 2701 | matches=138 inliers= 47 | src=orb | lk=0.0ms orb=9.7ms match=3.7ms pnp=8.8ms total=24.6ms | map=2481
+  >> KF 58 | added=4 | mapping=queued | map=2485 | dt=0.268m dR=60.6deg
+Skipping loop closure for KF 58 due to weak mapping quality.
+  >> MAP async | KF 58 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2485 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.26,3.87)
+Frame 2702 | matches=143 inliers= 41 | src=orb | lk=0.0ms orb=9.3ms match=2.5ms pnp=7.6ms total=21.7ms | map=2485
+  >> KF 59 | added=9 | mapping=queued | map=2494 | dt=0.246m dR=58.4deg
+Skipping loop closure for KF 59 due to weak mapping quality.
+  >> MAP async | KF 59 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2494 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.27,3.88)
+Frame 2703 | matches=151 inliers= 53 | src=orb | lk=0.0ms orb=25.0ms match=6.4ms pnp=8.4ms total=45.4ms | map=2494
+[NAV] DONE | D:0.00m | Pos:(0.29,3.89)
+Frame 2704 | matches=106 inliers= 53 | src=orb | lk=0.0ms orb=8.5ms match=2.3ms pnp=6.6ms total=19.4ms | map=2494
+  >> KF 60 | added=5 | mapping=queued | map=2499 | dt=0.064m dR=13.0deg
+Skipping loop closure for KF 60 due to weak mapping quality.
+  >> MAP async | KF 60 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2499 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(0.29,3.97)
+Frame 2705 | matches=124 inliers= 28 | src=orb | lk=0.0ms orb=8.6ms match=2.2ms pnp=8.5ms total=21.6ms | map=2499
+[NAV] DONE | D:0.00m | Pos:(0.29,3.90)
+Frame 2706 | matches=103 inliers= 39 | src=orb | lk=0.0ms orb=11.9ms match=3.7ms pnp=10.1ms total=28.5ms | map=2499
+[NAV] DONE | D:0.00m | Pos:(0.27,3.91)
+Frame 2707 | matches= 84 inliers= 29 | src=orb | lk=0.0ms orb=8.9ms match=2.2ms pnp=7.2ms total=20.3ms | map=2499
+[NAV] DONE | D:0.00m | Pos:(1.06,4.29)
+Frame 2708 | matches=115 inliers= 32 | src=orb | lk=0.0ms orb=11.3ms match=3.7ms pnp=10.7ms total=29.1ms | map=2499
+  >> KF 61 | added=1 | mapping=queued | map=2500 | dt=0.883m dR=132.3deg
+Skipping loop closure for KF 61 due to weak mapping quality.
+  >> MAP async | KF 61 | quality=weak[inliers=32<35, new_pts=1<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (inliers=32<35, new_pts=1<3, state=TrackingWeak)) | map=2500 | BA skipped (inliers=32<35, new_pts=1<3, state=TrackingWeak)
+Tracking state: TrackingWeak -> Relocalizing @ frame 2710 (low-pnp-inliers)
+[NAV] DONE | D:0.00m | Pos:(0.16,4.11)
+Frame 2720 | matches= 46 inliers= 20 | src=orb | lk=0.0ms orb=16.5ms match=2.7ms pnp=9.2ms total=31.1ms | map=2500
+[NAV] DONE | D:0.00m | Pos:(0.28,4.09)
+Frame 2723 | matches= 45 inliers= 16 | src=orb | lk=0.0ms orb=9.3ms match=2.0ms pnp=8.1ms total=21.4ms | map=2500
+[NAV] DONE | D:0.00m | Pos:(-0.34,4.12)
+Frame 2727 | matches= 40 inliers= 18 | src=orb | lk=0.0ms orb=12.5ms match=2.3ms pnp=8.9ms total=26.7ms | map=2500
+[NAV] DONE | D:0.00m | Pos:(0.25,4.12)
+Frame 2736 | matches= 63 inliers= 19 | src=orb | lk=0.0ms orb=12.9ms match=2.9ms pnp=10.1ms total=28.7ms | map=2500
+[BACKTRACK] Triggered after 30 consecutive RELOCALIZING frames. Returning to last known good odom position.
+Tracking state: Relocalizing -> TrackingWeak @ frame 3254 (success inliers=46)
+[NAV] DONE | D:0.00m | Pos:(-0.87,5.65)
+Frame 3254 | matches= 67 inliers= 46 | src=orb | lk=0.0ms orb=15.5ms match=1.7ms pnp=3.3ms total=22.5ms | map=2500
+  >> KF 62 | added=0 | mapping=queued | map=2500 | dt=2.363m dR=132.8deg
+Skipping loop closure for KF 62 due to weak mapping quality.
+  >> MAP async | KF 62 | quality=weak[new_pts=0<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (new_pts=0<3, state=TrackingWeak)) | map=2500 | BA skipped (new_pts=0<3, state=TrackingWeak)
+[BACKTRACK] Cancelled â€” tracking recovered (state=TrackingWeak)
+Tracking state: TrackingWeak -> Relocalizing @ frame 3256 (low-matches)
+[BACKTRACK] Triggered after 30 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[NAV] DONE | D:0.00m | Pos:(0.04,4.10)
+Frame 3385 | matches= 34 inliers= 24 | src=orb | lk=0.0ms orb=16.1ms match=2.9ms pnp=4.4ms total=26.6ms | map=2500
+Tracking state: Relocalizing -> TrackingWeak @ frame 4429 (success inliers=45)
+[NAV] DONE | D:0.00m | Pos:(-0.28,4.19)
+Skipping loop closure for KF 63 due to weak mapping quality.
+Frame 4429 | matches= 73 inliers= 45 | src=orb | lk=0.0ms orb=10.0ms match=2.6ms pnp=5.0ms total=19.9ms | map=2500
+  >> KF 63 | added=0 | mapping=queued | map=2500 | dt=1.572m dR=88.7deg
+  >> MAP async | KF 63 | quality=weak[new_pts=0<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (new_pts=0<3, state=TrackingWeak)) | map=2500 | BA skipped (new_pts=0<3, state=TrackingWeak)
+[BACKTRACK] Cancelled â€” tracking recovered (state=TrackingWeak)
+Tracking state: TrackingWeak -> Relocalizing @ frame 4431 (pose-jump (jump=8788799223345.5m > max=1.0m))
+[BACKTRACK] Triggered after 30 consecutive RELOCALIZING frames. Returning to last known good odom position.
+@œ¿    í?@   À‰	Ì¿    E|À¿   à	@    ìá¿   `€Ð¿   ÀÁ>@  Tracking state: Relocalizing -> TrackingWeak @ frame 5307 (success inliers=69)
+[NAV] DONE | D:0.00m | Pos:(-0.47,4.32)
+Frame 5307 | matches=151 inliers= 69 | src=orb | lk=0.0ms orb=8.2ms match=2.5ms pnp=7.7ms total=21.8ms | map=2500
+  >> KF 64 | added=0 | mapping=queued | map=2500 | dt=0.310m dR=102.2deg
+Skipping loop closure for KF 64 due to weak mapping quality.
+  >> MAP async | KF 64 | quality=weak[new_pts=0<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (new_pts=0<3, state=TrackingWeak)) | map=2500 | BA skipped (new_pts=0<3, state=TrackingWeak)
+[BACKTRACK] Cancelled â€” tracking recovered (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(-0.19,3.78)
+Frame 5308 | matches=167 inliers= 49 | src=orb | lk=0.0ms orb=9.6ms match=4.2ms pnp=7.7ms total=24.3ms | map=2500
+  >> KF 65 | added=0 | mapping=queued | map=2500 | dt=0.609m dR=33.4deg
+Skipping loop closure for KF 65 due to weak mapping quality.
+  >> MAP async | KF 65 | quality=weak[new_pts=0<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (new_pts=0<3, state=TrackingWeak)) | map=2500 | BA skipped (new_pts=0<3, state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(-0.40,4.73)
+Skipping loop closure for KF 66 due to weak mapping quality.
+Frame 5310 | matches=162 inliers= 63 | src=orb | lk=0.0ms orb=8.9ms match=3.0ms pnp=8.7ms total=23.0ms | map=2500
+  >> KF 66 | added=0 | mapping=queued | map=2500 | dt=0.983m dR=66.7deg
+  >> MAP async | KF 66 | quality=weak[new_pts=0<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (new_pts=0<3, state=TrackingWeak)) | map=2500 | BA skipped (new_pts=0<3, state=TrackingWeak)
+Tracking state: TrackingWeak -> Relocalizing @ frame 5312 (pose-jump (jump=1.8m > max=1.0m))
+Tracking state: Relocalizing -> TrackingWeak @ frame 5313 (success inliers=52)
+[NAV] DONE | D:0.00m | Pos:(-0.29,3.72)
+Frame 5313 | matches=169 inliers= 52 | src=orb | lk=0.0ms orb=8.9ms match=2.9ms pnp=7.4ms total=22.3ms | map=2500
+  >> KF 67 | added=2 | mapping=queued | map=2502 | dt=1.026m dR=74.8deg
+Skipping loop closure for KF 67 due to weak mapping quality.
+  >> MAP async | KF 67 | quality=weak[new_pts=2<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (new_pts=2<3, state=TrackingWeak)) | map=2502 | BA skipped (new_pts=2<3, state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(-0.31,3.65)
+Frame 5315 | matches=181 inliers= 60 | src=orb | lk=0.0ms orb=18.9ms match=5.1ms pnp=8.5ms total=35.1ms | map=2502
+[NAV] DONE | D:0.00m | Pos:(-0.32,3.61)
+Skipping loop closure for KF 68 due to weak mapping quality.
+Frame 5316 | matches=208 inliers= 70 | src=orb | lk=0.0ms orb=10.0ms match=4.6ms pnp=8.3ms total=25.2ms | map=2502
+  >> KF 68 | added=33 | mapping=queued | map=2535 | dt=0.133m dR=12.1deg
+  >> MAP async | KF 68 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2535 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(-0.25,3.38)
+Frame 5317 | matches=231 inliers= 93 | src=orb | lk=0.0ms orb=14.6ms match=5.3ms pnp=8.6ms total=32.9ms | map=2535
+  >> KF 69 | added=44 | mapping=queued | map=2579 | dt=0.253m dR=16.6deg
+Skipping loop closure for KF 69 due to weak mapping quality.
+  >> MAP async | KF 69 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2579 | BA skipped (state=TrackingWeak)
+[NAV] DONE | D:0.00m | Pos:(-0.33,3.60)
+Skipping loop closure for KF 70 due to weak mapping quality.
+Frame 5318 | matches=266 inliers=119 | src=orb | lk=0.0ms orb=16.3ms match=4.6ms pnp=8.5ms total=31.7ms | map=2579
+  >> KF 70 | added=43 | mapping=queued | map=2622 | dt=0.252m dR=14.6deg
+  >> MAP async | KF 70 | quality=weak[state=TrackingWeak] | pruned=0 (skipped: weak submission (state=TrackingWeak)) | map=2622 | BA skipped (state=TrackingWeak)
+Tracking state: TrackingWeak -> TrackingGood @ frame 5319 (success inliers=133)
+[NAV] DONE | D:0.00m | Pos:(0.03,3.17)
+Frame 5319 | matches=271 inliers=133 | src=orb | lk=0.0ms orb=10.0ms match=6.0ms pnp=9.8ms total=29.1ms | map=2622
+  >> KF 71 | added=12 | mapping=queued | map=2634 | dt=0.567m dR=35.6deg
+[NAV] DONE | D:0.00m | Pos:(0.81,3.45)
+Frame 5320 | matches=282 inliers=141 | src=orb | lk=0.0ms orb=18.4ms match=32.7ms pnp=21.4ms total=80.3ms | map=2634
+  >> KF 72 | added=31 | mapping=queued | map=1294 | dt=0.852m dR=54.2deg
+  >> LOOP CANDIDATE | KF 71 -> KF 42 (score: 0.403)
+[NAV] DONE | D:0.00m | Pos:(0.82,3.46)
+Frame 5321 | matches=306 inliers=125 | src=orb | lk=0.0ms orb=16.4ms match=7.5ms pnp=13.9ms total=44.3ms | map=2665
+  >> *** LOOP CLOSURE VERIFIED! *** | Optimizing Pose Graph...
+  >> *** POSE GRAPH OPTIMIZED *** in 176530.4ms
+  >> MAP async | KF 71 | quality=good[ok] | pruned=1371 | map=1294 | BA 504.2ms RMSE 144.93->126.77 applied=True
+Tracking state: TrackingGood -> TrackingWeak @ frame 5322 (pose-jump (jump=1.2m > max=1.0m))
+  >> PRUNE conservative mode | KF 72 | ratio-prune disabled (invalid BA RMSE); bad-point cleanup only
+  >> LOOP CANDIDATE | KF 72 -> KF 42 (score: 0.442)
+  >> MAP async | KF 72 | quality=good[ok] | pruned=0 | prune=conservative(invalid BA RMSE) | map=1294 | BA 32.0ms RMSE 565.98->nan applied=False
+Tracking state: TrackingWeak -> Relocalizing @ frame 5323 (pnp-fail)
+[BACKTRACK] Triggered after 30 consecutive RELOCALIZING frames. Returning to last known good odom position.
+Tracking state: Relocalizing -> TrackingWeak @ frame 9138 (success inliers=141)
+[NAV] DONE | D:0.00m | Pos:(1.22,3.66)
+Skipping loop closure for KF 73 due to weak mapping quality.
+Frame 9138 | matches=200 inliers=141 | src=orb | lk=0.0ms orb=8.2ms match=0.9ms pnp=3.4ms total=14.7ms | map=1294
+  >> KF 73 | added=0 | mapping=queued | map=1294 | dt=21.312m dR=80.3deg
+  >> MAP async | KF 73 | quality=weak[new_pts=0<3, state=TrackingWeak] | pruned=0 (skipped: weak submission (new_pts=0<3, state=TrackingWeak)) | map=1294 | BA skipped (new_pts=0<3, state=TrackingWeak)
+[BACKTRACK] Cancelled â€” tracking recovered (state=TrackingWeak)
+Tracking state: TrackingWeak -> Relocalizing @ frame 9140 (pose-jump (jump=5978.1m > max=1.0m))
+[BACKTRACK] Triggered after 30 consecutive RELOCALIZING frames. Returning to last known good odom position.
+
+============================================================
+BENCHMARK SUMMARY (PnP odom prediction)
+============================================================
+Duration:            1985.8s
+Total frames:        9747
+Tracked frames:      914
+Lost frames:         8833
+Tracking rate:       9.4%
+Keyframes:           74
+Final map points:    1294
+Total added:         6342
+Total pruned:        5153
+Rejected poses:      1638
+LK frames:           782
+LK successes:        779
+ORB match frames:    4074
+Fallback no-LK:      8964
+Fallback low-tracks: 0
+Fallback LK-PnP:     0
+Mapping enqueued:    73
+Mapping dropped:     0
+Mapping completed:   73
+Odom-prior rejects:  3
+State final:         Relocalizing
+State transitions:   40
+State frames (G/W/R): 842/88/8817
+
+PnP guess attempts:  4855
+PnP guess successes: 1531
+PnP guess fallbacks:  3324
+Local BA attempts:   35
+Local BA successes:  30 (85.7%)
+Local BA applied:    23 (65.7%)
+Local BA skipped:    38
+Local BA avg time:   219.9 ms
+Weak mapping jobs:   38
+Prune skipped:       38
+Inliers (min/mean/max): 15/119.0/394
+Matches (min/mean/max): 20/84.1/629
+
+--- Timing (tracked frames only) ---
+Frame total (min/mean/max):  2.4/10.0/233.1 ms
+Effective FPS:               100.4
+ORB detect  (min/mean/max):  0.0/9.3/145.7 ms
+LK track    (min/mean/max):  0.0/0.1/16.0 ms
+Matching    (min/mean/max):  0.0/2.5/48.8 ms
+PnP solve   (min/mean/max):  0.3/9.6/50.3 ms
+
+--- Keyframe Events ---
+  KF   0 @ frame    1: +105 -  0 = 105 pts
+  KF   1 @ frame    3: +  0 -  0 = 105 pts
+  KF   2 @ frame  314: +248 -  0 = 353 pts
+  KF   3 @ frame  324: +260 -  0 = 613 pts
+  KF   4 @ frame  379: +185 -  0 = 798 pts
+  KF   5 @ frame  390: +168 -  0 = 966 pts
+  KF   6 @ frame  401: + 95 -  0 = 920 pts
+  KF   7 @ frame  441: +184 -  0 = 953 pts
+  KF   8 @ frame  445: +119 -  0 = 1072 pts
+  KF   9 @ frame  458: + 71 -  0 = 828 pts
+  KF  10 @ frame  522: + 96 -  0 = 828 pts
+  KF  11 @ frame  534: +107 -  0 = 569 pts
+  KF  12 @ frame  580: + 96 -  0 = 548 pts
+  KF  13 @ frame  590: +142 -  0 = 596 pts
+  KF  14 @ frame  601: +126 -  0 = 647 pts
+  KF  15 @ frame  644: +208 -  0 = 748 pts
+  KF  16 @ frame  655: + 95 -  0 = 723 pts
+  KF  17 @ frame  663: +123 -  0 = 748 pts
+  KF  18 @ frame  669: + 29 -  0 = 699 pts
+  KF  19 @ frame  714: + 82 -  0 = 781 pts
+  KF  20 @ frame  726: +187 -  0 = 756 pts
+  KF  21 @ frame  729: +130 -  0 = 783 pts
+  KF  22 @ frame  731: +194 -  0 = 958 pts
+  KF  23 @ frame  733: +122 -  0 = 1022 pts
+  KF  24 @ frame  736: +128 -  0 = 1067 pts
+  KF  25 @ frame  743: +213 -  0 = 1190 pts
+  KF  26 @ frame  748: +143 -  0 = 1200 pts
+  KF  27 @ frame  818: +187 -  0 = 1242 pts
+  KF  28 @ frame  825: +203 -  0 = 951 pts
+  KF  29 @ frame  828: +224 -  0 = 1175 pts
+  KF  30 @ frame  831: +184 -  0 = 1359 pts
+  KF  31 @ frame  834: +172 -  0 = 1531 pts
+  KF  32 @ frame  836: +170 -  0 = 1701 pts
+  KF  33 @ frame  842: + 99 -  0 = 1800 pts
+  KF  34 @ frame  849: +106 -  0 = 1906 pts
+  KF  35 @ frame  857: +103 -  0 = 1322 pts
+  KF  36 @ frame 1940: +  0 -  0 = 1322 pts
+  KF  37 @ frame 1983: +  0 -  0 = 1322 pts
+  KF  38 @ frame 2663: +  0 -  0 = 1322 pts
+  KF  39 @ frame 2666: + 24 -  0 = 1346 pts
+  KF  40 @ frame 2668: +244 -  0 = 1590 pts
+  KF  41 @ frame 2670: +106 -  0 = 1696 pts
+  KF  42 @ frame 2671: + 88 -  0 = 1784 pts
+  KF  43 @ frame 2675: +100 -  0 = 1884 pts
+  KF  44 @ frame 2677: +110 -  0 = 1994 pts
+  KF  45 @ frame 2683: + 88 -  0 = 2082 pts
+  KF  46 @ frame 2684: + 94 -  0 = 2176 pts
+  KF  47 @ frame 2685: + 17 -  0 = 2193 pts
+  KF  48 @ frame 2687: + 26 -  0 = 2219 pts
+  KF  49 @ frame 2688: + 75 -  0 = 2294 pts
+  KF  50 @ frame 2689: + 71 -  0 = 2365 pts
+  KF  51 @ frame 2692: + 31 -  0 = 2396 pts
+  KF  52 @ frame 2693: + 37 -  0 = 2433 pts
+  KF  53 @ frame 2694: +  5 -  0 = 2438 pts
+  KF  54 @ frame 2695: + 26 -  0 = 2464 pts
+  KF  55 @ frame 2697: +  0 -  0 = 2464 pts
+  KF  56 @ frame 2698: +  0 -  0 = 2464 pts
+  KF  57 @ frame 2699: + 17 -  0 = 2481 pts
+  KF  58 @ frame 2701: +  4 -  0 = 2485 pts
+  KF  59 @ frame 2702: +  9 -  0 = 2494 pts
+  KF  60 @ frame 2704: +  5 -  0 = 2499 pts
+  KF  61 @ frame 2708: +  1 -  0 = 2500 pts
+  KF  62 @ frame 3254: +  0 -  0 = 2500 pts
+  KF  63 @ frame 4429: +  0 -  0 = 2500 pts
+  KF  64 @ frame 5307: +  0 -  0 = 2500 pts
+  KF  65 @ frame 5308: +  0 -  0 = 2500 pts
+  KF  66 @ frame 5310: +  0 -  0 = 2500 pts
+  KF  67 @ frame 5313: +  2 -  0 = 2502 pts
+  KF  68 @ frame 5316: + 33 -  0 = 2535 pts
+  KF  69 @ frame 5317: + 44 -  0 = 2579 pts
+  KF  70 @ frame 5318: + 43 -  0 = 2622 pts
+  KF  71 @ frame 5319: + 12 -  0 = 2634 pts
+  KF  72 @ frame 5320: + 31 -  0 = 1294 pts
+  KF  73 @ frame 9138: +  0 -  0 = 1294 pts
+============================================================

@@ -1,0 +1,2 @@
+fydp_robot_description:orb_slam2_ros
+-DCATKIN_DEVEL_PREFIX=/home/maleeha/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/maleeha/catkin_ws/install -G Unix Makefiles

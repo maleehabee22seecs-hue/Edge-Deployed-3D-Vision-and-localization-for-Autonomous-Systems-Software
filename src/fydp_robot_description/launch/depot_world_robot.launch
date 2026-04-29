@@ -1,0 +1,30 @@
+<launch>
+  <!-- One-command launch: base world + fydp robot + Depot SDF environment -->
+  <arg name="world_name" default="$(find fydp_robot_description)/worlds/fydp.world"/>
+  <arg name="x" default="0.0"/>
+  <arg name="y" default="0.0"/>
+  <arg name="z" default="0.5"/>
+  <arg name="yaw" default="0.0"/>
+  <arg name="depot_model_file" default="$(env HOME)/.gazebo/models/Depot/model.sdf"/>
+
+  <!-- If your assets live elsewhere, override these at launch time -->
+  <arg name="custom_model_path" default="$(env HOME)/.gazebo/models"/>
+  <arg name="custom_resource_path" default="$(env HOME)/.gazebo/models"/>
+
+  <include file="$(find fydp_robot_description)/launch/spawn_robot.launch">
+    <arg name="world_name" value="$(arg world_name)"/>
+    <arg name="verbose" value="true"/>
+    <arg name="x" value="$(arg x)"/>
+    <arg name="y" value="$(arg y)"/>
+    <arg name="z" value="$(arg z)"/>
+    <arg name="yaw" value="$(arg yaw)"/>
+    <arg name="custom_model_path" value="$(arg custom_model_path)"/>
+    <arg name="custom_resource_path" value="$(arg custom_resource_path)"/>
+  </include>
+
+  <!-- Equivalent to:
+       rosrun gazebo_ros spawn_model -file ~/.gazebo/models/Depot/model.sdf -sdf -model depot_world -->
+  <node name="spawn_depot_world" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(arg depot_model_file) -sdf -model depot_world"
+        output="screen"/>
+</launch>

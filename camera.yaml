@@ -1,0 +1,12 @@
+camera_matrix:
+  data:
+    - [525.0, 0.0, 320.0]
+    - [0.0, 525.0, 240.0]
+    - [0.0, 0.0, 1.0]
+
+distortion_coefficients:
+  data: [0.0, 0.0, 0.0, 0.0, 0.0]
+
+image_width: 640
+image_height: 480
+fps: 10.0

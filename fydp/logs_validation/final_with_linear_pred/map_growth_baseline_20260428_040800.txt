@@ -1,0 +1,2 @@
+Tracking state: TrackingGood -> TrackingWeak @ frame 1 (no-features)
+Tracking state: TrackingWeak -> Relocalizing @ frame 2 (no-features)

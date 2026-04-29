@@ -1,0 +1,83 @@
+<launch>
+  <!-- Base world + robot spawn arguments -->
+  <arg name="world_name" default="$(find fydp_robot_description)/worlds/fydp.world"/>
+  <arg name="x" default="0.0"/>
+  <arg name="y" default="2.5"/>
+  <arg name="z" default="0.5"/>
+  <arg name="yaw" default="3.14159"/>
+  <arg name="depot_model_file" default="$(env HOME)//building_editor_models/walls/model.sdf"/>
+  <arg name="custom_model_path" default="$(env HOME)/.gazebo/models"/>
+  <arg name="custom_resource_path" default="$(env HOME)/.gazebo/models"/>
+  <!-- Wrapper toggles -->
+  <arg name="start_collect_wrapper" default="false"/>
+  <arg name="start_live_wrapper" default="false"/>
+
+  <!-- Shared wrapper paths -->
+  <arg name="fydp_root" default="$(env HOME)/catkin_ws/src/fydp"/>
+  <arg name="calib_file" default="$(arg fydp_root)/camera_intrinsics.yaml"/>
+
+  <!-- collect_init_data wrapper args -->
+  <arg name="collect_interval" default="0.5"/>
+
+  <!-- live_map_growth wrapper args -->
+  <arg name="live_map_file" default="$(env HOME)/catkin_ws/init_map_init_data_20260428_144446.npz"/>
+  <arg name="live_rate" default="6.0"/>
+  <arg name="live_teleop" default="true"/>
+  <arg name="live_full_fov" default="true"/>
+  <arg name="live_sports_mode" default="true"/>
+  <arg name="live_sports_max_exposure_us" default="14000"/>
+  <arg name="live_min_found_ratio" default="0.32"/>
+  <arg name="live_min_prune_age_keyframes" default="3"/>
+  <arg name="live_odom_prior_gating" default="true"/>
+  <arg name="live_odom_prior_max_translation_ratio" default="10"/>
+  <arg name="live_odom_prior_max_rotation_ratio" default="10"/>
+  <arg name="live_odom_pose_prediction" default="true"/>
+  <arg name="live_odom_delta_linear_scale" default="1.1"/>
+  <arg name="live_odom_delta_angular_scale" default="1.1"/>
+  <arg name="live_odom_pred_max_yaw_deg" default="25"/>
+  <arg name="live_log_dir" default="$(env HOME)/catkin_ws/fydp/logs_validation/final_with_linear_pred"/>
+  <arg name="live_enable_local_ba" default="true"/>
+  <arg name="live_linear_speed" default="3"/>
+  <arg name="live_angular_speed" default="3"/>
+  <arg name="live_save_map" default="$(env HOME)/catkin_ws/src/fydp/src/maps/hostel_room"/>
+  <arg name="live_enable_loop_closure" default="true"/>
+  <arg name="live_vocab_path" default="$(arg fydp_root)/orb_vocab.npy"/>
+
+  <include file="$(find fydp_robot_description)/launch/depot_world_robot.launch">
+    <arg name="world_name" value="$(arg world_name)"/>
+    <arg name="x" value="$(arg x)"/>
+    <arg name="y" value="$(arg y)"/>
+    <arg name="z" value="$(arg z)"/>
+    <arg name="yaw" value="$(arg yaw)"/>
+    <arg name="depot_model_file" value="$(arg depot_model_file)"/>
+    <arg name="custom_model_path" value="$(arg custom_model_path)"/>
+    <arg name="custom_resource_path" value="$(arg custom_resource_path)"/>
+  </include>
+
+  <node if="$(arg start_collect_wrapper)"
+        pkg="fydp_robot_description"
+        type="collect_init_data_wrapper.py"
+        name="collect_init_data_wrapper"
+        output="screen"
+        args="--calib-file $(arg calib_file) --interval $(arg collect_interval) "/>
+
+  <group if="$(arg start_live_wrapper)">
+    <node if="$(arg live_teleop)"
+          pkg="fydp_robot_description"
+          type="live_map_growth_wrapper.py"
+          name="live_map_growth_wrapper"
+          respawn="true"
+          respawn_delay="2.0"
+          output="screen"
+          args="--map $(arg live_map_file) --calib-file $(arg calib_file) --rate $(arg live_rate) --full-fov --teleop --sports-mode --sports-max-exposure-us $(arg live_sports_max_exposure_us) --min-found-ratio $(arg live_min_found_ratio) --min-prune-age-keyframes $(arg live_min_prune_age_keyframes) --odom-prior-gating --odom-prior-max-translation-ratio $(arg live_odom_prior_max_translation_ratio) --odom-prior-max-rotation-ratio $(arg live_odom_prior_max_rotation_ratio) --odom-pose-prediction --odom-delta-linear-scale $(arg live_odom_delta_linear_scale) --odom-delta-angular-scale $(arg live_odom_delta_angular_scale) --odom-pred-max-yaw-deg $(arg live_odom_pred_max_yaw_deg) --log-dir $(arg live_log_dir) --enable-local-ba --linear-speed $(arg live_linear_speed) --save-map $(arg live_save_map) --enable-loop-closure --vocab-path $(arg live_vocab_path) --angular-speed $(arg live_angular_speed) --enable-nav --nav-web-port 3313 --reloc-backtrack"/>
+
+    <node unless="$(arg live_teleop)"
+          pkg="fydp_robot_description"
+          type="live_map_growth_wrapper.py"
+          name="live_map_growth_wrapper"
+          respawn="true"
+          respawn_delay="2.0"
+          output="screen"
+          args="--map $(arg live_map_file) --calib-file $(arg calib_file) --rate $(arg live_rate) --full-fov --sports-mode --sports-max-exposure-us $(arg live_sports_max_exposure_us) --min-found-ratio $(arg live_min_found_ratio) --min-prune-age-keyframes $(arg live_min_prune_age_keyframes) --odom-prior-gating --odom-prior-max-translation-ratio $(arg live_odom_prior_max_translation_ratio) --odom-prior-max-rotation-ratio $(arg live_odom_prior_max_rotation_ratio) --odom-pose-prediction --odom-delta-linear-scale $(arg live_odom_delta_linear_scale) --odom-delta-angular-scale $(arg live_odom_delta_angular_scale) --odom-pred-max-yaw-deg $(arg live_odom_pred_max_yaw_deg) --log-dir $(arg live_log_dir) --enable-local-ba --linear-speed $(arg live_linear_speed) --save-map $(arg live_save_map) --enable-loop-closure --vocab-path $(arg live_vocab_path) --angular-speed $(arg live_angular_speed) --enable-nav --nav-web-port 3313 --reloc-backtrack"/>
+  </group>
+</launch>

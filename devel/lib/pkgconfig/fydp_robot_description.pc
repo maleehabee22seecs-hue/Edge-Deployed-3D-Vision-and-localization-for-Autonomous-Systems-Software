@@ -1,0 +1,8 @@
+prefix=/home/maleeha/catkin_ws/devel
+
+Name: fydp_robot_description
+Description: Description of fydp_robot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: cv_bridge gazebo_ros geometry_msgs nav_msgs roscpp rospy sensor_msgs urdf xacro

@@ -1,0 +1,15 @@
+timestamp: 2026-04-19T12:42:06.988500
+calib_file: /home/maleeha/catkin_ws/src/fydp/camera_intrinsics.yaml
+image_size: 639x479
+original_image_size: 640x480
+rotate_180: True
+full_fov: True
+undistort: True
+grayscale: True
+sports_mode: False
+sports_max_exposure_us: 8000
+sports_frame_duration_us: 10000
+auto_interval_sec: 0.4
+auto_enabled: True
+odom_linear_scale: 1.1
+odom_angular_scale: 1.1

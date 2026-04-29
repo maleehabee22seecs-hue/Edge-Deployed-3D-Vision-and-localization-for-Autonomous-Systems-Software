@@ -1,0 +1,46 @@
+Tracking state: TrackingGood -> TrackingWeak @ frame 1 (no-features)
+Tracking state: TrackingWeak -> Relocalizing @ frame 2 (no-features)
+
+============================================================
+BENCHMARK SUMMARY (PnP odom prediction)
+============================================================
+Duration:            46.4s
+Total frames:        266
+Tracked frames:      0
+Lost frames:         266
+Tracking rate:       0.0%
+Keyframes:           0
+Final map points:    0
+Total added:         0
+Total pruned:        0
+Rejected poses:      0
+LK frames:           0
+LK successes:        0
+ORB match frames:    0
+Fallback no-LK:      0
+Fallback low-tracks: 0
+Fallback LK-PnP:     0
+Mapping enqueued:    0
+Mapping dropped:     0
+Mapping completed:   0
+Odom-prior rejects:  0
+State final:         Relocalizing
+State transitions:   2
+State frames (G/W/R): 1/1/264
+
+PnP guess attempts:  0
+PnP guess successes: 0
+PnP guess fallbacks:  0
+Local BA attempts:   0
+Local BA successes:  0 (0.0%)
+Local BA applied:    0 (0.0%)
+Local BA skipped:    0
+Local BA avg time:   0.0 ms
+Weak mapping jobs:   0
+Prune skipped:       0
+ORB detect  (min/mean/max):  2.0/3.4/11.7 ms
+LK track    (min/mean/max):  0.0/0.0/0.0 ms
+Matching    (min/mean/max):  0.0/0.0/0.0 ms
+
+--- Keyframe Events ---
+============================================================

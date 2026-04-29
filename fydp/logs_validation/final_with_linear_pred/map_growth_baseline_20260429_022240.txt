@@ -1,0 +1,70 @@
+Frame    1 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=227.4ms match=1.4ms pnp=1.8ms total=234.5ms | map=105
+  >> KF 0 INIT | 105 seed points (37 matched)
+Frame    2 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=32.9ms match=1.7ms pnp=3.5ms total=44.6ms | map=105
+Frame    3 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=29.4ms match=2.1ms pnp=2.0ms total=36.7ms | map=105
+Frame    4 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=27.4ms match=1.4ms pnp=2.5ms total=35.2ms | map=105
+Frame    5 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=28.0ms match=1.2ms pnp=2.0ms total=34.8ms | map=105
+Frame    6 | matches= 36 inliers= 32 | src=orb | lk=0.0ms orb=27.8ms match=1.4ms pnp=2.3ms total=35.6ms | map=105
+Frame    7 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=28.9ms match=1.3ms pnp=2.2ms total=36.4ms | map=105
+Frame    8 | matches= 36 inliers= 32 | src=orb | lk=0.0ms orb=27.4ms match=1.4ms pnp=1.8ms total=33.9ms | map=105
+Frame    9 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=29.7ms match=1.3ms pnp=2.7ms total=37.3ms | map=105
+Frame   10 | matches= 36 inliers= 32 | src=orb | lk=0.0ms orb=27.0ms match=1.8ms pnp=2.2ms total=34.6ms | map=105
+Frame   11 | matches= 36 inliers= 32 | src=orb | lk=0.0ms orb=34.1ms match=1.4ms pnp=2.9ms total=44.9ms | map=105
+Frame   12 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=26.6ms match=1.0ms pnp=2.0ms total=34.1ms | map=105
+Frame   13 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=24.1ms match=1.5ms pnp=1.8ms total=31.0ms | map=105
+Frame   14 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=30.1ms match=1.4ms pnp=2.3ms total=38.8ms | map=105
+Frame   15 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=24.0ms match=1.3ms pnp=2.2ms total=30.6ms | map=105
+Frame   16 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=34.7ms match=1.6ms pnp=2.8ms total=43.0ms | map=105
+Frame   17 | matches= 37 inliers= 33 | src=orb | lk=0.0ms orb=56.0ms match=5.8ms pnp=3.8ms total=80.1ms | map=105
+
+============================================================
+BENCHMARK SUMMARY (PnP odom prediction)
+============================================================
+Duration:            2.9s
+Total frames:        17
+Tracked frames:      17
+Lost frames:         0
+Tracking rate:       100.0%
+Keyframes:           1
+Final map points:    105
+Total added:         0
+Total pruned:        0
+Rejected poses:      0
+LK frames:           0
+LK successes:        0
+ORB match frames:    17
+Fallback no-LK:      16
+Fallback low-tracks: 0
+Fallback LK-PnP:     0
+Mapping enqueued:    0
+Mapping dropped:     0
+Mapping completed:   0
+Odom-prior rejects:  0
+State final:         TrackingGood
+State transitions:   0
+State frames (G/W/R): 17/0/0
+
+PnP guess attempts:  16
+PnP guess successes: 16
+PnP guess fallbacks:  0
+Local BA attempts:   0
+Local BA successes:  0 (0.0%)
+Local BA applied:    0 (0.0%)
+Local BA skipped:    0
+Local BA avg time:   0.0 ms
+Weak mapping jobs:   0
+Prune skipped:       0
+Inliers (min/mean/max): 32/32.8/33
+Matches (min/mean/max): 36/36.8/37
+
+--- Timing (tracked frames only) ---
+Frame total (min/mean/max):  30.6/51.0/234.5 ms
+Effective FPS:               19.6
+ORB detect  (min/mean/max):  24.0/42.1/227.4 ms
+LK track    (min/mean/max):  0.0/0.0/0.0 ms
+Matching    (min/mean/max):  1.0/1.7/5.8 ms
+PnP solve   (min/mean/max):  1.8/2.4/3.8 ms
+
+--- Keyframe Events ---
+  KF   0 @ frame    1: +105 -  0 = 105 pts
+============================================================

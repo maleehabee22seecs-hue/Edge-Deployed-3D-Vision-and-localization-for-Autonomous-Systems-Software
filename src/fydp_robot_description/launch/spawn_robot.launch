@@ -1,0 +1,45 @@
+<launch>
+  <!-- Gazebo/world options -->
+  <arg name="world_name" default="$(find fydp_robot_description)/worlds/fydp.world"/>
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+  <arg name="verbose" default="false"/>
+  <!-- Gazebo model/resource search paths -->
+  <arg name="custom_model_path" default="$(env HOME)/.gazebo/models"/>
+  <arg name="custom_resource_path" default="$(env HOME)/.gazebo/models"/>
+
+  <!-- Robot spawn pose -->
+  <arg name="x" default="0.0"/>
+  <arg name="y" default="0.0"/>
+  <arg name="z" default="0.5"/>
+  <arg name="yaw" default="0.0"/>
+
+  <!-- Load robot into parameter server -->
+  <param name="robot_description"
+         command="$(find xacro)/xacro $(find fydp_robot_description)/urdf/fydp_robot.xacro"/>
+
+  <!-- Start Gazebo with explicit model/resource paths for custom assets -->
+  <group>
+    <env name="GAZEBO_MODEL_PATH" value="$(arg custom_model_path):$(optenv GAZEBO_MODEL_PATH)"/>
+    <env name="GAZEBO_RESOURCE_PATH" value="$(arg custom_resource_path):$(optenv GAZEBO_RESOURCE_PATH)"/>
+
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+      <arg name="world_name" value="$(arg world_name)"/>
+      <arg name="paused" value="$(arg paused)"/>
+      <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+      <arg name="gui" value="$(arg gui)"/>
+      <arg name="headless" value="$(arg headless)"/>
+      <arg name="debug" value="$(arg debug)"/>
+      <arg name="verbose" value="$(arg verbose)"/>
+    </include>
+  </group>
+
+  <!-- Spawn robot -->
+  <node name="spawn_model" pkg="gazebo_ros" type="spawn_model"
+        args="-param robot_description -urdf -model fydp_robot -x $(arg x) -y $(arg y) -z $(arg z) -Y $(arg yaw)"
+        output="screen"/>
+
+</launch>

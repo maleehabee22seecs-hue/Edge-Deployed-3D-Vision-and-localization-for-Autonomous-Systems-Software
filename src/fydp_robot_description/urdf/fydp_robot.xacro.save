@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<robot name="fydp_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ================= PARAMETERS ================= -->
+  <xacro:property name="L" value="0.30"/>
+  <xacro:property name="W" value="0.15"/>
+  <xacro:property name="H" value="0.04"/>
+
+  <xacro:property name="R" value="0.031"/>
+  <xacro:property name="T" value="0.02"/>
+
+  <xacro:property name="X" value="0.11"/>
+  <xacro:property name="Y" value="0.075"/>
+
+  <!-- ================= BASE ================= -->
+  <link name="base_link"/>
+
+  <!-- ================= CHASSIS (COLORED) ================= -->
+  <link name="chassis">
+    <visual>
+      <origin xyz="0 0 ${H/2}"/>
+      <geometry>
+        <box size="${L} ${W} ${H}"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.1 0.2 0.8 1"/>
+      </material>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 ${H/2}"/>
+      <geometry>
+        <box size="${L} ${W} ${H}"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="5"/>
+      <inertia ixx="0.1" iyy="0.1" izz="0.1"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="base_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis"/>
+  </joint>
+
+  <!-- ================= WHEEL MACRO ================= -->
+  <xacro:macro name="wheel" params="name x y">
+
+    <link name="${name}">
+      <visual>
+        <!-- KEY FIX: correct wheel orientation -->
+        <origin rpy="1.5708 0 0"/>
+        <geometry>
+          <cylinder radius="${R}" length="${T}"/>
+        </geometry>
+        <material name="black">
+          <color rgba="0.05 0.05 0.05 1"/>
+        </material>
+      </visual>
+
+      <collision>
+        <origin rpy="1.5708 0 0"/>
+        <geometry>
+          <cylinder radius="${R}" length="${T}"/>
+        </geometry>
+      </collision>
+
+      <inertial>
+        <mass value="0.5"/>
+        <inertia ixx="0.001" iyy="0.001" izz="0.001"
+                 ixy="0" ixz="0" iyz="0"/>
+      </inertial>
+    </link>
+
+    <joint name="${name}_joint" type="continuous">
+      <parent link="chassis"/>
+      <child link="${name}"/>
+      <origin xyz="${x} ${y} ${R}"/>
+      <axis xyz="0 1 0"/>
+    </joint>
+
+  </xacro:macro>
+
+  <!-- ================= 4 WHEELS ================= -->
+  <xacro:wheel name="front_left"  x="${X}"  y="${Y}"/>
+  <xacro:wheel name="front_right" x="${X}"  y="-${Y}"/>
+  <xacro:wheel name="rear_left"   x="-${X}" y="${Y}"/>
+  <xacro:wheel name="rear_right"  x="-${X}" y="-${Y}"/>
+
+  <!-- ================= CAMERA ================= -->
+  <link name="camera_link">
+    <visual>
+      <geometry>
+        <box size="0.05 0.05 0.05"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.3 0.3 0.3 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="camera_link"/>
+    <origin xyz="0.10 0 0.08"/>
+  </joint>
+
+  <!-- Gazebo Camera Sensor -->
+  <gazebo reference="camera_link">
+    <sensor type="camera" name="cam">
+      <update_rate>30</update_rate>
+      <camera>
+        <horizontal_fov>1.2</horizontal_fov>
+        <image>
+          <width>640</width>
+          <height>480</height>
+        </image>
+        <clip>
+          <near>0.1</near>
+          <far>100</far>
+        </clip>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>30.0</updateRate>
+        <cameraName>camera</cameraName>
+        <imageTopicName>image_raw</imageTopicName>
+        <frameName>camera_link</frameName>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <!-- ================= DIFFERENTIAL DRIVE ================= -->
+  <gazebo>
+    <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+
+      <leftJoint>front_left_joint</leftJoint>
+      <rightJoint>front_right_joint</rightJoint>
+
+      <wheelSeparation>0.15</wheelSeparation>
+      <wheelDiameter>0.062</wheelDiameter>
+
+      <commandTopic>cmd_vel</commandTopic>
+      <odometryTopic>odom</odometryTopic>
+      <odometryFrame>odom</odometryFrame>
+
+      <robotBaseFrame>chassis</robotBaseFrame>
+
+    </plugin>
+  </gazebo>
+
+</robot>
+anything else : stop
+
+q/z : increase/decrease max speeds by 10%
+w/x : increase/decrease only linear speed by 10%
+e/c : increase/decrease only angular speed by 10%
+
+CTRL-C to quit
+
+currently:	s

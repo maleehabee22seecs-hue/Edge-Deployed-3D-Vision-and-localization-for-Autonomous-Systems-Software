@@ -1,0 +1,1658 @@
+Frame    1 | matches= 59 inliers= 56 | src=orb | lk=0.0ms orb=156.0ms match=0.8ms pnp=0.4ms total=162.0ms | map=105
+  >> KF 0 INIT | 105 seed points (59 matched)
+Frame    2 | matches= 55 inliers= 53 | src=orb | lk=0.0ms orb=16.4ms match=1.0ms pnp=1.0ms total=21.7ms | map=105
+  >> KF 1 | added=81 | mapping=queued | map=186 | dt=0.110m dR=2.6deg
+Frame    3 | matches= 99 inliers= 88 | src=orb | lk=0.0ms orb=17.9ms match=7.0ms pnp=11.3ms total=61.8ms | map=186
+Frame    4 | matches= 88 inliers= 86 | src=lk  | lk=8.4ms orb=0.0ms match=0.0ms pnp=4.7ms total=38.3ms | map=186
+Frame    5 | matches= 86 inliers= 84 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=4.6ms total=38.3ms | map=186
+  >> KF 2 | added=65 | mapping=queued | map=251 | dt=0.100m dR=2.2deg
+Frame    6 | matches=164 inliers=152 | src=orb | lk=0.0ms orb=19.2ms match=2.2ms pnp=4.8ms total=64.7ms | map=251
+  >> PRUNE conservative mode | KF 1 | ratio-prune disabled (BA not applied); bad-point cleanup only
+Frame    7 | matches=152 inliers=147 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.5ms total=6.2ms | map=251
+  >> MAP async | KF 1 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=251 | BA 818.9ms RMSE 0.47->0.12 applied=False
+  >> PRUNE conservative mode | KF 2 | ratio-prune disabled (BA not applied); bad-point cleanup only
+Frame    8 | matches=166 inliers=154 | src=orb | lk=0.0ms orb=17.8ms match=1.8ms pnp=1.3ms total=37.6ms | map=251
+  >> MAP async | KF 2 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=251 | BA 100.7ms RMSE 0.70->0.69 applied=False
+Frame    9 | matches=166 inliers=154 | src=orb | lk=0.0ms orb=13.7ms match=1.4ms pnp=1.0ms total=18.0ms | map=251
+Frame   10 | matches=154 inliers=144 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=251
+Frame   11 | matches=144 inliers=137 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.5ms | map=251
+Frame   12 | matches=137 inliers=135 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=251
+Frame   13 | matches=135 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.3ms | map=251
+Frame   14 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.9ms | map=251
+Frame   15 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=251
+Frame   16 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.6ms | map=251
+Frame   17 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=251
+Frame   18 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.5ms | map=251
+Frame   19 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=251
+Frame   20 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.8ms | map=251
+Frame   21 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=251
+Frame   22 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=251
+Frame   23 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.4ms | map=251
+Frame   24 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=251
+Frame   25 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=251
+Frame   26 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.9ms | map=251
+Frame   27 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.3ms | map=251
+Frame   28 | matches=127 inliers=127 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.9ms | map=251
+Frame   29 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.7ms | map=251
+Frame   30 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=251
+Frame   31 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.7ms | map=251
+Frame   32 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.4ms | map=251
+Frame   33 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.2ms | map=251
+Frame   34 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=251
+Frame   35 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=251
+Frame   36 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.2ms | map=251
+Frame   37 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.3ms | map=251
+Frame   38 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.7ms | map=251
+Frame   39 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.5ms | map=251
+Frame   40 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.0ms | map=251
+Frame   41 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=251
+Frame   42 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.3ms | map=251
+Frame   43 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=251
+Frame   44 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.9ms | map=251
+Frame   45 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=251
+Frame   46 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.2ms | map=251
+Frame   47 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.7ms | map=251
+Frame   48 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.7ms | map=251
+Frame   49 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.8ms | map=251
+Frame   50 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=251
+Frame   51 | matches=127 inliers=127 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.5ms total=4.0ms | map=251
+Frame   52 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.3ms | map=251
+Frame   53 | matches=127 inliers=127 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.5ms | map=251
+Frame   54 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.4ms total=3.1ms | map=251
+Frame   55 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.6ms | map=251
+Frame   56 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.8ms | map=251
+Frame   57 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.0ms | map=251
+Frame   58 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.5ms total=4.1ms | map=251
+Frame   59 | matches=127 inliers=127 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.4ms | map=251
+Frame   60 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.2ms | map=251
+Frame   61 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=251
+Frame   62 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.2ms | map=251
+Frame   63 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.2ms | map=251
+Frame   64 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.6ms | map=251
+Frame   65 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.3ms total=5.2ms | map=251
+Frame   66 | matches=127 inliers=127 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=1.4ms total=8.9ms | map=251
+Frame   67 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.0ms | map=251
+Frame   68 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.4ms | map=251
+Frame   69 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.3ms | map=251
+Frame   70 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.7ms | map=251
+Frame   71 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.1ms | map=251
+Frame   72 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=251
+Frame   73 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.3ms | map=251
+Frame   74 | matches=127 inliers=127 | src=lk  | lk=7.3ms orb=0.0ms match=0.0ms pnp=1.1ms total=19.3ms | map=251
+Frame   75 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.5ms | map=251
+Frame   76 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.7ms | map=251
+Frame   77 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.9ms | map=251
+Frame   78 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=251
+Frame   79 | matches=127 inliers=127 | src=lk  | lk=2.8ms orb=0.0ms match=0.0ms pnp=1.5ms total=9.8ms | map=251
+Frame   80 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.0ms | map=251
+Frame   81 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.9ms | map=251
+Frame   82 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.7ms | map=251
+Frame   83 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.4ms | map=251
+Frame   84 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.9ms | map=251
+Frame   85 | matches=127 inliers=127 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.9ms | map=251
+Frame   86 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.5ms | map=251
+Frame   87 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.4ms | map=251
+Frame   88 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=251
+Frame   89 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.8ms | map=251
+Frame   90 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.2ms | map=251
+Frame   91 | matches=127 inliers=127 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.1ms | map=251
+Frame   92 | matches=127 inliers=127 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.2ms total=6.3ms | map=251
+Frame   93 | matches=127 inliers=127 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.2ms | map=251
+Frame   94 | matches=127 inliers=127 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=1.8ms total=10.1ms | map=251
+Frame   95 | matches=127 inliers=127 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.0ms | map=251
+Frame   96 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=251
+Frame   97 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.0ms | map=251
+Frame   98 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.0ms | map=251
+Frame   99 | matches=127 inliers=127 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.6ms total=6.5ms | map=251
+Frame  100 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.7ms | map=251
+Frame  101 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.4ms | map=251
+Frame  102 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=251
+Frame  103 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=251
+Frame  104 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.5ms total=5.2ms | map=251
+Frame  105 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.6ms | map=251
+Frame  106 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=251
+Frame  107 | matches=127 inliers=127 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.2ms | map=251
+Frame  108 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.0ms | map=251
+Frame  109 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.2ms | map=251
+Frame  110 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=6.4ms | map=251
+Frame  111 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.2ms | map=251
+Frame  112 | matches=127 inliers=127 | src=lk  | lk=4.4ms orb=0.0ms match=0.0ms pnp=2.3ms total=15.3ms | map=251
+Frame  113 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.3ms | map=251
+Frame  114 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=251
+Frame  115 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=251
+Frame  116 | matches=127 inliers=127 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.1ms total=8.5ms | map=251
+Frame  117 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.0ms | map=251
+Frame  118 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.2ms | map=251
+Frame  119 | matches=127 inliers=127 | src=lk  | lk=3.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=7.8ms | map=251
+Frame  120 | matches=127 inliers=127 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.5ms | map=251
+Frame  121 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.7ms | map=251
+Frame  122 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.1ms total=7.5ms | map=251
+Frame  123 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.5ms | map=251
+Frame  124 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=251
+Frame  125 | matches=127 inliers=127 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.9ms total=8.4ms | map=251
+Frame  126 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=251
+Frame  127 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.2ms | map=251
+Frame  128 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=251
+Frame  129 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.0ms | map=251
+Frame  130 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=251
+Frame  131 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=251
+Frame  132 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.1ms | map=251
+Frame  133 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=251
+Frame  134 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.5ms | map=251
+Frame  135 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.2ms | map=251
+Frame  136 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.1ms | map=251
+Frame  137 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.2ms | map=251
+Frame  138 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=251
+Frame  139 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=251
+Frame  140 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.8ms | map=251
+Frame  141 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=251
+Frame  142 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.3ms | map=251
+Frame  143 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=251
+Frame  144 | matches=127 inliers=127 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.6ms | map=251
+Frame  145 | matches=127 inliers=127 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.7ms | map=251
+Frame  146 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.6ms | map=251
+Frame  147 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.7ms | map=251
+Frame  148 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.2ms | map=251
+Frame  149 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.7ms | map=251
+Frame  150 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=251
+Frame  151 | matches=127 inliers=127 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.9ms | map=251
+Frame  152 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=251
+Frame  153 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.3ms | map=251
+Frame  154 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.5ms total=4.0ms | map=251
+Frame  155 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.3ms | map=251
+Frame  156 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=251
+Frame  157 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=2.9ms | map=251
+Frame  158 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.5ms | map=251
+Frame  159 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=251
+Frame  160 | matches=127 inliers=127 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.2ms | map=251
+Frame  161 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=251
+Frame  162 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.5ms | map=251
+Frame  163 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.9ms | map=251
+Frame  164 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=251
+Frame  165 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.1ms | map=251
+Frame  166 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.0ms | map=251
+Frame  167 | matches=127 inliers=127 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=1.0ms total=11.7ms | map=251
+Frame  168 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.4ms | map=251
+Frame  169 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.4ms | map=251
+Frame  170 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.9ms | map=251
+Frame  171 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.2ms | map=251
+Frame  172 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.6ms | map=251
+Frame  173 | matches=127 inliers=127 | src=lk  | lk=3.0ms orb=0.0ms match=0.0ms pnp=1.4ms total=13.3ms | map=251
+Frame  174 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.4ms | map=251
+Frame  175 | matches=127 inliers=127 | src=lk  | lk=2.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=6.3ms | map=251
+Frame  176 | matches=127 inliers=127 | src=lk  | lk=2.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=10.0ms | map=251
+Frame  177 | matches=127 inliers=127 | src=lk  | lk=3.8ms orb=0.0ms match=0.0ms pnp=3.2ms total=16.0ms | map=251
+Frame  178 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.3ms | map=251
+Frame  179 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.2ms | map=251
+Frame  180 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.7ms | map=251
+Frame  181 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.1ms | map=251
+Frame  182 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.2ms | map=251
+Frame  183 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=251
+Frame  184 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.6ms | map=251
+Frame  185 | matches=127 inliers=127 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.4ms total=3.4ms | map=251
+Frame  186 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.7ms | map=251
+Frame  187 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.0ms | map=251
+Frame  188 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.5ms | map=251
+Frame  189 | matches=127 inliers=127 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.7ms total=6.0ms | map=251
+Frame  190 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.5ms | map=251
+Frame  191 | matches=127 inliers=127 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.9ms | map=251
+Frame  192 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.0ms | map=251
+Frame  193 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.4ms | map=251
+Frame  194 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.5ms | map=251
+Frame  195 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=251
+Frame  196 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.9ms | map=251
+Frame  197 | matches=127 inliers=127 | src=lk  | lk=0.6ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=251
+Frame  198 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.3ms | map=251
+Frame  199 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=251
+Frame  200 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.5ms total=4.8ms | map=251
+Frame  201 | matches=127 inliers=127 | src=lk  | lk=3.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=9.8ms | map=251
+Frame  202 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=6.0ms | map=251
+Frame  203 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.1ms | map=251
+Frame  204 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.7ms | map=251
+Frame  205 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.7ms total=6.0ms | map=251
+Frame  206 | matches=127 inliers=127 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.0ms | map=251
+Frame  207 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.6ms | map=251
+Frame  208 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.7ms | map=251
+Frame  209 | matches=127 inliers=127 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.6ms | map=251
+Frame  210 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.5ms total=4.5ms | map=251
+Frame  211 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.4ms total=4.1ms | map=251
+Frame  212 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=251
+Frame  213 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.3ms | map=251
+Frame  214 | matches=127 inliers=127 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.5ms | map=251
+Frame  215 | matches=127 inliers=127 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.2ms | map=251
+Frame  216 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=251
+Frame  217 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.8ms | map=251
+Frame  218 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=251
+Frame  219 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.5ms total=4.0ms | map=251
+Frame  220 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.4ms total=2.9ms | map=251
+Frame  221 | matches=127 inliers=127 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.0ms | map=251
+Frame  222 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.0ms | map=251
+Frame  223 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=251
+Frame  224 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.8ms | map=251
+Frame  225 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.3ms | map=251
+Frame  226 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=251
+Frame  227 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.6ms | map=251
+Frame  228 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.4ms | map=251
+Frame  229 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.3ms | map=251
+Frame  230 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.4ms | map=251
+Frame  231 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.7ms | map=251
+Frame  232 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=251
+Frame  233 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.2ms | map=251
+Frame  234 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.9ms | map=251
+Frame  235 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.0ms | map=251
+Frame  236 | matches=127 inliers=127 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.0ms | map=251
+Frame  237 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=251
+Frame  238 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=251
+Frame  239 | matches=127 inliers=127 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.3ms | map=251
+Frame  240 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.4ms | map=251
+Frame  241 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.5ms | map=251
+Frame  242 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=251
+Frame  243 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.0ms | map=251
+Frame  244 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.3ms | map=251
+Frame  245 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=251
+Frame  246 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.8ms | map=251
+Frame  247 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=251
+Frame  248 | matches=127 inliers=127 | src=lk  | lk=3.8ms orb=0.0ms match=0.0ms pnp=2.8ms total=13.5ms | map=251
+Frame  249 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.3ms | map=251
+Frame  250 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=251
+Frame  251 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.8ms | map=251
+Frame  252 | matches=127 inliers=127 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.9ms | map=251
+Frame  253 | matches=127 inliers=127 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.8ms | map=251
+Frame  254 | matches=127 inliers=127 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.7ms | map=251
+Frame  255 | matches=127 inliers=127 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.2ms | map=251
+Frame  256 | matches=127 inliers=127 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.0ms | map=251
+Frame  257 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.0ms | map=251
+Frame  258 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=251
+Frame  259 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=251
+Frame  260 | matches=127 inliers=127 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.9ms | map=251
+Frame  261 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.2ms | map=251
+Frame  262 | matches=127 inliers=127 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.2ms total=11.7ms | map=251
+Frame  263 | matches=127 inliers=127 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.5ms | map=251
+Frame  264 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=251
+Frame  265 | matches=127 inliers=127 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.0ms total=7.8ms | map=251
+[NAV] State:DRIVE         | D:0.49m | Pos:(-0.05,0.27) | Cmd: V=3,W=1
+Frame  266 | matches=127 inliers=127 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.6ms | map=251
+[NAV] State:DRIVE         | D:0.48m | Pos:(-0.04,0.29) | Cmd: V=3,W=1
+Frame  267 | matches=127 inliers=127 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.2ms | map=251
+[NAV] State:DRIVE         | D:0.44m | Pos:(-0.04,0.33) | Cmd: V=3,W=1
+Frame  268 | matches=127 inliers=123 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.3ms total=11.0ms | map=251
+[NAV] State:DRIVE         | D:0.42m | Pos:(-0.03,0.35) | Cmd: V=3,W=1
+Frame  269 | matches=123 inliers=116 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.4ms | map=251
+[NAV] State:DRIVE         | D:0.40m | Pos:(-0.03,0.37) | Cmd: V=3,W=1
+Frame  270 | matches=116 inliers=107 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=1.3ms total=6.3ms | map=251
+  >> KF 3 | added=209 | mapping=queued | map=460 | dt=0.109m dR=0.7deg
+[NAV] State:DRIVE         | D:0.35m | Pos:(-0.04,0.42) | Cmd: V=1,W=2
+Frame  271 | matches=242 inliers=207 | src=orb | lk=0.0ms orb=16.6ms match=4.7ms pnp=2.3ms total=39.9ms | map=460
+  >> MAP async | KF 3 | quality=good[ok] | pruned=0 | map=460 | BA 170.2ms RMSE 2.67->1.61 applied=True
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.04,0.44) | Cmd: V=1,W=2
+Frame  272 | matches=198 inliers=160 | src=orb | lk=0.0ms orb=12.6ms match=2.4ms pnp=1.8ms total=19.5ms | map=460
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.05,0.44) | Cmd: V=1,W=1
+Frame  273 | matches=160 inliers=150 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.0ms | map=460
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.05,0.45) | Cmd: V=1,W=1
+Frame  274 | matches=150 inliers=149 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=460
+[NAV] State:DRIVE         | D:0.30m | Pos:(-0.05,0.47) | Cmd: V=1,W=1
+Frame  275 | matches=149 inliers=149 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=460
+  >> KF 4 | added=234 | mapping=queued | map=694 | dt=0.101m dR=1.8deg
+[NAV] State:DRIVE         | D:0.30m | Pos:(-0.04,0.47) | Cmd: V=1,W=0
+Frame  276 | matches=336 inliers=295 | src=orb | lk=0.0ms orb=19.8ms match=5.2ms pnp=3.7ms total=84.9ms | map=694
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.04,0.48) | Cmd: V=1,W=0
+Frame  277 | matches=295 inliers=292 | src=lk  | lk=2.8ms orb=0.0ms match=0.0ms pnp=1.0ms total=10.4ms | map=694
+  >> MAP async | KF 4 | quality=good[ok] | pruned=57 | map=637 | BA 195.5ms RMSE 10.68->9.18 applied=True
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.05,0.50) | Cmd: V=1,W=0
+Frame  278 | matches=306 inliers=264 | src=orb | lk=0.0ms orb=20.0ms match=3.9ms pnp=1.3ms total=29.3ms | map=637
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.05,0.52) | Cmd: V=1,W=0
+Frame  279 | matches=264 inliers=242 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.8ms | map=637
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.05,0.54) | Cmd: V=1,W=0
+Frame  280 | matches=242 inliers=239 | src=lk  | lk=8.2ms orb=0.0ms match=0.0ms pnp=2.6ms total=21.6ms | map=637
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.05,0.55) | Cmd: V=1,W=0
+Frame  281 | matches=239 inliers=233 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=637
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.05,0.56) | Cmd: V=1,W=0
+Frame  282 | matches=233 inliers=231 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=637
+  >> KF 5 | added=179 | mapping=queued | map=816 | dt=0.101m dR=0.3deg
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.05,0.56) | Cmd: V=1,W=0
+Frame  283 | matches=367 inliers=309 | src=orb | lk=0.0ms orb=18.0ms match=3.7ms pnp=5.7ms total=71.5ms | map=816
+[NAV] State:DRIVE         | D:0.19m | Pos:(-0.05,0.58) | Cmd: V=1,W=0
+Frame  284 | matches=309 inliers=297 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=2.9ms total=60.7ms | map=816
+  >> PRUNE conservative mode | KF 5 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.05,0.60) | Cmd: V=1,W=0
+Frame  285 | matches=297 inliers=291 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.6ms | map=816
+  >> MAP async | KF 5 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=816 | BA 375.8ms RMSE 17.85->6.82 applied=False
+[NAV] State:DRIVE         | D:0.16m | Pos:(-0.05,0.62) | Cmd: V=1,W=0
+Frame  286 | matches=308 inliers=244 | src=orb | lk=0.0ms orb=12.0ms match=3.9ms pnp=1.8ms total=20.1ms | map=816
+[NAV] DONE | D:0.15m | Pos:(-0.05,0.63)
+Frame  287 | matches=244 inliers=240 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.64)
+Frame  288 | matches=240 inliers=236 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.1ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.64)
+Frame  289 | matches=236 inliers=235 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.7ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.64)
+Frame  290 | matches=235 inliers=231 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.8ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.64)
+Frame  291 | matches=231 inliers=224 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.64)
+Frame  292 | matches=224 inliers=217 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.7ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.65)
+Frame  293 | matches=217 inliers=207 | src=lk  | lk=3.9ms orb=0.0ms match=0.0ms pnp=1.4ms total=10.5ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.65)
+Frame  294 | matches=207 inliers=206 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  295 | matches=206 inliers=183 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.6ms total=6.7ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  296 | matches=183 inliers=183 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.0ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  297 | matches=183 inliers=183 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.4ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  298 | matches=183 inliers=183 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=4.1ms total=8.0ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  299 | matches=183 inliers=183 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.1ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  300 | matches=183 inliers=183 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  301 | matches=183 inliers=183 | src=lk  | lk=0.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.5ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  302 | matches=183 inliers=183 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.4ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  303 | matches=183 inliers=183 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  304 | matches=183 inliers=183 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=4.7ms total=9.1ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  305 | matches=183 inliers=183 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.1ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  306 | matches=183 inliers=183 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  307 | matches=183 inliers=183 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=3.6ms total=7.1ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  308 | matches=183 inliers=183 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.8ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  309 | matches=183 inliers=183 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.1ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  310 | matches=183 inliers=183 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.7ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  311 | matches=183 inliers=183 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  312 | matches=183 inliers=183 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.5ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  313 | matches=183 inliers=183 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.1ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  314 | matches=183 inliers=183 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  315 | matches=183 inliers=183 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.1ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  316 | matches=183 inliers=183 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  317 | matches=183 inliers=183 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  318 | matches=183 inliers=183 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.0ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  319 | matches=183 inliers=183 | src=lk  | lk=3.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=17.5ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  320 | matches=183 inliers=183 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.9ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  321 | matches=183 inliers=183 | src=lk  | lk=9.5ms orb=0.0ms match=0.0ms pnp=2.8ms total=22.3ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  322 | matches=183 inliers=183 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.6ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  323 | matches=183 inliers=183 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.3ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  324 | matches=183 inliers=183 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.9ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  325 | matches=183 inliers=183 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.4ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  326 | matches=183 inliers=183 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.9ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  327 | matches=183 inliers=183 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  328 | matches=183 inliers=183 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.3ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  329 | matches=183 inliers=183 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.0ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  330 | matches=183 inliers=183 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.0ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  331 | matches=183 inliers=183 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.2ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  332 | matches=183 inliers=183 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.4ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  333 | matches=183 inliers=183 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.5ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  334 | matches=183 inliers=183 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.3ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  335 | matches=183 inliers=183 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  336 | matches=183 inliers=183 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  337 | matches=183 inliers=183 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.7ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  338 | matches=183 inliers=183 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  339 | matches=183 inliers=183 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.4ms | map=816
+[NAV] DONE | D:0.05m | Pos:(-0.05,0.63)
+Frame  340 | matches=183 inliers=183 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.0ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  341 | matches=183 inliers=183 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  342 | matches=183 inliers=183 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  343 | matches=183 inliers=183 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  344 | matches=183 inliers=183 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.9ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  345 | matches=183 inliers=183 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.5ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  346 | matches=183 inliers=183 | src=lk  | lk=5.4ms orb=0.0ms match=0.0ms pnp=2.1ms total=25.8ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  347 | matches=183 inliers=183 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.5ms total=4.1ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  348 | matches=183 inliers=183 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.3ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  349 | matches=183 inliers=183 | src=lk  | lk=5.1ms orb=0.0ms match=0.0ms pnp=1.7ms total=31.3ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  350 | matches=183 inliers=183 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.0ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  351 | matches=183 inliers=183 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.1ms total=7.6ms | map=816
+[NAV] DONE | D:0.00m | Pos:(-0.05,0.63)
+Frame  352 | matches=183 inliers=183 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=816
+[NAV] State:TURN_TO_FACE  | D:0.60m | Pos:(-0.05,0.63) | Cmd: V=0,W=3
+Frame  353 | matches=183 inliers=183 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.4ms | map=816
+[NAV] State:TURN_TO_FACE  | D:0.60m | Pos:(-0.05,0.62) | Cmd: V=0,W=3
+Frame  354 | matches=183 inliers=183 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=816
+[NAV] State:TURN_TO_FACE  | D:0.61m | Pos:(-0.05,0.62) | Cmd: V=0,W=3
+Frame  355 | matches=183 inliers=183 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=816
+[NAV] State:TURN_TO_FACE  | D:0.61m | Pos:(-0.05,0.62) | Cmd: V=0,W=3
+Frame  356 | matches=183 inliers=183 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.7ms | map=816
+[NAV] State:TURN_TO_FACE  | D:0.61m | Pos:(-0.05,0.61) | Cmd: V=0,W=3
+Frame  357 | matches=183 inliers=183 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.4ms | map=816
+[NAV] State:TURN_TO_FACE  | D:0.62m | Pos:(-0.05,0.61) | Cmd: V=0,W=3
+Frame  358 | matches=183 inliers=183 | src=lk  | lk=4.5ms orb=0.0ms match=0.0ms pnp=1.8ms total=16.5ms | map=816
+[NAV] State:DRIVE         | D:0.62m | Pos:(-0.05,0.61) | Cmd: V=3,W=1
+Frame  359 | matches=183 inliers=183 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.2ms | map=816
+[NAV] State:DRIVE         | D:0.59m | Pos:(-0.05,0.63) | Cmd: V=3,W=1
+Frame  360 | matches=183 inliers=183 | src=lk  | lk=2.6ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.4ms | map=816
+[NAV] State:DRIVE         | D:0.56m | Pos:(-0.05,0.67) | Cmd: V=3,W=1
+Frame  361 | matches=183 inliers=181 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.9ms | map=816
+  >> KF 6 | added=192 | mapping=queued | map=1008 | dt=0.110m dR=0.5deg
+[NAV] State:DRIVE         | D:0.52m | Pos:(-0.05,0.71) | Cmd: V=3,W=1
+Frame  362 | matches=384 inliers=306 | src=orb | lk=0.0ms orb=13.9ms match=4.0ms pnp=2.4ms total=67.8ms | map=1008
+[NAV] State:DRIVE         | D:0.48m | Pos:(-0.05,0.74) | Cmd: V=3,W=1
+Frame  363 | matches=306 inliers=287 | src=lk  | lk=3.2ms orb=0.0ms match=0.0ms pnp=5.8ms total=65.2ms | map=1008
+  >> PRUNE conservative mode | KF 6 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.44m | Pos:(-0.06,0.79) | Cmd: V=3,W=1
+  >> MAP async | KF 6 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=1008 | BA 368.1ms RMSE 29.29->8.90 applied=False
+Frame  364 | matches=287 inliers=269 | src=lk  | lk=3.0ms orb=0.0ms match=0.0ms pnp=6.8ms total=12.6ms | map=1008
+  >> KF 7 | added=149 | mapping=queued | map=1157 | dt=0.117m dR=0.2deg
+[NAV] State:DRIVE         | D:0.42m | Pos:(-0.06,0.81) | Cmd: V=3,W=1
+Frame  365 | matches=394 inliers=287 | src=orb | lk=0.0ms orb=21.6ms match=7.2ms pnp=9.5ms total=83.3ms | map=1157
+[NAV] State:DRIVE         | D:0.37m | Pos:(-0.06,0.86) | Cmd: V=1,W=2
+Frame  366 | matches=287 inliers=266 | src=lk  | lk=4.3ms orb=0.0ms match=0.0ms pnp=2.8ms total=49.7ms | map=1157
+  >> PRUNE conservative mode | KF 7 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.06,0.87) | Cmd: V=1,W=2
+Frame  367 | matches=266 inliers=249 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=1.4ms total=6.1ms | map=1157
+  >> MAP async | KF 7 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=1157 | BA 383.7ms RMSE 98.43->35.95 applied=False
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.07,0.90) | Cmd: V=1,W=2
+Frame  368 | matches=312 inliers=215 | src=orb | lk=0.0ms orb=27.3ms match=4.5ms pnp=2.6ms total=41.0ms | map=1157
+  >> KF 8 | added=186 | mapping=queued | map=1343 | dt=0.117m dR=0.4deg
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.07,0.91) | Cmd: V=1,W=2
+Frame  369 | matches=425 inliers=305 | src=orb | lk=0.0ms orb=14.6ms match=9.7ms pnp=9.3ms total=80.0ms | map=1343
+[NAV] State:DRIVE         | D:0.30m | Pos:(-0.07,0.93) | Cmd: V=1,W=0
+Frame  370 | matches=305 inliers=282 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.9ms total=46.7ms | map=1343
+  >> PRUNE conservative mode | KF 8 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.07,0.94) | Cmd: V=1,W=0
+Frame  371 | matches=282 inliers=266 | src=lk  | lk=8.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=14.0ms | map=1343
+  >> MAP async | KF 8 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=1343 | BA 347.9ms RMSE 404.99->41.14 applied=False
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.07,0.96) | Cmd: V=1,W=0
+Frame  372 | matches=387 inliers=242 | src=orb | lk=0.0ms orb=11.5ms match=4.6ms pnp=4.1ms total=23.6ms | map=1343
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.07,0.98) | Cmd: V=1,W=0
+Frame  373 | matches=242 inliers=228 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.8ms | map=1343
+[NAV] State:DRIVE         | D:0.24m | Pos:(-0.07,0.99) | Cmd: V=1,W=0
+Frame  374 | matches=228 inliers=219 | src=lk  | lk=4.8ms orb=0.0ms match=0.0ms pnp=2.0ms total=15.7ms | map=1343
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.07,1.01) | Cmd: V=1,W=0
+Frame  375 | matches=219 inliers=209 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=7.0ms | map=1343
+  >> KF 9 | added=133 | mapping=queued | map=1476 | dt=0.105m dR=1.4deg
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.07,1.01) | Cmd: V=1,W=0
+Frame  376 | matches=428 inliers=292 | src=orb | lk=0.0ms orb=12.0ms match=7.1ms pnp=10.8ms total=72.9ms | map=1476
+  >> PRUNE conservative mode | KF 9 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.20m | Pos:(-0.07,1.03) | Cmd: V=1,W=0
+Frame  377 | matches=292 inliers=276 | src=lk  | lk=4.5ms orb=0.0ms match=0.0ms pnp=0.9ms total=42.3ms | map=1476
+  >> MAP async | KF 9 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=1476 | BA 299.8ms RMSE 404.82->49.25 applied=False
+[NAV] State:DRIVE         | D:0.20m | Pos:(-0.08,1.03) | Cmd: V=1,W=0
+Frame  378 | matches=407 inliers=257 | src=orb | lk=0.0ms orb=10.6ms match=5.5ms pnp=4.4ms total=23.1ms | map=1476
+[NAV] State:DRIVE         | D:0.19m | Pos:(-0.07,1.05) | Cmd: V=1,W=0
+Frame  379 | matches=257 inliers=246 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.8ms | map=1476
+[NAV] State:DRIVE         | D:0.17m | Pos:(-0.08,1.06) | Cmd: V=1,W=0
+Frame  380 | matches=246 inliers=229 | src=lk  | lk=6.3ms orb=0.0ms match=0.0ms pnp=4.3ms total=23.8ms | map=1476
+[NAV] State:DRIVE         | D:0.16m | Pos:(-0.08,1.07) | Cmd: V=1,W=0
+Frame  381 | matches=229 inliers=218 | src=lk  | lk=2.7ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.8ms | map=1476
+[NAV] State:DRIVE         | D:0.15m | Pos:(-0.07,1.09) | Cmd: V=1,W=0
+Frame  382 | matches=218 inliers=210 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.2ms | map=1476
+[NAV] DONE | D:0.14m | Pos:(-0.08,1.10)
+Frame  383 | matches=210 inliers=208 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.2ms total=6.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.08,1.10)
+Frame  384 | matches=208 inliers=200 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.9ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  385 | matches=200 inliers=191 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.1ms total=7.0ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  386 | matches=191 inliers=190 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.3ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  387 | matches=190 inliers=188 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.6ms total=5.3ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  388 | matches=188 inliers=184 | src=lk  | lk=4.5ms orb=0.0ms match=0.0ms pnp=1.5ms total=15.4ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  389 | matches=184 inliers=180 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.4ms total=4.8ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  390 | matches=180 inliers=178 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.0ms total=8.3ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  391 | matches=178 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.3ms total=5.3ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  392 | matches=178 inliers=178 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.4ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  393 | matches=178 inliers=178 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.4ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  394 | matches=178 inliers=178 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.4ms total=5.6ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  395 | matches=178 inliers=178 | src=lk  | lk=4.6ms orb=0.0ms match=0.0ms pnp=4.0ms total=15.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  396 | matches=178 inliers=178 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=2.4ms total=7.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  397 | matches=178 inliers=178 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.4ms total=5.8ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  398 | matches=178 inliers=178 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.1ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  399 | matches=178 inliers=178 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.5ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  400 | matches=178 inliers=178 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  401 | matches=178 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.5ms total=5.5ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  402 | matches=178 inliers=178 | src=lk  | lk=2.9ms orb=0.0ms match=0.0ms pnp=2.2ms total=14.4ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  403 | matches=178 inliers=178 | src=lk  | lk=4.0ms orb=0.0ms match=0.0ms pnp=2.4ms total=16.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  404 | matches=178 inliers=178 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.7ms total=6.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  405 | matches=178 inliers=178 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.4ms total=6.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  406 | matches=178 inliers=178 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.1ms total=7.6ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  407 | matches=178 inliers=178 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.5ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  408 | matches=178 inliers=178 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.1ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  409 | matches=178 inliers=178 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.1ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  410 | matches=178 inliers=178 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.8ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  411 | matches=178 inliers=178 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.7ms total=6.9ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  412 | matches=178 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.6ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  413 | matches=178 inliers=178 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.9ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  414 | matches=178 inliers=178 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.6ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  415 | matches=178 inliers=178 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=7.8ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  416 | matches=178 inliers=178 | src=lk  | lk=3.8ms orb=0.0ms match=0.0ms pnp=2.4ms total=12.1ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  417 | matches=178 inliers=178 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.3ms total=7.5ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  418 | matches=178 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.8ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  419 | matches=178 inliers=178 | src=lk  | lk=2.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=7.1ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  420 | matches=178 inliers=178 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.8ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  421 | matches=178 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=2.2ms total=6.6ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  422 | matches=178 inliers=178 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=1.8ms total=7.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  423 | matches=178 inliers=178 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  424 | matches=178 inliers=178 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  425 | matches=178 inliers=178 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.8ms total=6.9ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  426 | matches=178 inliers=178 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.6ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  427 | matches=178 inliers=178 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.3ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  428 | matches=178 inliers=178 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.3ms total=6.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  429 | matches=178 inliers=178 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=12.0ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  430 | matches=178 inliers=178 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  431 | matches=178 inliers=178 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  432 | matches=178 inliers=178 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=2.1ms total=5.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  433 | matches=178 inliers=178 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.3ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  434 | matches=178 inliers=178 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.9ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  435 | matches=178 inliers=178 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.7ms total=6.4ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  436 | matches=178 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.5ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  437 | matches=178 inliers=178 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.0ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  438 | matches=178 inliers=178 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  439 | matches=178 inliers=178 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  440 | matches=178 inliers=178 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.8ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  441 | matches=178 inliers=178 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.2ms total=6.0ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  442 | matches=178 inliers=178 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  443 | matches=178 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  444 | matches=178 inliers=178 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.9ms | map=1476
+[NAV] State:TURN_TO_FINAL | D:0.04m | Pos:(-0.07,1.09) | Cmd: V=0,W=-3
+Frame  445 | matches=178 inliers=178 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.3ms | map=1476
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.07,1.09) | Cmd: V=0,W=-3
+Frame  446 | matches=178 inliers=178 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.7ms | map=1476
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.07,1.09) | Cmd: V=0,W=-3
+Frame  447 | matches=178 inliers=178 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.1ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  448 | matches=178 inliers=178 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  449 | matches=178 inliers=178 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.6ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  450 | matches=178 inliers=178 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.3ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  451 | matches=178 inliers=178 | src=lk  | lk=4.0ms orb=0.0ms match=0.0ms pnp=4.7ms total=16.8ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  452 | matches=178 inliers=178 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=1.5ms total=8.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  453 | matches=178 inliers=178 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  454 | matches=178 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  455 | matches=178 inliers=178 | src=lk  | lk=4.5ms orb=0.0ms match=0.0ms pnp=2.2ms total=13.7ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  456 | matches=178 inliers=178 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.1ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  457 | matches=178 inliers=178 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  458 | matches=178 inliers=178 | src=lk  | lk=2.8ms orb=0.0ms match=0.0ms pnp=1.5ms total=8.9ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  459 | matches=178 inliers=178 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.2ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  460 | matches=178 inliers=178 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.0ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  461 | matches=178 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  462 | matches=178 inliers=178 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  463 | matches=178 inliers=178 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.3ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  464 | matches=178 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.1ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  465 | matches=178 inliers=178 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=1.3ms total=4.4ms | map=1476
+[NAV] DONE | D:0.00m | Pos:(-0.07,1.09)
+Frame  466 | matches=178 inliers=178 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.0ms | map=1476
+[NAV] State:DRIVE         | D:0.55m | Pos:(-0.07,1.09) | Cmd: V=3,W=-0
+Frame  467 | matches=178 inliers=178 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.2ms | map=1476
+[NAV] State:DRIVE         | D:0.52m | Pos:(-0.07,1.11) | Cmd: V=3,W=-1
+Frame  468 | matches=178 inliers=178 | src=lk  | lk=4.4ms orb=0.0ms match=0.0ms pnp=3.5ms total=15.1ms | map=1476
+  >> KF 10 | added=107 | mapping=queued | map=1583 | dt=0.109m dR=7.0deg
+[NAV] State:DRIVE         | D:0.48m | Pos:(-0.07,1.16) | Cmd: V=3,W=-1
+Frame  469 | matches=343 inliers=222 | src=orb | lk=0.0ms orb=13.9ms match=9.3ms pnp=14.6ms total=82.7ms | map=1583
+[NAV] State:DRIVE         | D:0.45m | Pos:(-0.07,1.19) | Cmd: V=3,W=-1
+Frame  470 | matches=222 inliers=193 | src=lk  | lk=2.1ms orb=0.0ms match=0.0ms pnp=1.9ms total=48.0ms | map=1583
+  >> PRUNE conservative mode | KF 10 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.42m | Pos:(-0.06,1.22) | Cmd: V=3,W=-1
+  >> MAP async | KF 10 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=1583 | BA 364.2ms RMSE 302.03->41.10 applied=False
+Frame  471 | matches=193 inliers=181 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.5ms total=5.5ms | map=1583
+  >> KF 11 | added=118 | mapping=queued | map=1701 | dt=0.106m dR=0.3deg
+[NAV] State:DRIVE         | D:0.39m | Pos:(-0.07,1.25) | Cmd: V=1,W=-2
+Frame  472 | matches=347 inliers=206 | src=orb | lk=0.0ms orb=14.7ms match=5.9ms pnp=9.4ms total=73.8ms | map=1701
+[NAV] State:DRIVE         | D:0.35m | Pos:(-0.06,1.29) | Cmd: V=1,W=-2
+Frame  473 | matches=206 inliers=186 | src=lk  | lk=4.2ms orb=0.0ms match=0.0ms pnp=3.3ms total=46.0ms | map=1701
+[NAV] State:DRIVE         | D:0.35m | Pos:(-0.06,1.29) | Cmd: V=1,W=-2
+Frame  474 | matches=186 inliers=172 | src=lk  | lk=3.7ms orb=0.0ms match=0.0ms pnp=3.1ms total=27.2ms | map=1701
+  >> PRUNE conservative mode | KF 11 | ratio-prune disabled (BA not applied); bad-point cleanup only
+  >> MAP async | KF 11 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=1701 | BA 507.2ms RMSE 7.72->6.52 applied=False
+[NAV] State:DRIVE         | D:0.34m | Pos:(-0.07,1.31) | Cmd: V=1,W=-2
+Frame  475 | matches=292 inliers=139 | src=orb | lk=0.0ms orb=10.2ms match=6.8ms pnp=8.8ms total=30.9ms | map=1701
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.07,1.32) | Cmd: V=1,W=-2
+Frame  476 | matches=139 inliers=122 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.6ms | map=1701
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.08,1.34) | Cmd: V=1,W=-2
+Frame  477 | matches=122 inliers=113 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.6ms total=5.3ms | map=1701
+  >> KF 12 | added=91 | mapping=queued | map=1792 | dt=0.118m dR=2.6deg
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.08,1.32) | Cmd: V=1,W=-2
+Frame  478 | matches=319 inliers=179 | src=orb | lk=0.0ms orb=13.7ms match=9.9ms pnp=12.8ms total=82.4ms | map=1792
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.08,1.34) | Cmd: V=1,W=-2
+Frame  479 | matches=179 inliers=158 | src=lk  | lk=4.5ms orb=0.0ms match=0.0ms pnp=2.0ms total=41.8ms | map=1792
+[NAV] State:DRIVE         | D:0.31m | Pos:(-0.08,1.35) | Cmd: V=1,W=-2
+Frame  480 | matches=158 inliers=158 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=4.9ms total=29.8ms | map=1792
+  >> PRUNE conservative mode | KF 12 | ratio-prune disabled (BA not applied); bad-point cleanup only
+  >> MAP async | KF 12 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=1792 | BA 511.4ms RMSE 5.24->4.13 applied=False
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.06,1.37) | Cmd: V=1,W=-2
+Frame  481 | matches=283 inliers=142 | src=orb | lk=0.0ms orb=10.9ms match=6.1ms pnp=8.5ms total=28.5ms | map=1792
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.07,1.38) | Cmd: V=1,W=-2
+Frame  482 | matches=142 inliers=137 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.1ms | map=1792
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.06,1.39) | Cmd: V=1,W=-2
+Frame  483 | matches=137 inliers=119 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.6ms | map=1792
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.07,1.40) | Cmd: V=1,W=-2
+Frame  484 | matches=119 inliers=105 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.3ms total=6.0ms | map=1792
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.07,1.40) | Cmd: V=1,W=-2 OBS:74cm
+Frame  485 | matches=105 inliers=100 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=7.5ms | map=1792
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.07,1.40) | Cmd: V=1,W=-2 OBS:69cm
+Frame  486 | matches=100 inliers= 97 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.5ms | map=1792
+[NAV] State:DRIVE         | D:0.24m | Pos:(-0.07,1.42) | Cmd: V=1,W=-2 OBS:67cm
+Frame  487 | matches= 97 inliers= 94 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.1ms | map=1792
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.07,1.43) | Cmd: V=1,W=-2 OBS:67cm
+Frame  488 | matches= 94 inliers= 91 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=1792
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.08,1.44) | Cmd: V=1,W=-2 OBS:64cm
+Frame  489 | matches= 91 inliers= 90 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.6ms | map=1792
+  >> KF 13 | added=59 | mapping=queued | map=1851 | dt=0.108m dR=10.1deg
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.08,1.41) | Cmd: V=1,W=-2 OBS:60cm
+Frame  490 | matches=217 inliers= 98 | src=orb | lk=0.0ms orb=12.9ms match=8.9ms pnp=16.7ms total=76.1ms | map=1851
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.09,1.42) | Cmd: V=1,W=-2 OBS:59cm
+Frame  491 | matches= 98 inliers= 90 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=3.3ms total=40.6ms | map=1851
+  >> MAP async | KF 13 | quality=good[ok] | pruned=1332 | map=519 | BA 309.2ms RMSE 24.44->20.71 applied=True
+[NAV] State:TURN_TO_FACE  | D:0.19m | Pos:(-0.08,1.49) | Cmd: V=0,W=0 OBS:58cm
+Frame  492 | matches= 94 inliers= 60 | src=orb | lk=0.0ms orb=9.3ms match=1.9ms pnp=3.2ms total=21.3ms | map=519
+[NAV] State:TURN_TO_FACE  | D:0.20m | Pos:(-0.09,1.49) | Cmd: V=0,W=-12 OBS:57cm
+Frame  493 | matches= 60 inliers= 56 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.3ms | map=519
+[NAV] State:TURN_TO_FACE  | D:0.19m | Pos:(-0.09,1.50) | Cmd: V=0,W=-12 OBS:58cm
+Frame  494 | matches= 54 inliers= 49 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.8ms | map=519
+[NAV] State:TURN_TO_FACE  | D:0.15m | Pos:(-0.08,1.56) | Cmd: V=0,W=-14 OBS:59cm
+Frame  495 | matches= 37 inliers= 31 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.5ms | map=519
+  >> KF 14 | added=87 | mapping=queued | map=606 | dt=0.115m dR=9.8deg
+Skipping loop closure for KF 14 due to weak mapping quality.
+  >> MAP async | KF 14 | quality=weak[inliers=31<35] | pruned=0 (skipped: weak submission (inliers=31<35)) | map=606 | BA skipped (inliers=31<35)
+[NAV] State:TURN_TO_FACE  | D:0.18m | Pos:(-0.08,1.50) | Cmd: V=0,W=-10 OBS:61cm
+Frame  496 | matches= 99 inliers= 61 | src=orb | lk=0.0ms orb=8.0ms match=1.1ms pnp=3.1ms total=14.2ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.17m | Pos:(-0.08,1.52) | Cmd: V=0,W=-11 OBS:61cm
+Frame  497 | matches= 46 inliers= 39 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.0ms | map=606
+Tracking state: TrackingGood -> TrackingWeak @ frame 498 (success inliers=26)
+[NAV] State:TURN_TO_FACE  | D:0.16m | Pos:(-0.06,1.51) | Cmd: V=0,W=-7 OBS:59cm
+Frame  498 | matches= 54 inliers= 26 | src=orb | lk=0.0ms orb=7.8ms match=1.2ms pnp=6.5ms total=17.0ms | map=606
+[NAV] DONE | D:0.06m | Pos:(0.03,1.56)
+Frame  499 | matches= 46 inliers= 15 | src=orb | lk=0.0ms orb=7.8ms match=0.9ms pnp=6.0ms total=16.2ms | map=606
+Tracking state: TrackingWeak -> Relocalizing @ frame 501 (low-pnp-inliers)
+[NAV] DONE | D:0.00m | Pos:(0.03,1.61)
+Frame  505 | matches= 34 inliers= 16 | src=orb | lk=0.0ms orb=9.3ms match=1.0ms pnp=6.6ms total=18.8ms | map=606
+[NAV] DONE | D:0.00m | Pos:(0.03,1.60)
+Frame  506 | matches= 34 inliers= 16 | src=orb | lk=0.0ms orb=7.6ms match=0.9ms pnp=6.1ms total=16.1ms | map=606
+[NAV] DONE | D:0.00m | Pos:(0.04,1.55)
+Frame  508 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=11.5ms match=1.8ms pnp=8.3ms total=23.9ms | map=606
+[NAV] DONE | D:0.00m | Pos:(0.04,1.55)
+Frame  509 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=11.0ms match=1.3ms pnp=6.9ms total=21.0ms | map=606
+[NAV] DONE | D:0.00m | Pos:(0.04,1.55)
+Frame  510 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=8.4ms match=1.0ms pnp=6.0ms total=17.0ms | map=606
+[NAV] DONE | D:0.00m | Pos:(0.04,1.55)
+Frame  511 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=8.1ms match=0.9ms pnp=5.5ms total=15.9ms | map=606
+[NAV] DONE | D:0.00m | Pos:(0.04,1.55)
+Frame  512 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=10.9ms match=1.3ms pnp=6.2ms total=20.1ms | map=606
+[NAV] DONE | D:0.00m | Pos:(0.04,1.55)
+Frame  513 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=8.4ms match=1.0ms pnp=6.3ms total=17.1ms | map=606
+[NAV] DONE | D:0.00m | Pos:(0.04,1.55)
+Frame  514 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=9.7ms match=1.2ms pnp=5.9ms total=18.3ms | map=606
+[NAV] SAFETY STOP: RELOCALIZING 10 frames
+Frame  515 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=9.1ms match=1.1ms pnp=7.5ms total=19.5ms | map=606
+[NAV] SAFETY STOP: RELOCALIZING 11 frames
+Frame  516 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=8.0ms match=1.0ms pnp=5.9ms total=16.5ms | map=606
+[NAV] SAFETY STOP: RELOCALIZING 12 frames
+Frame  520 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=9.8ms match=1.2ms pnp=6.3ms total=18.8ms | map=606
+[NAV] SAFETY STOP: RELOCALIZING 13 frames
+Frame  521 | matches= 33 inliers= 16 | src=orb | lk=0.0ms orb=7.9ms match=0.9ms pnp=5.7ms total=16.3ms | map=606
+[NAV] SAFETY STOP: RELOCALIZING 14 frames
+Frame  522 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=10.6ms match=1.5ms pnp=8.5ms total=22.5ms | map=606
+[NAV] SAFETY STOP: RELOCALIZING 15 frames
+Frame  523 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=9.8ms match=1.1ms pnp=6.8ms total=19.6ms | map=606
+[NAV] SAFETY STOP: RELOCALIZING 16 frames
+Frame  525 | matches= 34 inliers= 15 | src=orb | lk=0.0ms orb=9.9ms match=1.0ms pnp=5.6ms total=18.4ms | map=606
+[NAV] SAFETY STOP: RELOCALIZING 17 frames
+Frame  526 | matches= 33 inliers= 15 | src=orb | lk=0.0ms orb=9.4ms match=1.3ms pnp=6.2ms total=18.4ms | map=606
+[NAV] SAFETY STOP: RELOCALIZING 18 frames
+Frame  527 | matches= 33 inliers= 15 | src=orb | lk=0.0ms orb=11.1ms match=1.2ms pnp=9.5ms total=23.7ms | map=606
+[NAV] SAFETY STOP: RELOCALIZING 19 frames
+Frame  530 | matches= 31 inliers= 16 | src=orb | lk=0.0ms orb=8.0ms match=1.0ms pnp=6.2ms total=16.7ms | map=606
+[BACKTRACK] Triggered after 30 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[NAV] SAFETY STOP: RELOCALIZING 20 frames
+Frame  531 | matches= 31 inliers= 16 | src=orb | lk=0.0ms orb=8.7ms match=1.0ms pnp=6.7ms total=18.2ms | map=606
+[BACKTRACK] Triggered after 31 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 32 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 33 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[NAV] SAFETY STOP: RELOCALIZING 21 frames
+Frame  534 | matches= 34 inliers= 16 | src=orb | lk=0.0ms orb=15.1ms match=1.5ms pnp=7.3ms total=27.4ms | map=606
+[BACKTRACK] Triggered after 34 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[NAV] SAFETY STOP: RELOCALIZING 22 frames
+Frame  535 | matches= 34 inliers= 16 | src=orb | lk=0.0ms orb=8.3ms match=1.3ms pnp=7.2ms total=18.7ms | map=606
+[BACKTRACK] Triggered after 35 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[NAV] SAFETY STOP: RELOCALIZING 23 frames
+Frame  536 | matches= 35 inliers= 16 | src=orb | lk=0.0ms orb=9.4ms match=4.1ms pnp=7.1ms total=23.0ms | map=606
+[BACKTRACK] Triggered after 36 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[NAV] SAFETY STOP: RELOCALIZING 24 frames
+Frame  537 | matches= 35 inliers= 16 | src=orb | lk=0.0ms orb=8.3ms match=1.3ms pnp=8.7ms total=20.1ms | map=606
+[BACKTRACK] Triggered after 37 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 38 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 39 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 40 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 41 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 42 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 43 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 44 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 45 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 46 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 47 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 48 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 49 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 50 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 51 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 52 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 53 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 54 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 55 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 56 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 57 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 58 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 59 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 60 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 61 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 62 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 63 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 64 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 65 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 66 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 67 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 68 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 69 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 70 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 71 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 72 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 73 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 74 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 75 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 76 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 77 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 78 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 79 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 80 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 81 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 82 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 83 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 84 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 85 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 86 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 87 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 88 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 89 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 90 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 91 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 92 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 93 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 94 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 95 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 96 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 97 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 98 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 99 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 100 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 101 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 102 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 103 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 104 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 105 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 106 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 107 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 108 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 109 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 110 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 111 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 112 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 113 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 114 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 115 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 116 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 117 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 118 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 119 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 120 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 121 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 122 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 123 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 124 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 125 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 126 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 127 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 128 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 129 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 130 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 131 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 132 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 133 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 134 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 135 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 136 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 137 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 138 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 139 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 140 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 141 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 142 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 143 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 144 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 145 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 146 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 147 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 148 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 149 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 150 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 151 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 152 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 153 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 154 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 155 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 156 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 157 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 158 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 159 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 160 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 161 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 162 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 163 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 164 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 165 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 166 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 167 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 168 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 169 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 170 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 171 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 172 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 173 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 174 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 175 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 176 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 177 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 178 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 179 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 180 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 181 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 182 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 183 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 184 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 185 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 186 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 187 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 188 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 189 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 190 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 191 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 192 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 193 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 194 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 195 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 196 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 197 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 198 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 199 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 200 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 201 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 202 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 203 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 204 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 205 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 206 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[NAV] State:TURN_TO_FACE  | D:0.87m | Pos:(0.04,1.56) | Cmd: V=0,W=3 OBS:65cm
+Frame  707 | matches= 33 inliers= 15 | src=orb | lk=0.0ms orb=15.7ms match=1.9ms pnp=9.6ms total=30.1ms | map=606
+[BACKTRACK] Triggered after 207 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[BACKTRACK] Triggered after 208 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[NAV] State:TURN_TO_FACE  | D:0.89m | Pos:(-0.04,1.52) | Cmd: V=0,W=3 OBS:59cm
+Frame  709 | matches= 47 inliers= 17 | src=orb | lk=0.0ms orb=8.6ms match=1.3ms pnp=6.7ms total=18.5ms | map=606
+[BACKTRACK] Triggered after 209 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+[NAV] State:TURN_TO_FACE  | D:0.88m | Pos:(-0.05,1.52) | Cmd: V=0,W=3 OBS:60cm
+Frame  710 | matches= 57 inliers= 22 | src=orb | lk=0.0ms orb=12.7ms match=1.2ms pnp=8.9ms total=24.6ms | map=606
+[BACKTRACK] Triggered after 210 consecutive RELOCALIZING frames. Returning to last known good odom position.
+[BACKTRACK] Reached target odom position. Backtrack complete.
+Tracking state: Relocalizing -> TrackingWeak @ frame 711 (success inliers=35)
+[NAV] State:TURN_TO_FACE  | D:0.88m | Pos:(-0.06,1.52) | Cmd: V=0,W=3 OBS:59cm
+Frame  711 | matches= 79 inliers= 35 | src=orb | lk=0.0ms orb=10.1ms match=1.7ms pnp=7.4ms total=21.8ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.88m | Pos:(-0.07,1.52) | Cmd: V=0,W=3 OBS:59cm
+Frame  712 | matches= 80 inliers= 46 | src=orb | lk=0.0ms orb=11.7ms match=1.8ms pnp=6.2ms total=21.3ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.87m | Pos:(-0.08,1.53) | Cmd: V=0,W=3 OBS:58cm
+Frame  713 | matches=102 inliers= 57 | src=orb | lk=0.0ms orb=9.3ms match=1.4ms pnp=5.2ms total=17.9ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.89m | Pos:(-0.08,1.51) | Cmd: V=0,W=3 OBS:59cm
+Frame  714 | matches=110 inliers= 73 | src=orb | lk=0.0ms orb=8.3ms match=1.3ms pnp=2.2ms total=13.5ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.87m | Pos:(-0.08,1.53) | Cmd: V=0,W=3 OBS:57cm
+Frame  715 | matches=125 inliers= 79 | src=orb | lk=0.0ms orb=9.7ms match=1.6ms pnp=3.1ms total=16.2ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.87m | Pos:(-0.08,1.53) | Cmd: V=0,W=3 OBS:58cm
+Frame  716 | matches=144 inliers= 94 | src=orb | lk=0.0ms orb=9.7ms match=1.5ms pnp=3.0ms total=16.4ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.89m | Pos:(-0.07,1.52) | Cmd: V=0,W=3 OBS:58cm
+Frame  717 | matches=149 inliers= 88 | src=orb | lk=0.0ms orb=9.6ms match=1.5ms pnp=4.5ms total=17.3ms | map=606
+Tracking state: TrackingWeak -> TrackingGood @ frame 718 (success inliers=92)
+[NAV] State:TURN_TO_FACE  | D:0.90m | Pos:(-0.08,1.51) | Cmd: V=0,W=3 OBS:57cm
+Frame  718 | matches=136 inliers= 92 | src=orb | lk=0.0ms orb=9.9ms match=1.8ms pnp=3.2ms total=17.3ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.90m | Pos:(-0.08,1.50) | Cmd: V=0,W=3 OBS:56cm
+Frame  719 | matches= 92 inliers= 86 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.3ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.91m | Pos:(-0.08,1.50) | Cmd: V=0,W=3 OBS:56cm
+Frame  720 | matches= 86 inliers= 83 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.6ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.90m | Pos:(-0.08,1.50) | Cmd: V=0,W=3 OBS:59cm
+Frame  721 | matches= 83 inliers= 77 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.91m | Pos:(-0.08,1.50) | Cmd: V=0,W=3 OBS:58cm
+Frame  722 | matches= 77 inliers= 75 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.7ms | map=606
+[NAV] State:TURN_TO_FACE  | D:0.91m | Pos:(-0.08,1.49) | Cmd: V=0,W=3 OBS:57cm
+Frame  723 | matches= 75 inliers= 73 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.5ms total=3.4ms | map=606
+  >> KF 15 | added=69 | mapping=queued | map=675 | dt=0.065m dR=10.7deg
+Tracking state: TrackingGood -> TrackingWeak @ frame 724 (pose-jump (jump=33.3m > max=1.0m))
+  >> PRUNE conservative mode | KF 15 | ratio-prune disabled (BA not applied); bad-point cleanup only
+  >> MAP async | KF 15 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=675 | BA 270.3ms RMSE 20.19->10.86 applied=False
+Tracking state: TrackingWeak -> Relocalizing @ frame 725 (pose-jump (jump=4.8m > max=1.0m))
+Tracking state: Relocalizing -> TrackingWeak @ frame 726 (success inliers=180)
+[NAV] State:TURN_TO_FACE  | D:0.92m | Pos:(-0.08,1.48) | Cmd: V=0,W=3
+Frame  726 | matches=256 inliers=180 | src=orb | lk=0.0ms orb=9.9ms match=1.9ms pnp=2.7ms total=16.7ms | map=675
+[NAV] State:TURN_TO_FACE  | D:0.92m | Pos:(-0.07,1.49) | Cmd: V=0,W=3
+Frame  727 | matches=234 inliers=167 | src=orb | lk=0.0ms orb=11.8ms match=3.6ms pnp=2.6ms total=22.4ms | map=675
+Tracking state: TrackingWeak -> TrackingGood @ frame 728 (success inliers=175)
+[NAV] State:TURN_TO_FACE  | D:0.92m | Pos:(-0.07,1.49) | Cmd: V=0,W=3
+Frame  728 | matches=234 inliers=175 | src=orb | lk=0.0ms orb=9.9ms match=2.0ms pnp=2.0ms total=17.4ms | map=675
+  >> KF 16 | added=71 | mapping=queued | map=746 | dt=0.016m dR=10.9deg
+[NAV] State:TURN_TO_FACE  | D:0.91m | Pos:(-0.08,1.49) | Cmd: V=0,W=3
+Frame  729 | matches=257 inliers=198 | src=orb | lk=0.0ms orb=12.1ms match=2.4ms pnp=3.0ms total=48.2ms | map=746
+[NAV] State:DRIVE         | D:0.91m | Pos:(-0.08,1.50) | Cmd: V=3,W=1
+Frame  730 | matches=198 inliers=180 | src=lk  | lk=2.7ms orb=0.0ms match=0.0ms pnp=1.1ms total=16.9ms | map=746
+  >> MAP async | KF 16 | quality=good[ok] | pruned=218 | map=528 | BA 289.7ms RMSE 3.76->2.85 applied=True
+[NAV] State:DRIVE         | D:0.89m | Pos:(-0.09,1.51) | Cmd: V=3,W=0
+Frame  731 | matches=177 inliers=144 | src=orb | lk=0.0ms orb=10.2ms match=1.9ms pnp=1.2ms total=16.1ms | map=528
+[NAV] State:DRIVE         | D:0.85m | Pos:(-0.08,1.55) | Cmd: V=3,W=0
+Frame  732 | matches=144 inliers=138 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.5ms | map=528
+[NAV] State:DRIVE         | D:0.82m | Pos:(-0.08,1.58) | Cmd: V=3,W=0
+Frame  733 | matches=138 inliers=130 | src=lk  | lk=3.2ms orb=0.0ms match=0.0ms pnp=4.7ms total=17.4ms | map=528
+[NAV] State:DRIVE         | D:0.78m | Pos:(-0.09,1.62) | Cmd: V=3,W=1
+Frame  734 | matches=130 inliers=108 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.5ms | map=528
+  >> KF 17 | added=98 | mapping=queued | map=626 | dt=0.133m dR=5.8deg
+  >> PRUNE conservative mode | KF 17 | ratio-prune disabled (BA not applied); bad-point cleanup only
+  >> MAP async | KF 17 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=626 | BA 73.9ms RMSE 5.40->5.40 applied=False
+[NAV] State:DRIVE         | D:0.75m | Pos:(-0.09,1.65) | Cmd: V=3,W=1
+Frame  735 | matches=176 inliers=134 | src=orb | lk=0.0ms orb=10.0ms match=2.2ms pnp=1.7ms total=16.9ms | map=626
+[NAV] State:DRIVE         | D:0.72m | Pos:(-0.08,1.68) | Cmd: V=3,W=1
+Frame  736 | matches=134 inliers=118 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.4ms | map=626
+[NAV] State:DRIVE         | D:0.69m | Pos:(-0.09,1.71) | Cmd: V=3,W=1
+Frame  737 | matches=118 inliers=113 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.1ms | map=626
+[NAV] State:DRIVE         | D:0.66m | Pos:(-0.10,1.74) | Cmd: V=3,W=1
+Frame  738 | matches=113 inliers=104 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.7ms | map=626
+  >> KF 18 | added=103 | mapping=queued | map=729 | dt=0.115m dR=0.5deg
+[NAV] State:DRIVE         | D:0.65m | Pos:(-0.11,1.75) | Cmd: V=3,W=1
+Frame  739 | matches=200 inliers=147 | src=orb | lk=0.0ms orb=11.1ms match=3.1ms pnp=8.2ms total=25.8ms | map=729
+  >> MAP async | KF 18 | quality=good[ok] | pruned=121 | map=608 | BA 81.4ms RMSE 2.51->2.44 applied=True
+[NAV] State:DRIVE         | D:0.61m | Pos:(-0.10,1.79) | Cmd: V=3,W=1
+Frame  740 | matches=188 inliers=148 | src=orb | lk=0.0ms orb=11.2ms match=1.9ms pnp=1.6ms total=17.2ms | map=608
+[NAV] State:DRIVE         | D:0.60m | Pos:(-0.10,1.80) | Cmd: V=3,W=1
+Frame  741 | matches=148 inliers=129 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.9ms | map=608
+[NAV] State:DRIVE         | D:0.57m | Pos:(-0.11,1.83) | Cmd: V=3,W=1
+Frame  742 | matches=129 inliers=120 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.8ms | map=608
+[NAV] State:DRIVE         | D:0.54m | Pos:(-0.11,1.86) | Cmd: V=3,W=1
+Frame  743 | matches=120 inliers=113 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.4ms | map=608
+  >> KF 19 | added=81 | mapping=queued | map=689 | dt=0.120m dR=0.7deg
+[NAV] State:DRIVE         | D:0.52m | Pos:(-0.11,1.88) | Cmd: V=3,W=1
+Frame  744 | matches=252 inliers=187 | src=orb | lk=0.0ms orb=11.6ms match=3.8ms pnp=3.3ms total=21.7ms | map=689
+  >> MAP async | KF 19 | quality=good[ok] | pruned=58 | map=631 | BA 103.7ms RMSE 3.00->2.83 applied=True
+[NAV] State:DRIVE         | D:0.49m | Pos:(-0.11,1.91) | Cmd: V=3,W=1
+Frame  745 | matches=215 inliers=155 | src=orb | lk=0.0ms orb=12.8ms match=2.6ms pnp=2.2ms total=19.9ms | map=631
+[NAV] State:DRIVE         | D:0.47m | Pos:(-0.12,1.93) | Cmd: V=3,W=1
+Frame  746 | matches=155 inliers=146 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=1.2ms total=6.3ms | map=631
+[NAV] State:DRIVE         | D:0.45m | Pos:(-0.12,1.95) | Cmd: V=3,W=1
+Frame  747 | matches=146 inliers=132 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.5ms | map=631
+[NAV] State:DRIVE         | D:0.42m | Pos:(-0.12,1.98) | Cmd: V=3,W=1
+Frame  748 | matches=132 inliers=130 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.3ms | map=631
+  >> KF 20 | added=101 | mapping=queued | map=732 | dt=0.120m dR=1.1deg
+[NAV] State:DRIVE         | D:0.40m | Pos:(-0.13,2.00) | Cmd: V=3,W=1
+Frame  749 | matches=237 inliers=158 | src=orb | lk=0.0ms orb=15.8ms match=3.3ms pnp=8.9ms total=45.1ms | map=732
+[NAV] State:DRIVE         | D:0.38m | Pos:(-0.13,2.02) | Cmd: V=1,W=1
+Frame  750 | matches=158 inliers=150 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=24.7ms | map=732
+  >> MAP async | KF 20 | quality=good[ok] | pruned=85 | map=647 | BA 296.2ms RMSE 2.93->1.51 applied=True
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.13,2.04) | Cmd: V=1,W=1
+Frame  751 | matches=209 inliers=145 | src=orb | lk=0.0ms orb=11.0ms match=3.0ms pnp=2.8ms total=22.8ms | map=647
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.13,2.05) | Cmd: V=1,W=1
+Frame  752 | matches=145 inliers=133 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.8ms | map=647
+[NAV] State:DRIVE         | D:0.34m | Pos:(-0.13,2.06) | Cmd: V=1,W=1
+Frame  753 | matches=133 inliers=122 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.2ms | map=647
+[NAV] State:DRIVE         | D:0.34m | Pos:(-0.13,2.07) | Cmd: V=1,W=1
+Frame  754 | matches=122 inliers=115 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.8ms | map=647
+[NAV] State:DRIVE         | D:0.33m | Pos:(-0.13,2.07) | Cmd: V=1,W=1
+Frame  755 | matches=115 inliers=111 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.0ms total=6.3ms | map=647
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.13,2.08) | Cmd: V=1,W=1
+Frame  756 | matches=111 inliers=107 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.2ms | map=647
+  >> KF 21 | added=151 | mapping=queued | map=798 | dt=0.102m dR=1.4deg
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.12,2.09) | Cmd: V=1,W=1
+Frame  757 | matches=282 inliers=186 | src=orb | lk=0.0ms orb=18.0ms match=4.9ms pnp=7.0ms total=79.6ms | map=798
+  >> MAP async | KF 21 | quality=good[ok] | pruned=90 | map=708 | BA 186.9ms RMSE 2.83->2.28 applied=True
+[NAV] State:DRIVE         | D:0.31m | Pos:(-0.13,2.09) | Cmd: V=1,W=1
+Frame  758 | matches=263 inliers=200 | src=orb | lk=0.0ms orb=12.1ms match=3.0ms pnp=2.1ms total=20.1ms | map=708
+[NAV] State:DRIVE         | D:0.30m | Pos:(-0.13,2.10) | Cmd: V=1,W=0
+Frame  759 | matches=200 inliers=189 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.5ms | map=708
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.13,2.11) | Cmd: V=1,W=0
+Frame  760 | matches=189 inliers=184 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.3ms | map=708
+[NAV] State:DRIVE         | D:0.28m | Pos:(-0.13,2.12) | Cmd: V=1,W=0
+Frame  761 | matches=184 inliers=179 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.7ms | map=708
+[NAV] State:DRIVE         | D:0.28m | Pos:(-0.13,2.13) | Cmd: V=1,W=0
+Frame  762 | matches=179 inliers=179 | src=lk  | lk=5.7ms orb=0.0ms match=0.0ms pnp=1.4ms total=17.0ms | map=708
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.13,2.13) | Cmd: V=1,W=0
+Frame  763 | matches=179 inliers=178 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.3ms | map=708
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.14,2.14) | Cmd: V=1,W=0
+Frame  764 | matches=178 inliers=163 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.3ms | map=708
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.14,2.15) | Cmd: V=1,W=0
+Frame  765 | matches=163 inliers=159 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.2ms | map=708
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.14,2.15) | Cmd: V=1,W=0
+Frame  766 | matches=159 inliers=154 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.3ms | map=708
+[NAV] State:DRIVE         | D:0.24m | Pos:(-0.14,2.16) | Cmd: V=1,W=0
+Frame  767 | matches=154 inliers=152 | src=lk  | lk=1.9ms orb=0.0ms match=0.0ms pnp=0.9ms total=6.5ms | map=708
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.14,2.17) | Cmd: V=1,W=0
+Frame  768 | matches=152 inliers=146 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.5ms | map=708
+[NAV] State:DRIVE         | D:0.22m | Pos:(-0.14,2.18) | Cmd: V=1,W=0
+Frame  769 | matches=146 inliers=133 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.5ms total=5.4ms | map=708
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.14,2.19) | Cmd: V=1,W=0
+Frame  770 | matches=133 inliers=132 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.3ms | map=708
+  >> KF 22 | added=129 | mapping=queued | map=837 | dt=0.108m dR=1.0deg
+[NAV] State:DRIVE         | D:0.21m | Pos:(-0.15,2.19) | Cmd: V=1,W=0
+Frame  771 | matches=325 inliers=210 | src=orb | lk=0.0ms orb=16.3ms match=4.9ms pnp=3.9ms total=34.3ms | map=837
+  >> LOOP CANDIDATE | KF 22 -> KF 1 (score: 0.471)
+  >> MAP async | KF 22 | quality=good[ok] | pruned=88 | map=749 | BA 117.2ms RMSE 5.58->5.52 applied=True
+[NAV] State:DRIVE         | D:0.20m | Pos:(-0.15,2.20) | Cmd: V=1,W=0
+Frame  772 | matches=302 inliers=207 | src=orb | lk=0.0ms orb=13.5ms match=4.4ms pnp=4.8ms total=26.0ms | map=749
+[NAV] State:DRIVE         | D:0.19m | Pos:(-0.15,2.21) | Cmd: V=1,W=0
+Frame  773 | matches=207 inliers=202 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.5ms | map=749
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.15,2.22) | Cmd: V=1,W=0
+Frame  774 | matches=202 inliers=196 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.3ms | map=749
+[NAV] State:DRIVE         | D:0.17m | Pos:(-0.15,2.23) | Cmd: V=1,W=0
+Frame  775 | matches=196 inliers=185 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.4ms | map=749
+[NAV] State:DRIVE         | D:0.17m | Pos:(-0.14,2.23) | Cmd: V=1,W=0
+Frame  776 | matches=185 inliers=175 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=1.0ms total=7.9ms | map=749
+[NAV] State:DRIVE         | D:0.16m | Pos:(-0.15,2.24) | Cmd: V=1,W=0
+Frame  777 | matches=175 inliers=168 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.8ms | map=749
+[NAV] State:DRIVE         | D:0.15m | Pos:(-0.14,2.25) | Cmd: V=1,W=0
+Frame  778 | matches=168 inliers=162 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.2ms | map=749
+[NAV] DONE | D:0.14m | Pos:(-0.15,2.26)
+Frame  779 | matches=162 inliers=157 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.5ms | map=749
+[NAV] DONE | D:0.00m | Pos:(-0.15,2.26)
+Frame  780 | matches=157 inliers=156 | src=lk  | lk=2.3ms orb=0.0ms match=0.0ms pnp=0.9ms total=7.5ms | map=749
+[NAV] DONE | D:0.00m | Pos:(-0.15,2.26)
+Frame  781 | matches=156 inliers=156 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.6ms | map=749
+[NAV] DONE | D:0.00m | Pos:(-0.15,2.26)
+Frame  782 | matches=156 inliers=156 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.1ms | map=749
+[NAV] DONE | D:0.00m | Pos:(-0.15,2.26)
+Frame  783 | matches=156 inliers=156 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.3ms | map=749
+[NAV] DONE | D:0.00m | Pos:(-0.15,2.26)
+Frame  784 | matches=156 inliers=156 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.8ms | map=749
+[NAV] DONE | D:0.00m | Pos:(-0.15,2.26)
+Frame  785 | matches=156 inliers=156 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.8ms | map=749
+[NAV] DONE | D:0.00m | Pos:(-0.15,2.26)
+Frame  786 | matches=156 inliers=156 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.4ms total=6.5ms | map=749
+[NAV] DONE | D:0.00m | Pos:(-0.15,2.26)
+Frame  787 | matches=156 inliers=156 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.4ms | map=749
+[NAV] State:TURN_TO_FACE  | D:0.86m | Pos:(-0.15,2.26) | Cmd: V=0,W=3
+Frame  788 | matches=156 inliers=156 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.8ms | map=749
+[NAV] State:DRIVE         | D:0.86m | Pos:(-0.15,2.26) | Cmd: V=-3,W=-1
+Frame  789 | matches=156 inliers=156 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.7ms total=5.0ms | map=749
+[NAV] State:DRIVE         | D:0.85m | Pos:(-0.14,2.25) | Cmd: V=-3,W=-1
+Frame  790 | matches=156 inliers=156 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.8ms | map=749
+[NAV] State:DRIVE         | D:0.82m | Pos:(-0.14,2.22) | Cmd: V=-3,W=-1
+Frame  791 | matches=156 inliers=156 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.6ms total=4.1ms | map=749
+[NAV] State:DRIVE         | D:0.80m | Pos:(-0.14,2.20) | Cmd: V=-3,W=-1
+Frame  792 | matches=156 inliers=156 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=749
+[NAV] State:DRIVE         | D:0.78m | Pos:(-0.14,2.18) | Cmd: V=-3,W=-1
+Frame  793 | matches=156 inliers=156 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.1ms | map=749
+[NAV] State:DRIVE         | D:0.75m | Pos:(-0.14,2.15) | Cmd: V=-3,W=-1
+Frame  794 | matches=156 inliers=156 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=749
+[NAV] State:DRIVE         | D:0.73m | Pos:(-0.13,2.13) | Cmd: V=-3,W=-1
+Frame  795 | matches=156 inliers=156 | src=lk  | lk=1.5ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.2ms | map=749
+[NAV] State:DRIVE         | D:0.71m | Pos:(-0.13,2.11) | Cmd: V=-3,W=-1
+Frame  796 | matches=156 inliers=156 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.7ms | map=749
+[NAV] State:DRIVE         | D:0.68m | Pos:(-0.13,2.08) | Cmd: V=-3,W=-1
+Frame  797 | matches=156 inliers=156 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.1ms total=4.3ms | map=749
+  >> KF 23 | added=118 | mapping=queued | map=867 | dt=0.106m dR=3.3deg
+[NAV] State:DRIVE         | D:0.66m | Pos:(-0.13,2.06) | Cmd: V=-3,W=-1
+Frame  798 | matches=407 inliers=350 | src=orb | lk=0.0ms orb=11.8ms match=31.7ms pnp=2.1ms total=67.7ms | map=867
+  >> LOOP CANDIDATE | KF 23 -> KF 1 (score: 0.464)
+  >> MAP async | KF 23 | quality=good[ok] | pruned=162 | map=705 | BA 173.6ms RMSE 4.65->4.42 applied=True
+[NAV] State:DRIVE         | D:0.63m | Pos:(-0.12,2.03) | Cmd: V=-3,W=-1
+Frame  799 | matches=328 inliers=305 | src=orb | lk=0.0ms orb=12.5ms match=2.7ms pnp=1.4ms total=19.2ms | map=705
+[NAV] State:DRIVE         | D:0.61m | Pos:(-0.12,2.01) | Cmd: V=-3,W=-1
+Frame  800 | matches=305 inliers=298 | src=lk  | lk=2.1ms orb=0.0ms match=0.0ms pnp=1.4ms total=6.7ms | map=705
+[NAV] State:DRIVE         | D:0.59m | Pos:(-0.12,1.99) | Cmd: V=-3,W=-1
+Frame  801 | matches=298 inliers=291 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.6ms | map=705
+[NAV] State:DRIVE         | D:0.57m | Pos:(-0.12,1.97) | Cmd: V=-3,W=-1
+Frame  802 | matches=291 inliers=274 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.8ms | map=705
+  >> KF 24 | added=78 | mapping=queued | map=783 | dt=0.117m dR=0.5deg
+[NAV] State:DRIVE         | D:0.55m | Pos:(-0.12,1.95) | Cmd: V=-3,W=-1
+Frame  803 | matches=351 inliers=319 | src=orb | lk=0.0ms orb=11.4ms match=3.1ms pnp=1.3ms total=29.2ms | map=783
+  >> LOOP CANDIDATE | KF 24 -> KF 1 (score: 0.450)
+  >> MAP async | KF 24 | quality=good[ok] | pruned=70 | map=713 | BA 123.1ms RMSE 2.60->2.45 applied=True
+[NAV] State:DRIVE         | D:0.52m | Pos:(-0.12,1.92) | Cmd: V=-3,W=-1
+Frame  804 | matches=285 inliers=259 | src=orb | lk=0.0ms orb=10.4ms match=2.1ms pnp=1.1ms total=16.6ms | map=713
+[NAV] State:DRIVE         | D:0.50m | Pos:(-0.12,1.90) | Cmd: V=-3,W=-1
+Frame  805 | matches=259 inliers=251 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.2ms | map=713
+[NAV] State:DRIVE         | D:0.47m | Pos:(-0.11,1.87) | Cmd: V=-3,W=-1
+Frame  806 | matches=251 inliers=244 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.4ms | map=713
+[NAV] State:DRIVE         | D:0.46m | Pos:(-0.11,1.85) | Cmd: V=-3,W=-1
+Frame  807 | matches=244 inliers=241 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.1ms total=6.0ms | map=713
+  >> KF 25 | added=49 | mapping=queued | map=762 | dt=0.116m dR=0.3deg
+[NAV] State:DRIVE         | D:0.43m | Pos:(-0.11,1.82) | Cmd: V=-3,W=-1
+Frame  808 | matches=270 inliers=248 | src=orb | lk=0.0ms orb=9.7ms match=2.4ms pnp=1.3ms total=15.3ms | map=762
+  >> LOOP CANDIDATE | KF 25 -> KF 1 (score: 0.416)
+  >> MAP async | KF 25 | quality=good[ok] | pruned=73 | map=689 | BA 104.7ms RMSE 1.96->1.90 applied=True
+[NAV] State:DRIVE         | D:0.40m | Pos:(-0.11,1.80) | Cmd: V=-3,W=-1
+Frame  809 | matches=226 inliers=209 | src=orb | lk=0.0ms orb=9.9ms match=1.9ms pnp=0.9ms total=15.3ms | map=689
+[NAV] State:DRIVE         | D:0.38m | Pos:(-0.11,1.78) | Cmd: V=-1,W=-2
+Frame  810 | matches=209 inliers=204 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.3ms | map=689
+[NAV] State:DRIVE         | D:0.37m | Pos:(-0.10,1.76) | Cmd: V=-1,W=-2
+Frame  811 | matches=204 inliers=202 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.7ms | map=689
+[NAV] State:DRIVE         | D:0.36m | Pos:(-0.10,1.75) | Cmd: V=-1,W=-2
+Frame  812 | matches=202 inliers=202 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=689
+[NAV] State:DRIVE         | D:0.35m | Pos:(-0.10,1.75) | Cmd: V=-1,W=-2
+Frame  813 | matches=202 inliers=202 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.3ms | map=689
+  >> KF 26 | added=49 | mapping=queued | map=738 | dt=0.104m dR=2.0deg
+  >> PRUNE conservative mode | KF 26 | ratio-prune disabled (BA not applied); bad-point cleanup only
+  >> LOOP CANDIDATE | KF 26 -> KF 1 (score: 0.459)
+  >> MAP async | KF 26 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=738 | BA 84.9ms RMSE 0.95->0.93 applied=False
+[NAV] State:DRIVE         | D:0.35m | Pos:(-0.10,1.74) | Cmd: V=-1,W=-2
+Frame  814 | matches=232 inliers=209 | src=orb | lk=0.0ms orb=11.8ms match=2.3ms pnp=1.2ms total=21.5ms | map=738
+[NAV] State:TURN_TO_FACE  | D:0.34m | Pos:(-0.10,1.73) | Cmd: V=0,W=0
+Frame  815 | matches=226 inliers=207 | src=orb | lk=0.0ms orb=20.7ms match=3.0ms pnp=1.2ms total=33.3ms | map=738
+[NAV] State:TURN_TO_FACE  | D:0.33m | Pos:(-0.10,1.73) | Cmd: V=0,W=6
+Frame  816 | matches=207 inliers=206 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.4ms | map=738
+[NAV] State:TURN_TO_FACE  | D:0.33m | Pos:(-0.10,1.73) | Cmd: V=0,W=6
+Frame  817 | matches=206 inliers=205 | src=lk  | lk=2.4ms orb=0.0ms match=0.0ms pnp=1.2ms total=8.4ms | map=738
+[NAV] State:TURN_TO_FACE  | D:0.33m | Pos:(-0.10,1.73) | Cmd: V=0,W=6
+Frame  818 | matches=205 inliers=202 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=738
+[NAV] State:TURN_TO_FACE  | D:0.33m | Pos:(-0.10,1.72) | Cmd: V=0,W=6
+Frame  819 | matches=202 inliers=192 | src=lk  | lk=4.3ms orb=0.0ms match=0.0ms pnp=1.9ms total=22.3ms | map=738
+[NAV] State:TURN_TO_FACE  | D:0.32m | Pos:(-0.10,1.72) | Cmd: V=0,W=6
+Frame  820 | matches=192 inliers=191 | src=lk  | lk=4.9ms orb=0.0ms match=0.0ms pnp=2.2ms total=15.0ms | map=738
+[NAV] State:DRIVE         | D:0.32m | Pos:(-0.10,1.71) | Cmd: V=-1,W=-1
+Frame  821 | matches=191 inliers=191 | src=lk  | lk=1.0ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.9ms | map=738
+  >> KF 27 | added=59 | mapping=queued | map=797 | dt=0.037m dR=11.7deg
+[NAV] State:DRIVE         | D:0.31m | Pos:(-0.10,1.70) | Cmd: V=-1,W=-1
+Frame  822 | matches=278 inliers=240 | src=orb | lk=0.0ms orb=17.1ms match=4.7ms pnp=3.5ms total=57.0ms | map=797
+[NAV] State:DRIVE         | D:0.31m | Pos:(-0.10,1.70) | Cmd: V=-1,W=-1
+Frame  823 | matches=240 inliers=227 | src=lk  | lk=3.2ms orb=0.0ms match=0.0ms pnp=4.0ms total=48.3ms | map=797
+[NAV] State:DRIVE         | D:0.30m | Pos:(-0.10,1.69) | Cmd: V=-1,W=-1
+Frame  824 | matches=227 inliers=226 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=5.5ms total=38.4ms | map=797
+  >> PRUNE conservative mode | KF 27 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.10,1.68) | Cmd: V=-1,W=-1
+Frame  825 | matches=226 inliers=221 | src=lk  | lk=11.6ms orb=0.0ms match=0.0ms pnp=1.5ms total=37.2ms | map=797
+  >> LOOP CANDIDATE | KF 27 -> KF 1 (score: 0.445)
+  >> MAP async | KF 27 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=797 | BA 659.6ms RMSE 1.01->0.33 applied=False
+[NAV] State:DRIVE         | D:0.29m | Pos:(-0.11,1.68) | Cmd: V=-1,W=-1
+Frame  826 | matches=262 inliers=223 | src=orb | lk=0.0ms orb=10.4ms match=2.6ms pnp=1.6ms total=17.2ms | map=797
+[NAV] State:DRIVE         | D:0.27m | Pos:(-0.10,1.66) | Cmd: V=-1,W=-2
+Frame  827 | matches=223 inliers=214 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.8ms | map=797
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.10,1.65) | Cmd: V=-1,W=-2
+Frame  828 | matches=214 inliers=212 | src=lk  | lk=1.3ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.1ms | map=797
+[NAV] State:DRIVE         | D:0.26m | Pos:(-0.10,1.65) | Cmd: V=-1,W=-2
+Frame  829 | matches=212 inliers=204 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.3ms | map=797
+[NAV] State:DRIVE         | D:0.25m | Pos:(-0.10,1.64) | Cmd: V=-1,W=-2
+Frame  830 | matches=204 inliers=199 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.8ms total=3.9ms | map=797
+[NAV] State:DRIVE         | D:0.24m | Pos:(-0.10,1.63) | Cmd: V=-1,W=-2
+Frame  831 | matches=199 inliers=199 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.5ms | map=797
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.10,1.62) | Cmd: V=-1,W=-2
+Frame  832 | matches=199 inliers=199 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.3ms | map=797
+[NAV] State:DRIVE         | D:0.23m | Pos:(-0.10,1.61) | Cmd: V=-1,W=-2
+Frame  833 | matches=199 inliers=198 | src=lk  | lk=2.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=5.4ms | map=797
+[NAV] State:TURN_TO_FACE  | D:0.22m | Pos:(-0.10,1.61) | Cmd: V=0,W=0
+Frame  834 | matches=198 inliers=195 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.2ms total=5.9ms | map=797
+  >> KF 28 | added=44 | mapping=queued | map=841 | dt=0.105m dR=5.1deg
+[NAV] State:TURN_TO_FACE  | D:0.22m | Pos:(-0.09,1.61) | Cmd: V=0,W=11
+Frame  835 | matches=219 inliers=185 | src=orb | lk=0.0ms orb=12.5ms match=8.9ms pnp=5.4ms total=62.4ms | map=841
+  >> PRUNE conservative mode | KF 28 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:TURN_TO_FACE  | D:0.22m | Pos:(-0.09,1.61) | Cmd: V=0,W=9
+Frame  836 | matches=185 inliers=176 | src=lk  | lk=2.5ms orb=0.0ms match=0.0ms pnp=1.8ms total=7.3ms | map=841
+  >> LOOP CANDIDATE | KF 28 -> KF 1 (score: 0.490)
+  >> MAP async | KF 28 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=841 | BA 261.2ms RMSE 8.83->8.81 applied=False
+[NAV] State:TURN_TO_FACE  | D:0.23m | Pos:(-0.10,1.61) | Cmd: V=0,W=8
+Frame  837 | matches=235 inliers=200 | src=orb | lk=0.0ms orb=11.5ms match=5.3ms pnp=1.3ms total=20.5ms | map=841
+[NAV] State:DRIVE         | D:0.20m | Pos:(-0.10,1.59) | Cmd: V=-1,W=-1
+Frame  838 | matches=183 inliers=172 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.0ms total=4.8ms | map=841
+  >> KF 29 | added=28 | mapping=queued | map=869 | dt=0.020m dR=13.6deg
+  >> PRUNE conservative mode | KF 29 | ratio-prune disabled (BA not applied); bad-point cleanup only
+Tracking state: TrackingGood -> TrackingWeak @ frame 839 (pose-jump (jump=9.0m > max=1.0m))
+  >> LOOP CANDIDATE | KF 29 -> KF 1 (score: 0.461)
+  >> MAP async | KF 29 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=869 | BA 120.4ms RMSE 8.88->8.84 applied=False
+[NAV] State:DRIVE         | D:0.20m | Pos:(-0.09,1.59) | Cmd: V=-1,W=0
+Frame  840 | matches=233 inliers=204 | src=orb | lk=0.0ms orb=13.2ms match=3.7ms pnp=1.5ms total=21.1ms | map=869
+[NAV] State:DRIVE         | D:0.20m | Pos:(-0.09,1.58) | Cmd: V=-1,W=0
+Frame  841 | matches=259 inliers=207 | src=orb | lk=0.0ms orb=10.6ms match=3.0ms pnp=2.0ms total=18.1ms | map=869
+Tracking state: TrackingWeak -> TrackingGood @ frame 842 (success inliers=204)
+[NAV] State:DRIVE         | D:0.19m | Pos:(-0.09,1.57) | Cmd: V=-1,W=0
+Frame  842 | matches=251 inliers=204 | src=orb | lk=0.0ms orb=9.6ms match=2.6ms pnp=1.5ms total=16.1ms | map=869
+[NAV] State:DRIVE         | D:0.18m | Pos:(-0.09,1.56) | Cmd: V=-1,W=0
+Frame  843 | matches=204 inliers=193 | src=lk  | lk=1.7ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.9ms | map=869
+[NAV] State:DRIVE         | D:0.17m | Pos:(-0.09,1.56) | Cmd: V=-1,W=0
+Frame  844 | matches=193 inliers=186 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.8ms total=5.0ms | map=869
+[NAV] State:DRIVE         | D:0.16m | Pos:(-0.09,1.54) | Cmd: V=-1,W=0
+Frame  845 | matches=186 inliers=178 | src=lk  | lk=4.8ms orb=0.0ms match=0.0ms pnp=2.7ms total=15.2ms | map=869
+[NAV] State:DRIVE         | D:0.16m | Pos:(-0.09,1.54) | Cmd: V=-1,W=0
+Frame  846 | matches=178 inliers=178 | src=lk  | lk=4.3ms orb=0.0ms match=0.0ms pnp=2.5ms total=13.0ms | map=869
+[NAV] State:TURN_TO_FINAL | D:0.15m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3
+Frame  847 | matches=178 inliers=176 | src=lk  | lk=2.7ms orb=0.0ms match=0.0ms pnp=1.5ms total=8.6ms | map=869
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.52) | Cmd: V=0,W=-3
+Frame  848 | matches=176 inliers=170 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.6ms | map=869
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.52) | Cmd: V=0,W=-3
+Frame  849 | matches=170 inliers=160 | src=lk  | lk=2.6ms orb=0.0ms match=0.0ms pnp=1.3ms total=7.5ms | map=869
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3
+Frame  850 | matches=160 inliers=158 | src=lk  | lk=1.4ms orb=0.0ms match=0.0ms pnp=0.9ms total=4.9ms | map=869
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3
+Frame  851 | matches=158 inliers=153 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.5ms | map=869
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3
+Frame  852 | matches=153 inliers=148 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.6ms total=3.3ms | map=869
+  >> KF 30 | added=37 | mapping=queued | map=906 | dt=0.056m dR=12.4deg
+  >> PRUNE conservative mode | KF 30 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.08,1.53) | Cmd: V=0,W=-3
+Frame  853 | matches=188 inliers=134 | src=orb | lk=0.0ms orb=10.8ms match=3.4ms pnp=2.6ms total=23.6ms | map=906
+  >> LOOP CANDIDATE | KF 30 -> KF 1 (score: 0.481)
+  >> MAP async | KF 30 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=906 | BA 125.7ms RMSE 12.24->12.20 applied=False
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.08,1.54) | Cmd: V=0,W=-3
+Frame  854 | matches=170 inliers=126 | src=orb | lk=0.0ms orb=13.2ms match=3.1ms pnp=5.6ms total=24.3ms | map=906
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.08,1.53) | Cmd: V=0,W=-3
+Frame  855 | matches=126 inliers=122 | src=lk  | lk=5.2ms orb=0.0ms match=0.0ms pnp=2.5ms total=14.6ms | map=906
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3
+Frame  856 | matches=121 inliers=116 | src=lk  | lk=0.8ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.4ms | map=906
+  >> KF 31 | added=107 | mapping=queued | map=1013 | dt=0.009m dR=10.1deg
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3 OBS:57cm
+Frame  857 | matches=201 inliers=150 | src=orb | lk=0.0ms orb=21.3ms match=4.5ms pnp=2.1ms total=53.7ms | map=1013
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3 OBS:56cm
+Frame  858 | matches=150 inliers=137 | src=lk  | lk=1.2ms orb=0.0ms match=0.0ms pnp=0.8ms total=4.0ms | map=1013
+  >> LOOP CANDIDATE | KF 31 -> KF 1 (score: 0.477)
+  >> MAP async | KF 31 | quality=good[ok] | pruned=388 | map=625 | BA 250.4ms RMSE 17.49->17.12 applied=True
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3 OBS:53cm
+Frame  859 | matches=158 inliers=120 | src=orb | lk=0.0ms orb=14.2ms match=2.3ms pnp=1.9ms total=21.1ms | map=625
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3 OBS:55cm
+Frame  860 | matches=120 inliers=114 | src=lk  | lk=1.6ms orb=0.0ms match=0.0ms pnp=1.1ms total=5.8ms | map=625
+  >> KF 32 | added=58 | mapping=queued | map=683 | dt=0.004m dR=10.3deg
+  >> PRUNE conservative mode | KF 32 | ratio-prune disabled (BA not applied); bad-point cleanup only
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3 OBS:52cm
+Frame  861 | matches=157 inliers=123 | src=orb | lk=0.0ms orb=11.8ms match=2.4ms pnp=1.5ms total=29.0ms | map=683
+  >> LOOP CANDIDATE | KF 32 -> KF 9 (score: 0.472)
+  >> MAP async | KF 32 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=683 | BA 122.7ms RMSE 20.52->20.48 applied=False
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3 OBS:55cm
+Frame  862 | matches=165 inliers=124 | src=orb | lk=0.0ms orb=11.6ms match=2.6ms pnp=2.3ms total=19.3ms | map=683
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.53) | Cmd: V=0,W=-3 OBS:54cm
+Frame  863 | matches=124 inliers=116 | src=lk  | lk=1.8ms orb=0.0ms match=0.0ms pnp=1.0ms total=5.3ms | map=683
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.54) | Cmd: V=0,W=-3 OBS:55cm
+Frame  864 | matches=116 inliers=112 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.7ms total=4.0ms | map=683
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.54) | Cmd: V=0,W=-3 OBS:56cm
+Frame  865 | matches= 79 inliers= 74 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=0.9ms total=3.7ms | map=683
+  >> KF 33 | added=12 | mapping=queued | map=695 | dt=0.008m dR=11.2deg
+  >> PRUNE conservative mode | KF 33 | ratio-prune disabled (BA not applied); bad-point cleanup only
+  >> LOOP CANDIDATE | KF 33 -> KF 3 (score: 0.423)
+  >> MAP async | KF 33 | quality=good[ok] | pruned=0 | prune=conservative(BA not applied) | map=695 | BA 73.5ms RMSE 37.83->37.54 applied=False
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.54) | Cmd: V=0,W=-3 OBS:57cm
+Frame  866 | matches= 72 inliers= 46 | src=orb | lk=0.0ms orb=10.8ms match=1.7ms pnp=3.1ms total=17.6ms | map=695
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.54) | Cmd: V=0,W=-3
+Frame  867 | matches= 46 inliers= 45 | src=lk  | lk=0.9ms orb=0.0ms match=0.0ms pnp=0.7ms total=3.5ms | map=695
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.55) | Cmd: V=0,W=-3
+Frame  868 | matches= 45 inliers= 41 | src=lk  | lk=1.1ms orb=0.0ms match=0.0ms pnp=1.2ms total=4.5ms | map=695
+[NAV] State:TURN_TO_FINAL | D:0.00m | Pos:(-0.09,1.55) | Cmd: V=0,W=-3
+Frame  869 | matches= 36 inliers= 31 | src=lk  | lk=2.0ms orb=0.0ms match=0.0ms pnp=1.6ms total=7.9ms | map=695
+Tracking state: TrackingGood -> TrackingWeak @ frame 870 (pnp-fail)
+Tracking state: TrackingWeak -> Relocalizing @ frame 871 (low-matches)
+[BACKTRACK] Triggered after 30 consecutive RELOCALIZING frames. Returning to last known good odom position.
+
+============================================================
+BENCHMARK SUMMARY (PnP odom prediction)
+============================================================
+Duration:            788.4s
+Total frames:        4355
+Tracked frames:      682
+Lost frames:         3673
+Tracking rate:       15.7%
+Keyframes:           34
+Final map points:    695
+Total added:         3332
+Total pruned:        2742
+Rejected poses:      187
+LK frames:           580
+LK successes:        580
+ORB match frames:    291
+Fallback no-LK:      3774
+Fallback low-tracks: 0
+Fallback LK-PnP:     0
+Mapping enqueued:    33
+Mapping dropped:     0
+Mapping completed:   33
+Odom-prior rejects:  0
+State final:         Relocalizing
+State transitions:   12
+State frames (G/W/R): 643/17/3695
+
+PnP guess attempts:  870
+PnP guess successes: 686
+PnP guess fallbacks:  184
+Local BA attempts:   32
+Local BA successes:  21 (65.6%)
+Local BA applied:    13 (40.6%)
+Local BA skipped:    1
+Local BA avg time:   258.5 ms
+Weak mapping jobs:   1
+Prune skipped:       1
+Inliers (min/mean/max): 15/149.5/350
+Matches (min/mean/max): 20/131.0/428
+
+--- Timing (tracked frames only) ---
+Frame total (min/mean/max):  2.9/10.3/162.0 ms
+Effective FPS:               96.8
+ORB detect  (min/mean/max):  0.0/10.3/248.5 ms
+LK track    (min/mean/max):  0.0/0.2/11.6 ms
+Matching    (min/mean/max):  0.0/1.5/31.7 ms
+PnP solve   (min/mean/max):  0.4/4.1/18.8 ms
+
+--- Keyframe Events ---
+  KF   0 @ frame    1: +105 -  0 = 105 pts
+  KF   1 @ frame    2: + 81 -  0 = 186 pts
+  KF   2 @ frame    5: + 65 -  0 = 251 pts
+  KF   3 @ frame  270: +209 -  0 = 460 pts
+  KF   4 @ frame  275: +234 -  0 = 694 pts
+  KF   5 @ frame  282: +179 -  0 = 816 pts
+  KF   6 @ frame  361: +192 -  0 = 1008 pts
+  KF   7 @ frame  364: +149 -  0 = 1157 pts
+  KF   8 @ frame  368: +186 -  0 = 1343 pts
+  KF   9 @ frame  375: +133 -  0 = 1476 pts
+  KF  10 @ frame  468: +107 -  0 = 1583 pts
+  KF  11 @ frame  471: +118 -  0 = 1701 pts
+  KF  12 @ frame  477: + 91 -  0 = 1792 pts
+  KF  13 @ frame  489: + 59 -  0 = 1851 pts
+  KF  14 @ frame  495: + 87 -  0 = 606 pts
+  KF  15 @ frame  723: + 69 -  0 = 675 pts
+  KF  16 @ frame  728: + 71 -  0 = 746 pts
+  KF  17 @ frame  734: + 98 -  0 = 626 pts
+  KF  18 @ frame  738: +103 -  0 = 729 pts
+  KF  19 @ frame  743: + 81 -  0 = 689 pts
+  KF  20 @ frame  748: +101 -  0 = 732 pts
+  KF  21 @ frame  756: +151 -  0 = 798 pts
+  KF  22 @ frame  770: +129 -  0 = 837 pts
+  KF  23 @ frame  797: +118 -  0 = 867 pts
+  KF  24 @ frame  802: + 78 -  0 = 783 pts
+  KF  25 @ frame  807: + 49 -  0 = 762 pts
+  KF  26 @ frame  813: + 49 -  0 = 738 pts
+  KF  27 @ frame  821: + 59 -  0 = 797 pts
+  KF  28 @ frame  834: + 44 -  0 = 841 pts
+  KF  29 @ frame  838: + 28 -  0 = 869 pts
+  KF  30 @ frame  852: + 37 -  0 = 906 pts
+  KF  31 @ frame  856: +107 -  0 = 1013 pts
+  KF  32 @ frame  860: + 58 -  0 = 683 pts
+  KF  33 @ frame  865: + 12 -  0 = 695 pts
+============================================================

@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<robot name="fydp_robot" xmlns:xacro="http://ros.org">
+
+  <!-- PARAMETERS -->
+  <xacro:property name="L" value="0.30"/>
+  <xacro:property name="W" value="0.15"/>
+  <xacro:property name="H" value="0.04"/>
+  <xacro:property name="M_chassis" value="5.0"/>
+
+  <xacro:property name="R" value="0.031"/>
+  <xacro:property name="T" value="0.02"/>
+  <xacro:property name="M_wheel" value="0.5"/>
+
+  <xacro:property name="X" value="0.11"/>
+  <xacro:property name="Y" value="0.085"/> <!-- Slightly wider than chassis to prevent clipping -->
+
+  <!-- INERTIA MACROS -->
+  <xacro:macro name="box_inertia" params="m l w h">
+    <inertial>
+      <mass value="${m}"/>
+      <inertia ixx="${(m/12) * (h*h + w*w)}" ixy="0" ixz="0"
+               iyy="${(m/12) * (l*l + h*h)}" iyz="0"
+               izz="${(m/12) * (w*w + l*l)}"/>
+    </inertial>
+  </xacro:macro>
+
+  <xacro:macro name="cylinder_inertia" params="m r h">
+    <inertial>
+      <mass value="${m}"/>
+      <inertia ixx="${(m/12) * (3*r*r + h*h)}" ixy="0" ixz="0"
+               iyy="${(m/12) * (3*r*r + h*h)}" iyz="0"
+               izz="${(m/2) * (r*r)}"/>
+    </inertial>
+  </xacro:macro>
+
+  <!-- BASE LINK -->
+  <link name="base_link"/>
+
+  <!-- CHASSIS -->
+  <link name="chassis">
+    <visual>
+      <origin xyz="0 0 ${R + H/2}"/>
+      <geometry><box size="${L} ${W} ${H}"/></geometry>
+      <material name="blue"><color rgba="0.1 0.2 0.8 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${R + H/2}"/>
+      <geometry><box size="${L} ${W} ${H}"/></geometry>
+    </collision>
+    <xacro:box_inertia m="${M_chassis}" l="${L}" w="${W}" h="${H}"/>
+  </link>
+
+  <joint name="base_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis"/>
+  </joint>
+
+  <!-- WHEEL MACRO -->
+  <xacro:macro name="wheel" params="name x y">
+    <link name="${name}">
+      <visual>
+        <origin rpy="1.5708 0 0" xyz="0 0 0"/>
+        <geometry><cylinder radius="${R}" length="${T}"/></geometry>
+        <material name="black"><color rgba="0.05 0.05 0.05 1"/></material>
+      </visual>
+      <collision>
+        <origin rpy="1.5708 0 0" xyz="0 0 0"/>
+        <geometry><cylinder radius="${R}" length="${T}"/></geometry>
+      </collision>
+      <xacro:cylinder_inertia m="${M_wheel}" r="${R}" h="${T}"/>
+    </link>
+
+    <gazebo reference="${name}">
+      <!-- mu1 is traction, mu2 is side-slip (lowered for better turning) -->
+      <mu1>1.5</mu1>
+      <mu2>0.5</mu2>
+      <kp>1000000.0</kp>
+      <kd>10.0</kd>
+      <fdir1>1 0 0</fdir1>
+      <material>Gazebo/Black</material>
+    </gazebo>
+
+    <joint name="${name}_joint" type="continuous">
+      <parent link="chassis"/>
+      <child link="${name}"/>
+      <origin xyz="${x} ${y} ${R}"/>
+      <axis xyz="0 1 0"/>
+    </joint>
+  </xacro:macro>
+
+  <!-- WHEELS -->
+  <xacro:wheel name="front_left"  x="${X}"  y="${Y}"/>
+  <xacro:wheel name="front_right" x="${X}"  y="-${Y}"/>
+  <xacro:wheel name="rear_left"   x="-${X}" y="${Y}"/>
+  <xacro:wheel name="rear_right"  x="-${X}" y="-${Y}"/>
+
+  <!-- ULTRASONIC SENSOR MACRO -->
+  <xacro:macro name="ultrasonic_sensor" params="name topic_name parent xyz rpy">
+    <link name="${name}_link">
+      <visual>
+        <geometry><box size="0.015 0.045 0.02"/></geometry>
+        <material name="green"><color rgba="0.1 0.8 0.1 1"/></material>
+      </visual>
+      <collision>
+        <geometry><box size="0.015 0.045 0.02"/></geometry>
+      </collision>
+      <xacro:box_inertia m="0.02" l="0.015" w="0.045" h="0.02"/>
+    </link>
+
+    <joint name="${name}_joint" type="fixed">
+      <parent link="${parent}"/>
+      <child link="${name}_link"/>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+    </joint>
+
+    <gazebo reference="${name}_link">
+      <sensor type="ray" name="${name}_sensor">
+        <pose>0 0 0 0 0 0</pose>
+        <visualize>true</visualize>
+        <update_rate>10</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>10</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.13</min_angle>
+              <max_angle>0.13</max_angle>
+            </horizontal>
+            <!-- Set vertical samples to 1 to prevent ground-plane intersection at low heights -->
+            <vertical>
+              <samples>1</samples>
+              <resolution>1</resolution>
+              <min_angle>0</min_angle>
+              <max_angle>0</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.02</min>
+            <max>4.0</max>
+            <resolution>0.003</resolution> <!-- HC-SR04 typical resolution -->
+          </range>
+        </ray>
+        <plugin name="gazebo_ros_${name}_controller" filename="libgazebo_ros_range.so">
+          <topicName>${topic_name}</topicName>
+          <frameName>${name}_link</frameName>
+          <radiation>ULTRASOUND</radiation>
+          <fov>0.26</fov> <!-- 15 degrees -->
+          <gaussianNoise>0.015</gaussianNoise> <!-- Added slight noise to match real sensor variance -->
+          <updateRate>10</updateRate>
+        </plugin>
+      </sensor>
+    </gazebo>
+  </xacro:macro>
+
+  <!-- ULTRASONIC SENSORS -->
+  <xacro:ultrasonic_sensor name="sonar_front" topic_name="sonar_front" parent="chassis" xyz="${L/2} 0 ${R + H/2}" rpy="0 0 0"/>
+  <xacro:ultrasonic_sensor name="sonar_back" topic_name="sonar_back" parent="chassis" xyz="-${L/2} 0 ${R + H/2}" rpy="0 0 3.14159"/>
+
+  <!-- CAMERA -->
+  <link name="camera_link">
+    <visual>
+      <geometry><box size="0.05 0.05 0.05"/></geometry>
+      <material name="gray"><color rgba="0.3 0.3 0.3 1"/></material>
+    </visual>
+    <xacro:box_inertia m="0.1" l="0.05" w="0.05" h="0.05"/>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="camera_link"/>
+    <origin xyz="0.12 0 ${R + H + 0.025}"/>
+  </joint>
+
+  <!-- GAZEBO PLUGINS -->
+  <gazebo reference="camera_link">
+    <sensor type="camera" name="cam">
+      <update_rate>30</update_rate>
+      <camera>
+        <horizontal_fov>1.2</horizontal_fov>
+        <image><width>640</width><height>480</height></image>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <cameraName>camera</cameraName>
+        <imageTopicName>image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>camera_link</frameName>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <gazebo>
+    <plugin name="skid_steer" filename="libgazebo_ros_skid_steer_drive.so">
+      <updateRate>100</updateRate>
+      <leftFrontJoint>front_left_joint</leftFrontJoint>
+      <rightFrontJoint>front_right_joint</rightFrontJoint>
+      <leftRearJoint>rear_left_joint</leftRearJoint>
+      <rightRearJoint>rear_right_joint</rightRearJoint>
+      <wheelSeparation>${Y*2}</wheelSeparation>
+      <wheelDiameter>${R*2}</wheelDiameter>
+      <torque>15</torque>
+      <commandTopic>cmd_vel</commandTopic>
+      <odometryTopic>odom</odometryTopic>
+      <robotBaseFrame>base_link</robotBaseFrame>
+      <publishTf>true</publishTf>
+      <publishWheelTF>false</publishWheelTF>
+      <publishOdomTF>true</publishOdomTF>
+      <covariance_x>0.001</covariance_x>
+      <covariance_y>0.001</covariance_y>
+      <covariance_yaw>0.01</covariance_yaw>
+    </plugin>
+  </gazebo>
+
+</robot>
