@@ -277,4 +277,4 @@ School of Electrical Engineering and Computer Science (SEECS), National Universi
 Supervised by **Dr. Jameel Nawaz** and **Dr. Wajid Mumtaz**.
 
 ## References
-Key papers this work builds on: PTAM (Klein & Murray, 2007), ORB-SLAM (Mur-Artal et al., 2015), ORB-SLAM2 (Mur-Artal & Tardós, 2017), DBoW2 (Gálvez-López & Tardós, 2012), g2o (Kümmerle et al., 2011), EPnP (Lepetit et al., 2009). Full reference list in the [report](docs/final_report.pdf).
+Key papers this work builds on: PTAM (Klein & Murray, 2007), ORB-SLAM (Mur-Artal et al., 2015), ORB-SLAM2 (Mur-Artal & Tardós, 2017), DBoW2 (Gálvez-López & Tardós, 2012), g2o (Kümmerle et al., 2011), EPnP (Lepetit et al., 2009). Full reference list in the [report](docs/final_report.pdf.pdf).
